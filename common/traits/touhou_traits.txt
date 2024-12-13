@@ -1,7 +1,5 @@
 ﻿gsk_sagume = {
 	flag = touhou_girl
-	# flag = wsg_nation_ger
-	# flag = wsg_ship_type_DD
 	diplomacy = 1
 	martial = 1
 	stewardship = 1
@@ -16,6 +14,25 @@
 				desc = trait_gsk_sagume_desc
 			}
 			desc = trait_gsk_sagume_character_desc
+		}
+	}
+}
+gsk_reimu = {
+	flag = touhou_girl
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "touhou_characters_traits.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
 		}
 	}
 }

@@ -23,6 +23,11 @@ touhou_base_events.001 = { # pick your starter pokemon
 				employer = scope:employer
 				save_scope_as = invited_character
             }
+            create_character = {
+                template = gsk_reimu_template
+				employer = scope:employer
+				save_scope_as = invited_character
+            }
 		}	
 	}
 	# option = {
