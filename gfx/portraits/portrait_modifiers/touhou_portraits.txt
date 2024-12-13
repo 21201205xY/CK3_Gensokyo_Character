@@ -1,10 +1,10 @@
 ﻿touhou_portrait = {
-	just_touhou_reimu = {
+	just_touhou_reimu_1 = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = touhou_props_1
-				template = gsk_reimu
+				template = gsk_reimu_1
 				value = 0.5
 			}
 		}
@@ -25,12 +25,108 @@
 			}
 		}
 	}
-	just_touhou_sagum = {
+	just_touhou_reimu_2 = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = touhou_props_1
-				template = gsk_sagume
+				template = gsk_reimu_2
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_reimu
+				exists = var:portrait_index
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					var:portrait_index = 1
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
+	just_touhou_reimu_3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_1
+				template = gsk_reimu_3
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_reimu
+				exists = var:portrait_index
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					var:portrait_index = 2
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
+	just_touhou_reimu_4 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_1
+				template = gsk_reimu_4
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_reimu
+				exists = var:portrait_index
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					var:portrait_index = 3
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
+	just_touhou_reimu_5 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_1
+				template = gsk_reimu_5
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_reimu
+				exists = var:portrait_index
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					var:portrait_index = 4
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
+	just_touhou_sagum_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_1
+				template = gsk_sagume_1
 				value = 0.5
 			}
 		}

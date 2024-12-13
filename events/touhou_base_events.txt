@@ -19,27 +19,22 @@ touhou_base_events.001 = { # pick your starter pokemon
 		name = touhou_base_events.001.a
 		hidden_effect = {
             create_character = {
-                template = gsk_sagume_template
-				employer = scope:employer
-				save_scope_as = invited_character
-            }
-            create_character = {
                 template = gsk_reimu_template
 				employer = scope:employer
 				save_scope_as = invited_character
             }
 		}	
 	}
-	# option = {
-	# 	name = hm_bookmark.0015.b #吹雪
-	# 	hidden_effect = {
-    #         create_character = {
-    #             template = wsg_Fubuki_template
-	# 			employer = scope:employer
-	# 			save_scope_as = invited_character
-    #         }
-	# 	}	
-	# }
+	option = {
+		name = hm_bookmark.0015.b 
+		hidden_effect = {
+            create_character = {
+                template = gsk_sagume_template
+				employer = scope:employer
+				save_scope_as = invited_character
+            }
+		}	
+	}
 	# option = {
 	# 	name = hm_bookmark.0015.c #Z16
 	# 	hidden_effect = {
@@ -61,22 +56,17 @@ touhou_base_events.001 = { # pick your starter pokemon
 	# 	}	
 	# }
 	after = {
-		# hidden_effect = {
-		# 	if = {  # to supress error logs
-		# 		limit = {
-		# 			exists = scope:invited_character
-		# 		}
-		# 		scope:invited_character = {
-		# 			add_opinion = {
-		# 				modifier = my_warshipgirl_opinion
-		# 				target = scope:employer
-		# 			}
-		# 			on_warshipgirl_created_effect = yes
-		# 			save_scope_as = asker
-		# 		}
-		# 		wsg_pick_normal_dialogue = yes
-		# 		set_mishu = { CHARACTER = scope:invited_character }
-		# 	}
-		# }
+		hidden_effect = {
+			if = {  # to supress error logs
+				limit = {
+					exists = scope:invited_character
+				}
+				scope:invited_character = {
+					set_variable = { name = portrait_index value = 0 }
+					#save_scope_as = asker
+				}
+				set_mishu = { CHARACTER = scope:invited_character }
+			}
+		}
 	}
 }

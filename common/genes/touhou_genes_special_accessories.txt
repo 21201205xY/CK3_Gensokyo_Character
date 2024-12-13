@@ -1,17 +1,45 @@
 ﻿special_genes = {
 	accessory_genes = {
 		touhou_props_1 = {
-			gsk_reimu = {
+			gsk_reimu_1 = {
 				index = 1
-				male = { 1 = gsk_reimu }
-				female = { 1 = gsk_reimu }
+				male = { 1 = gsk_reimu_1 }
+				female = { 1 = gsk_reimu_1 }
 				boy = male
 				girl = female
 			}
-			gsk_sagume = {
+			gsk_reimu_2 = {
 				index = 2
-				male = { 1 = gsk_sagume }
-				female = { 1 = gsk_sagume }
+				male = { 1 = gsk_reimu_2 }
+				female = { 1 = gsk_reimu_2 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_3 = {
+				index = 3
+				male = { 1 = gsk_reimu_3 }
+				female = { 1 = gsk_reimu_3 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_4 = {
+				index = 4
+				male = { 1 = gsk_reimu_4 }
+				female = { 1 = gsk_reimu_4 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_5 = {
+				index = 5
+				male = { 1 = gsk_reimu_5 }
+				female = { 1 = gsk_reimu_5 }
+				boy = male
+				girl = female
+			}
+			gsk_sagume_1 = {
+				index = 6
+				male = { 1 = gsk_sagume_1 }
+				female = { 1 = gsk_sagume_1 }
 				boy = male
 				girl = female
 			}

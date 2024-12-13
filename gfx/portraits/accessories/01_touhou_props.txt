@@ -1,2 +1,6 @@
-﻿gsk_reimu = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_entity" } }
-gsk_sagume = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sagume_entity" } }
+﻿gsk_reimu_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_1_entity" } }
+gsk_reimu_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_2_entity" } }
+gsk_reimu_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_3_entity" } }
+gsk_reimu_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_4_entity" } }
+gsk_reimu_5 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_5_entity" } }
+gsk_sagume_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sagume_1_entity" } }
