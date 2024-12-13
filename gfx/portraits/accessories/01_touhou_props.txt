@@ -1,0 +1,2 @@
+﻿gsk_reimu = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_entity" } }
+gsk_sagume = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sagume_entity" } }

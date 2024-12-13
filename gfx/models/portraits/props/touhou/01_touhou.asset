@@ -1,0 +1,34 @@
+﻿pdxmesh = {
+	name = "gsk_reimu_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "gsk_reimu_diffuse.dds"
+		texture_specular = "gsk_reimu_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "gsk_reimu_entity"
+	pdxmesh = "gsk_reimu_mesh"
+}
+pdxmesh = {
+	name = "gsk_sagume_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "gsk_sagume_diffuse.dds"
+		texture_specular = "gsk_sagume_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "gsk_sagume_entity"
+	pdxmesh = "gsk_sagume_mesh"
+}

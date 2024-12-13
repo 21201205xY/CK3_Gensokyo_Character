@@ -1,0 +1,54 @@
+﻿touhou_portrait = {
+	just_touhou_reimu = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_1
+				template = gsk_reimu
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_reimu
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					OR = {
+						var:portrait_index > touhou_max_portrait
+						var:portrait_index = 0
+					}
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
+	just_touhou_sagum = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_1
+				template = gsk_sagume
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_sagume
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					OR = {
+						var:portrait_index > touhou_max_portrait
+						var:portrait_index = 0
+					}
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
+}

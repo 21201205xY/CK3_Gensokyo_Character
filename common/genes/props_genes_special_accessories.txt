@@ -1,0 +1,6 @@
+﻿special_genes = {
+	accessory_genes = {
+		props_props_1 = {
+		}
+	}
+}

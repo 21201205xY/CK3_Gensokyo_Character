@@ -1,6 +1,6 @@
 ﻿on_game_start = {
 	on_actions = {
-		hm_base_on_game_start
+		touhou_base_on_game_start
 	}
 }
 
