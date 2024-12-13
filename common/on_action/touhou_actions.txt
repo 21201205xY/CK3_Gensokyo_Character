@@ -1,0 +1,27 @@
+﻿on_game_start = {
+	on_actions = {
+		hm_base_on_game_start
+	}
+}
+
+touhou_base_on_game_start = {	
+	effect = {
+		set_global_variable = { name = touhou_character_loaded value = yes }
+	}
+}
+
+on_game_start_after_lobby = {
+	on_actions = {
+		touhou_base_on_game_start_after_lobby
+	}
+}
+
+touhou_base_on_game_start_after_lobby = {
+	effect = {
+		every_player = {
+			trigger_event = {
+				id = touhou_base_events.001
+			}
+		}
+	}
+}

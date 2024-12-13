@@ -1,0 +1,22 @@
+﻿gsk_sagume_template = {
+    name = "gsk_sagume_name"
+    trait = gsk_sagume
+    age = 16
+    gender = female 
+    #trait = zhanjian
+    intrigue = { 12 15 }
+    martial = { 12 15 }
+    diplomacy = { 12 15 }
+    stewardship = { 12 15 }
+    learning = { 12 15 }
+    prowess = { 15 20 }
+    trait = brave
+    trait = arrogant
+    trait = forgiving
+    trait = education_diplomacy_4
+    trait = beauty_good_1
+    trait = organizer
+    trait = administrator
+    trait = reckless
+    random_traits = no
+}

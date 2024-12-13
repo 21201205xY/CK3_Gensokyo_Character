@@ -1,0 +1,77 @@
+﻿namespace = touhou_base_events
+
+touhou_base_events.001 = { # pick your starter pokemon
+	type = character_event
+	title = touhou_base_events.001.t
+	desc = touhou_base_events.001.desc
+	content_source = dlc_touhou
+	theme = holy_construction
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	trigger = {
+	}
+	immediate = {
+		save_scope_as = employer
+	}
+	option = {
+		name = touhou_base_events.001.a
+		hidden_effect = {
+            create_character = {
+                template = gsk_sagume_template
+				employer = scope:employer
+				save_scope_as = invited_character
+            }
+		}	
+	}
+	# option = {
+	# 	name = hm_bookmark.0015.b #吹雪
+	# 	hidden_effect = {
+    #         create_character = {
+    #             template = wsg_Fubuki_template
+	# 			employer = scope:employer
+	# 			save_scope_as = invited_character
+    #         }
+	# 	}	
+	# }
+	# option = {
+	# 	name = hm_bookmark.0015.c #Z16
+	# 	hidden_effect = {
+    #         create_character = {
+    #             template = wsg_Z16_template
+	# 			employer = scope:employer
+	# 			save_scope_as = invited_character
+    #         }
+	# 	}	
+	# }
+	# option = {
+	# 	name = hm_bookmark.0015.d #基林
+	# 	hidden_effect = {
+    #         create_character = {
+    #             template = wsg_Gearing_template
+	# 			employer = scope:employer
+	# 			save_scope_as = invited_character
+    #         }
+	# 	}	
+	# }
+	after = {
+		# hidden_effect = {
+		# 	if = {  # to supress error logs
+		# 		limit = {
+		# 			exists = scope:invited_character
+		# 		}
+		# 		scope:invited_character = {
+		# 			add_opinion = {
+		# 				modifier = my_warshipgirl_opinion
+		# 				target = scope:employer
+		# 			}
+		# 			on_warshipgirl_created_effect = yes
+		# 			save_scope_as = asker
+		# 		}
+		# 		wsg_pick_normal_dialogue = yes
+		# 		set_mishu = { CHARACTER = scope:invited_character }
+		# 	}
+		# }
+	}
+}
