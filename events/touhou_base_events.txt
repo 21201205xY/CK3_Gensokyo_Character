@@ -18,11 +18,7 @@ touhou_base_events.001 = { # pick your starter pokemon
 	option = {
 		name = touhou_base_events.001.a
 		hidden_effect = {
-            create_character = {
-                template = gsk_reimu_template
-				employer = scope:employer
-				save_scope_as = invited_character
-            }
+            create_touhou_character = { NAME = reimu }
 		}	
 	}
 	option = {
@@ -63,7 +59,7 @@ touhou_base_events.001 = { # pick your starter pokemon
 				}
 				scope:invited_character = {
 					set_variable = { name = portrait_index value = 0 }
-					#save_scope_as = asker
+					marry = employer
 				}
 				set_mishu = { CHARACTER = scope:invited_character }
 			}

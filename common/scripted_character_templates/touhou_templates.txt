@@ -3,7 +3,6 @@
     trait = gsk_sagume
     age = 16
     gender = female 
-    #trait = zhanjian
     intrigue = { 12 15 }
     martial = { 12 15 }
     diplomacy = { 12 15 }
@@ -25,20 +24,26 @@ gsk_reimu_template = {
     trait = gsk_reimu
     age = 16
     gender = female 
-    #trait = zhanjian
-    intrigue = { 12 15 }
-    martial = { 12 15 }
-    diplomacy = { 12 15 }
-    stewardship = { 12 15 }
-    learning = { 12 15 }
-    prowess = { 15 20 }
+    intrigue = { 10 15 }
+    martial = { 10 15 }
+    diplomacy = { 10 15 }
+    stewardship = { 10 15 }
+    learning = { 10 15 }
+    prowess = { 16 21 }
     trait = brave
-    trait = arrogant
+    trait = greedy
     trait = forgiving
-    trait = education_diplomacy_4
+    trait = education_martial_4
     trait = beauty_good_1
-    trait = organizer
-    trait = administrator
-    trait = reckless
+    trait = intellect_good_2
     random_traits = no
+    after_creation = {
+		dynasty = {
+			set_dynasty_name = gsk_dynasty_reimu_name
+		}
+		house = {
+			set_house_name_from_dynasty = prev.dynasty
+		}
+        set_touhou_character_sexuality_script= yes
+	}
 }

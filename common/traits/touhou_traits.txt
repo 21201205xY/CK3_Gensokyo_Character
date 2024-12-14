@@ -1,5 +1,4 @@
-﻿gsk_sagume = {
-	#flag = warshipgirl
+﻿gsk_reimu = {
 	flag = touhou
 	diplomacy = 1
 	martial = 1
@@ -7,26 +6,7 @@
 	intrigue = 1
 	learning = 1
 	general_opinion = 15
-	icon = "touhou_characters_traits.dds"
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = { NOT = { exists = this } }
-				desc = trait_gsk_sagume_desc
-			}
-			desc = trait_gsk_sagume_character_desc
-		}
-	}
-}
-gsk_reimu = {
-	flag = touhou
-	diplomacy = 1
-	martial = 1
-	stewardship = 1
-	intrigue = 1
-	learning = 1
-	general_opinion = 15
-	icon = "reimu_trait.dds"
+	icon = "trait_gsk_reimu.dds"
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -34,6 +14,25 @@ gsk_reimu = {
 				desc = trait_gsk_reimu_desc
 			}
 			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+gsk_akyuu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_akyuu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_akyuu_desc
+			}
+			desc = trait_gsk_akyuu_character_desc
 		}
 	}
 }

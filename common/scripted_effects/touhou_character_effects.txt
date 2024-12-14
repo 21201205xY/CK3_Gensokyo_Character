@@ -1,0 +1,34 @@
+﻿create_touhou_character = {
+	create_character = {
+		template = gsk_$NAME$_template
+		employer = scope:employer
+		save_scope_as = invited_character
+	}
+}
+
+set_touhou_character_sexuality_script = {
+	if = {
+		limit = {
+			has_game_rule = touhou_character_sexuality_homosexual
+		}
+		set_sexuality = homosexual
+	}
+	else_if = {
+		limit = {
+			has_game_rule = touhou_character_sexuality_bisexual
+		}
+		set_sexuality = bisexual
+	}
+	else_if = {
+		limit = {
+			has_game_rule = touhou_character_sexuality_heterosexual
+		}
+		set_sexuality = heterosexual
+	}
+	else_if = {
+		limit = {
+			has_game_rule = touhou_character_sexuality_none
+		}
+		game_rule_sexuality_distribution_reroll_effect = yes
+	}
+}
