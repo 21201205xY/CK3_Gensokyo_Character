@@ -1,45 +1,3780 @@
 ﻿special_genes = {
 	accessory_genes = {
 		touhou_props_1 = {
-			gsk_reimu_1 = {
+			gsk_akyuu_1 = {
 				index = 1
+				male = { 1 = gsk_akyuu_1 }
+				female = { 1 = gsk_akyuu_1 }
+				boy = male
+				girl = female
+			}
+			gsk_akyuu_2 = {
+				index = 2
+				male = { 1 = gsk_akyuu_2 }
+				female = { 1 = gsk_akyuu_2 }
+				boy = male
+				girl = female
+			}
+			gsk_akyuu_3 = {
+				index = 3
+				male = { 1 = gsk_akyuu_3 }
+				female = { 1 = gsk_akyuu_3 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_1 = {
+				index = 4
+				male = { 1 = gsk_alice_1 }
+				female = { 1 = gsk_alice_1 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_2 = {
+				index = 5
+				male = { 1 = gsk_alice_2 }
+				female = { 1 = gsk_alice_2 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_3 = {
+				index = 6
+				male = { 1 = gsk_alice_3 }
+				female = { 1 = gsk_alice_3 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_4 = {
+				index = 7
+				male = { 1 = gsk_alice_4 }
+				female = { 1 = gsk_alice_4 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_5 = {
+				index = 8
+				male = { 1 = gsk_alice_5 }
+				female = { 1 = gsk_alice_5 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_6 = {
+				index = 9
+				male = { 1 = gsk_alice_6 }
+				female = { 1 = gsk_alice_6 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_7 = {
+				index = 10
+				male = { 1 = gsk_alice_7 }
+				female = { 1 = gsk_alice_7 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_8 = {
+				index = 11
+				male = { 1 = gsk_alice_8 }
+				female = { 1 = gsk_alice_8 }
+				boy = male
+				girl = female
+			}
+			gsk_alice_9 = {
+				index = 12
+				male = { 1 = gsk_alice_9 }
+				female = { 1 = gsk_alice_9 }
+				boy = male
+				girl = female
+			}
+			gsk_aun_1 = {
+				index = 13
+				male = { 1 = gsk_aun_1 }
+				female = { 1 = gsk_aun_1 }
+				boy = male
+				girl = female
+			}
+			gsk_aun_2 = {
+				index = 14
+				male = { 1 = gsk_aun_2 }
+				female = { 1 = gsk_aun_2 }
+				boy = male
+				girl = female
+			}
+			gsk_aya_1 = {
+				index = 15
+				male = { 1 = gsk_aya_1 }
+				female = { 1 = gsk_aya_1 }
+				boy = male
+				girl = female
+			}
+			gsk_aya_2 = {
+				index = 16
+				male = { 1 = gsk_aya_2 }
+				female = { 1 = gsk_aya_2 }
+				boy = male
+				girl = female
+			}
+			gsk_aya_3 = {
+				index = 17
+				male = { 1 = gsk_aya_3 }
+				female = { 1 = gsk_aya_3 }
+				boy = male
+				girl = female
+			}
+			gsk_aya_4 = {
+				index = 18
+				male = { 1 = gsk_aya_4 }
+				female = { 1 = gsk_aya_4 }
+				boy = male
+				girl = female
+			}
+			gsk_aya_5 = {
+				index = 19
+				male = { 1 = gsk_aya_5 }
+				female = { 1 = gsk_aya_5 }
+				boy = male
+				girl = female
+			}
+			gsk_aya_6 = {
+				index = 20
+				male = { 1 = gsk_aya_6 }
+				female = { 1 = gsk_aya_6 }
+				boy = male
+				girl = female
+			}
+			gsk_aya_7 = {
+				index = 21
+				male = { 1 = gsk_aya_7 }
+				female = { 1 = gsk_aya_7 }
+				boy = male
+				girl = female
+			}
+			gsk_benben_1 = {
+				index = 22
+				male = { 1 = gsk_benben_1 }
+				female = { 1 = gsk_benben_1 }
+				boy = male
+				girl = female
+			}
+			gsk_benben_2 = {
+				index = 23
+				male = { 1 = gsk_benben_2 }
+				female = { 1 = gsk_benben_2 }
+				boy = male
+				girl = female
+			}
+			gsk_benben_3 = {
+				index = 24
+				male = { 1 = gsk_benben_3 }
+				female = { 1 = gsk_benben_3 }
+				boy = male
+				girl = female
+			}
+			gsk_byakuren_1 = {
+				index = 25
+				male = { 1 = gsk_byakuren_1 }
+				female = { 1 = gsk_byakuren_1 }
+				boy = male
+				girl = female
+			}
+			gsk_byakuren_2 = {
+				index = 26
+				male = { 1 = gsk_byakuren_2 }
+				female = { 1 = gsk_byakuren_2 }
+				boy = male
+				girl = female
+			}
+			gsk_byakuren_3 = {
+				index = 27
+				male = { 1 = gsk_byakuren_3 }
+				female = { 1 = gsk_byakuren_3 }
+				boy = male
+				girl = female
+			}
+			gsk_byakuren_4 = {
+				index = 28
+				male = { 1 = gsk_byakuren_4 }
+				female = { 1 = gsk_byakuren_4 }
+				boy = male
+				girl = female
+			}
+			gsk_byakuren_5 = {
+				index = 29
+				male = { 1 = gsk_byakuren_5 }
+				female = { 1 = gsk_byakuren_5 }
+				boy = male
+				girl = female
+			}
+			gsk_byakuren_6 = {
+				index = 30
+				male = { 1 = gsk_byakuren_6 }
+				female = { 1 = gsk_byakuren_6 }
+				boy = male
+				girl = female
+			}
+			gsk_byakuren_7 = {
+				index = 31
+				male = { 1 = gsk_byakuren_7 }
+				female = { 1 = gsk_byakuren_7 }
+				boy = male
+				girl = female
+			}
+			gsk_chen_1 = {
+				index = 32
+				male = { 1 = gsk_chen_1 }
+				female = { 1 = gsk_chen_1 }
+				boy = male
+				girl = female
+			}
+			gsk_chen_2 = {
+				index = 33
+				male = { 1 = gsk_chen_2 }
+				female = { 1 = gsk_chen_2 }
+				boy = male
+				girl = female
+			}
+			gsk_chen_3 = {
+				index = 34
+				male = { 1 = gsk_chen_3 }
+				female = { 1 = gsk_chen_3 }
+				boy = male
+				girl = female
+			}
+			gsk_chen_4 = {
+				index = 35
+				male = { 1 = gsk_chen_4 }
+				female = { 1 = gsk_chen_4 }
+				boy = male
+				girl = female
+			}
+			gsk_chen_5 = {
+				index = 36
+				male = { 1 = gsk_chen_5 }
+				female = { 1 = gsk_chen_5 }
+				boy = male
+				girl = female
+			}
+			gsk_chen_6 = {
+				index = 37
+				male = { 1 = gsk_chen_6 }
+				female = { 1 = gsk_chen_6 }
+				boy = male
+				girl = female
+			}
+			gsk_chimata_1 = {
+				index = 38
+				male = { 1 = gsk_chimata_1 }
+				female = { 1 = gsk_chimata_1 }
+				boy = male
+				girl = female
+			}
+			gsk_chimata_2 = {
+				index = 39
+				male = { 1 = gsk_chimata_2 }
+				female = { 1 = gsk_chimata_2 }
+				boy = male
+				girl = female
+			}
+			gsk_cirno_1 = {
+				index = 40
+				male = { 1 = gsk_cirno_1 }
+				female = { 1 = gsk_cirno_1 }
+				boy = male
+				girl = female
+			}
+			gsk_cirno_2 = {
+				index = 41
+				male = { 1 = gsk_cirno_2 }
+				female = { 1 = gsk_cirno_2 }
+				boy = male
+				girl = female
+			}
+			gsk_cirno_3 = {
+				index = 42
+				male = { 1 = gsk_cirno_3 }
+				female = { 1 = gsk_cirno_3 }
+				boy = male
+				girl = female
+			}
+			gsk_cirno_4 = {
+				index = 43
+				male = { 1 = gsk_cirno_4 }
+				female = { 1 = gsk_cirno_4 }
+				boy = male
+				girl = female
+			}
+			gsk_clownpiece_1 = {
+				index = 44
+				male = { 1 = gsk_clownpiece_1 }
+				female = { 1 = gsk_clownpiece_1 }
+				boy = male
+				girl = female
+			}
+			gsk_clownpiece_2 = {
+				index = 45
+				male = { 1 = gsk_clownpiece_2 }
+				female = { 1 = gsk_clownpiece_2 }
+				boy = male
+				girl = female
+			}
+			gsk_clownpiece_3 = {
+				index = 46
+				male = { 1 = gsk_clownpiece_3 }
+				female = { 1 = gsk_clownpiece_3 }
+				boy = male
+				girl = female
+			}
+			gsk_daiyousei_1 = {
+				index = 47
+				male = { 1 = gsk_daiyousei_1 }
+				female = { 1 = gsk_daiyousei_1 }
+				boy = male
+				girl = female
+			}
+			gsk_daiyousei_2 = {
+				index = 48
+				male = { 1 = gsk_daiyousei_2 }
+				female = { 1 = gsk_daiyousei_2 }
+				boy = male
+				girl = female
+			}
+			gsk_daiyousei_3 = {
+				index = 49
+				male = { 1 = gsk_daiyousei_3 }
+				female = { 1 = gsk_daiyousei_3 }
+				boy = male
+				girl = female
+			}
+			gsk_daiyousei_4 = {
+				index = 50
+				male = { 1 = gsk_daiyousei_4 }
+				female = { 1 = gsk_daiyousei_4 }
+				boy = male
+				girl = female
+			}
+			gsk_eirin_1 = {
+				index = 51
+				male = { 1 = gsk_eirin_1 }
+				female = { 1 = gsk_eirin_1 }
+				boy = male
+				girl = female
+			}
+			gsk_eirin_2 = {
+				index = 52
+				male = { 1 = gsk_eirin_2 }
+				female = { 1 = gsk_eirin_2 }
+				boy = male
+				girl = female
+			}
+			gsk_eirin_3 = {
+				index = 53
+				male = { 1 = gsk_eirin_3 }
+				female = { 1 = gsk_eirin_3 }
+				boy = male
+				girl = female
+			}
+			gsk_eirin_4 = {
+				index = 54
+				male = { 1 = gsk_eirin_4 }
+				female = { 1 = gsk_eirin_4 }
+				boy = male
+				girl = female
+			}
+			gsk_eirin_5 = {
+				index = 55
+				male = { 1 = gsk_eirin_5 }
+				female = { 1 = gsk_eirin_5 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_10 = {
+				index = 56
+				male = { 1 = gsk_flandre_10 }
+				female = { 1 = gsk_flandre_10 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_11 = {
+				index = 57
+				male = { 1 = gsk_flandre_11 }
+				female = { 1 = gsk_flandre_11 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_1 = {
+				index = 58
+				male = { 1 = gsk_flandre_1 }
+				female = { 1 = gsk_flandre_1 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_2 = {
+				index = 59
+				male = { 1 = gsk_flandre_2 }
+				female = { 1 = gsk_flandre_2 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_3 = {
+				index = 60
+				male = { 1 = gsk_flandre_3 }
+				female = { 1 = gsk_flandre_3 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_4 = {
+				index = 61
+				male = { 1 = gsk_flandre_4 }
+				female = { 1 = gsk_flandre_4 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_5 = {
+				index = 62
+				male = { 1 = gsk_flandre_5 }
+				female = { 1 = gsk_flandre_5 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_6 = {
+				index = 63
+				male = { 1 = gsk_flandre_6 }
+				female = { 1 = gsk_flandre_6 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_7 = {
+				index = 64
+				male = { 1 = gsk_flandre_7 }
+				female = { 1 = gsk_flandre_7 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_8 = {
+				index = 65
+				male = { 1 = gsk_flandre_8 }
+				female = { 1 = gsk_flandre_8 }
+				boy = male
+				girl = female
+			}
+			gsk_flandre_9 = {
+				index = 66
+				male = { 1 = gsk_flandre_9 }
+				female = { 1 = gsk_flandre_9 }
+				boy = male
+				girl = female
+			}
+			gsk_futo_1 = {
+				index = 67
+				male = { 1 = gsk_futo_1 }
+				female = { 1 = gsk_futo_1 }
+				boy = male
+				girl = female
+			}
+			gsk_futo_2 = {
+				index = 68
+				male = { 1 = gsk_futo_2 }
+				female = { 1 = gsk_futo_2 }
+				boy = male
+				girl = female
+			}
+			gsk_futo_3 = {
+				index = 69
+				male = { 1 = gsk_futo_3 }
+				female = { 1 = gsk_futo_3 }
+				boy = male
+				girl = female
+			}
+			gsk_hatate_1 = {
+				index = 70
+				male = { 1 = gsk_hatate_1 }
+				female = { 1 = gsk_hatate_1 }
+				boy = male
+				girl = female
+			}
+			gsk_hatate_2 = {
+				index = 71
+				male = { 1 = gsk_hatate_2 }
+				female = { 1 = gsk_hatate_2 }
+				boy = male
+				girl = female
+			}
+			gsk_hatate_3 = {
+				index = 72
+				male = { 1 = gsk_hatate_3 }
+				female = { 1 = gsk_hatate_3 }
+				boy = male
+				girl = female
+			}
+			gsk_hearn_1 = {
+				index = 73
+				male = { 1 = gsk_hearn_1 }
+				female = { 1 = gsk_hearn_1 }
+				boy = male
+				girl = female
+			}
+			gsk_himemushi_1 = {
+				index = 74
+				male = { 1 = gsk_himemushi_1 }
+				female = { 1 = gsk_himemushi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_hina_1 = {
+				index = 75
+				male = { 1 = gsk_hina_1 }
+				female = { 1 = gsk_hina_1 }
+				boy = male
+				girl = female
+			}
+			gsk_hina_2 = {
+				index = 76
+				male = { 1 = gsk_hina_2 }
+				female = { 1 = gsk_hina_2 }
+				boy = male
+				girl = female
+			}
+			gsk_hina_3 = {
+				index = 77
+				male = { 1 = gsk_hina_3 }
+				female = { 1 = gsk_hina_3 }
+				boy = male
+				girl = female
+			}
+			gsk_ichirin_1 = {
+				index = 78
+				male = { 1 = gsk_ichirin_1 }
+				female = { 1 = gsk_ichirin_1 }
+				boy = male
+				girl = female
+			}
+			gsk_ichirin_2 = {
+				index = 79
+				male = { 1 = gsk_ichirin_2 }
+				female = { 1 = gsk_ichirin_2 }
+				boy = male
+				girl = female
+			}
+			gsk_ichirin_3 = {
+				index = 80
+				male = { 1 = gsk_ichirin_3 }
+				female = { 1 = gsk_ichirin_3 }
+				boy = male
+				girl = female
+			}
+			gsk_iku_1 = {
+				index = 81
+				male = { 1 = gsk_iku_1 }
+				female = { 1 = gsk_iku_1 }
+				boy = male
+				girl = female
+			}
+			gsk_iku_2 = {
+				index = 82
+				male = { 1 = gsk_iku_2 }
+				female = { 1 = gsk_iku_2 }
+				boy = male
+				girl = female
+			}
+			gsk_junko_1 = {
+				index = 83
+				male = { 1 = gsk_junko_1 }
+				female = { 1 = gsk_junko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_junko_2 = {
+				index = 84
+				male = { 1 = gsk_junko_2 }
+				female = { 1 = gsk_junko_2 }
+				boy = male
+				girl = female
+			}
+			gsk_junko_3 = {
+				index = 85
+				male = { 1 = gsk_junko_3 }
+				female = { 1 = gsk_junko_3 }
+				boy = male
+				girl = female
+			}
+			gsk_junko_4 = {
+				index = 86
+				male = { 1 = gsk_junko_4 }
+				female = { 1 = gsk_junko_4 }
+				boy = male
+				girl = female
+			}
+			gsk_jyoon_1 = {
+				index = 87
+				male = { 1 = gsk_jyoon_1 }
+				female = { 1 = gsk_jyoon_1 }
+				boy = male
+				girl = female
+			}
+			gsk_jyoon_2 = {
+				index = 88
+				male = { 1 = gsk_jyoon_2 }
+				female = { 1 = gsk_jyoon_2 }
+				boy = male
+				girl = female
+			}
+			gsk_jyoon_3 = {
+				index = 89
+				male = { 1 = gsk_jyoon_3 }
+				female = { 1 = gsk_jyoon_3 }
+				boy = male
+				girl = female
+			}
+			gsk_jyoon_4 = {
+				index = 90
+				male = { 1 = gsk_jyoon_4 }
+				female = { 1 = gsk_jyoon_4 }
+				boy = male
+				girl = female
+			}
+			gsk_jyoon_5 = {
+				index = 91
+				male = { 1 = gsk_jyoon_5 }
+				female = { 1 = gsk_jyoon_5 }
+				boy = male
+				girl = female
+			}
+			gsk_kagerou_1 = {
+				index = 92
+				male = { 1 = gsk_kagerou_1 }
+				female = { 1 = gsk_kagerou_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kagerou_2 = {
+				index = 93
+				male = { 1 = gsk_kagerou_2 }
+				female = { 1 = gsk_kagerou_2 }
+				boy = male
+				girl = female
+			}
+			gsk_kaguya_1 = {
+				index = 94
+				male = { 1 = gsk_kaguya_1 }
+				female = { 1 = gsk_kaguya_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kaguya_2 = {
+				index = 95
+				male = { 1 = gsk_kaguya_2 }
+				female = { 1 = gsk_kaguya_2 }
+				boy = male
+				girl = female
+			}
+			gsk_kaguya_3 = {
+				index = 96
+				male = { 1 = gsk_kaguya_3 }
+				female = { 1 = gsk_kaguya_3 }
+				boy = male
+				girl = female
+			}
+			gsk_kaguya_4 = {
+				index = 97
+				male = { 1 = gsk_kaguya_4 }
+				female = { 1 = gsk_kaguya_4 }
+				boy = male
+				girl = female
+			}
+			gsk_kaguya_5 = {
+				index = 98
+				male = { 1 = gsk_kaguya_5 }
+				female = { 1 = gsk_kaguya_5 }
+				boy = male
+				girl = female
+			}
+			gsk_kanako_1 = {
+				index = 99
+				male = { 1 = gsk_kanako_1 }
+				female = { 1 = gsk_kanako_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kanako_2 = {
+				index = 100
+				male = { 1 = gsk_kanako_2 }
+				female = { 1 = gsk_kanako_2 }
+				boy = male
+				girl = female
+			}
+			gsk_kanako_3 = {
+				index = 101
+				male = { 1 = gsk_kanako_3 }
+				female = { 1 = gsk_kanako_3 }
+				boy = male
+				girl = female
+			}
+			gsk_kanako_4 = {
+				index = 102
+				male = { 1 = gsk_kanako_4 }
+				female = { 1 = gsk_kanako_4 }
+				boy = male
+				girl = female
+			}
+			gsk_kanako_5 = {
+				index = 103
+				male = { 1 = gsk_kanako_5 }
+				female = { 1 = gsk_kanako_5 }
+				boy = male
+				girl = female
+			}
+			gsk_kanako_6 = {
+				index = 104
+				male = { 1 = gsk_kanako_6 }
+				female = { 1 = gsk_kanako_6 }
+				boy = male
+				girl = female
+			}
+			gsk_kanako_7 = {
+				index = 105
+				male = { 1 = gsk_kanako_7 }
+				female = { 1 = gsk_kanako_7 }
+				boy = male
+				girl = female
+			}
+			gsk_kasen_1 = {
+				index = 106
+				male = { 1 = gsk_kasen_1 }
+				female = { 1 = gsk_kasen_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kasen_2 = {
+				index = 107
+				male = { 1 = gsk_kasen_2 }
+				female = { 1 = gsk_kasen_2 }
+				boy = male
+				girl = female
+			}
+			gsk_kasen_3 = {
+				index = 108
+				male = { 1 = gsk_kasen_3 }
+				female = { 1 = gsk_kasen_3 }
+				boy = male
+				girl = female
+			}
+			gsk_kasen_4 = {
+				index = 109
+				male = { 1 = gsk_kasen_4 }
+				female = { 1 = gsk_kasen_4 }
+				boy = male
+				girl = female
+			}
+			gsk_kasen_5 = {
+				index = 110
+				male = { 1 = gsk_kasen_5 }
+				female = { 1 = gsk_kasen_5 }
+				boy = male
+				girl = female
+			}
+			gsk_kasen_6 = {
+				index = 111
+				male = { 1 = gsk_kasen_6 }
+				female = { 1 = gsk_kasen_6 }
+				boy = male
+				girl = female
+			}
+			gsk_kasen_7 = {
+				index = 112
+				male = { 1 = gsk_kasen_7 }
+				female = { 1 = gsk_kasen_7 }
+				boy = male
+				girl = female
+			}
+			gsk_keiki_1 = {
+				index = 113
+				male = { 1 = gsk_keiki_1 }
+				female = { 1 = gsk_keiki_1 }
+				boy = male
+				girl = female
+			}
+			gsk_keiki_2 = {
+				index = 114
+				male = { 1 = gsk_keiki_2 }
+				female = { 1 = gsk_keiki_2 }
+				boy = male
+				girl = female
+			}
+			gsk_keine_1 = {
+				index = 115
+				male = { 1 = gsk_keine_1 }
+				female = { 1 = gsk_keine_1 }
+				boy = male
+				girl = female
+			}
+			gsk_keine_2 = {
+				index = 116
+				male = { 1 = gsk_keine_2 }
+				female = { 1 = gsk_keine_2 }
+				boy = male
+				girl = female
+			}
+			gsk_keine_3 = {
+				index = 117
+				male = { 1 = gsk_keine_3 }
+				female = { 1 = gsk_keine_3 }
+				boy = male
+				girl = female
+			}
+			gsk_keine_4 = {
+				index = 118
+				male = { 1 = gsk_keine_4 }
+				female = { 1 = gsk_keine_4 }
+				boy = male
+				girl = female
+			}
+			gsk_keine_5 = {
+				index = 119
+				male = { 1 = gsk_keine_5 }
+				female = { 1 = gsk_keine_5 }
+				boy = male
+				girl = female
+			}
+			gsk_kisume_1 = {
+				index = 120
+				male = { 1 = gsk_kisume_1 }
+				female = { 1 = gsk_kisume_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kisume_2 = {
+				index = 121
+				male = { 1 = gsk_kisume_2 }
+				female = { 1 = gsk_kisume_2 }
+				boy = male
+				girl = female
+			}
+			gsk_koakuma_1 = {
+				index = 122
+				male = { 1 = gsk_koakuma_1 }
+				female = { 1 = gsk_koakuma_1 }
+				boy = male
+				girl = female
+			}
+			gsk_koakuma_2 = {
+				index = 123
+				male = { 1 = gsk_koakuma_2 }
+				female = { 1 = gsk_koakuma_2 }
+				boy = male
+				girl = female
+			}
+			gsk_koakuma_3 = {
+				index = 124
+				male = { 1 = gsk_koakuma_3 }
+				female = { 1 = gsk_koakuma_3 }
+				boy = male
+				girl = female
+			}
+			gsk_koakuma_4 = {
+				index = 125
+				male = { 1 = gsk_koakuma_4 }
+				female = { 1 = gsk_koakuma_4 }
+				boy = male
+				girl = female
+			}
+			gsk_koakuma_5 = {
+				index = 126
+				male = { 1 = gsk_koakuma_5 }
+				female = { 1 = gsk_koakuma_5 }
+				boy = male
+				girl = female
+			}
+			gsk_koakuma_6 = {
+				index = 127
+				male = { 1 = gsk_koakuma_6 }
+				female = { 1 = gsk_koakuma_6 }
+				boy = male
+				girl = female
+			}
+			gsk_kogasa_1 = {
+				index = 128
+				male = { 1 = gsk_kogasa_1 }
+				female = { 1 = gsk_kogasa_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kogasa_2 = {
+				index = 129
+				male = { 1 = gsk_kogasa_2 }
+				female = { 1 = gsk_kogasa_2 }
+				boy = male
+				girl = female
+			}
+			gsk_kogasa_3 = {
+				index = 130
+				male = { 1 = gsk_kogasa_3 }
+				female = { 1 = gsk_kogasa_3 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_1 = {
+				index = 131
+				male = { 1 = gsk_koishi_1 }
+				female = { 1 = gsk_koishi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_2 = {
+				index = 132
+				male = { 1 = gsk_koishi_2 }
+				female = { 1 = gsk_koishi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_3 = {
+				index = 133
+				male = { 1 = gsk_koishi_3 }
+				female = { 1 = gsk_koishi_3 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_4 = {
+				index = 134
+				male = { 1 = gsk_koishi_4 }
+				female = { 1 = gsk_koishi_4 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_5 = {
+				index = 135
+				male = { 1 = gsk_koishi_5 }
+				female = { 1 = gsk_koishi_5 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_6 = {
+				index = 136
+				male = { 1 = gsk_koishi_6 }
+				female = { 1 = gsk_koishi_6 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_7 = {
+				index = 137
+				male = { 1 = gsk_koishi_7 }
+				female = { 1 = gsk_koishi_7 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_8 = {
+				index = 138
+				male = { 1 = gsk_koishi_8 }
+				female = { 1 = gsk_koishi_8 }
+				boy = male
+				girl = female
+			}
+			gsk_koishi_9 = {
+				index = 139
+				male = { 1 = gsk_koishi_9 }
+				female = { 1 = gsk_koishi_9 }
+				boy = male
+				girl = female
+			}
+			gsk_kokoro_1 = {
+				index = 140
+				male = { 1 = gsk_kokoro_1 }
+				female = { 1 = gsk_kokoro_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kokoro_2 = {
+				index = 141
+				male = { 1 = gsk_kokoro_2 }
+				female = { 1 = gsk_kokoro_2 }
+				boy = male
+				girl = female
+			}
+			gsk_kokoro_3 = {
+				index = 142
+				male = { 1 = gsk_kokoro_3 }
+				female = { 1 = gsk_kokoro_3 }
+				boy = male
+				girl = female
+			}
+			gsk_kokoro_4 = {
+				index = 143
+				male = { 1 = gsk_kokoro_4 }
+				female = { 1 = gsk_kokoro_4 }
+				boy = male
+				girl = female
+			}
+			gsk_kokoro_5 = {
+				index = 144
+				male = { 1 = gsk_kokoro_5 }
+				female = { 1 = gsk_kokoro_5 }
+				boy = male
+				girl = female
+			}
+			gsk_kokoro_6 = {
+				index = 145
+				male = { 1 = gsk_kokoro_6 }
+				female = { 1 = gsk_kokoro_6 }
+				boy = male
+				girl = female
+			}
+			gsk_komachi_1 = {
+				index = 146
+				male = { 1 = gsk_komachi_1 }
+				female = { 1 = gsk_komachi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_komachi_2 = {
+				index = 147
+				male = { 1 = gsk_komachi_2 }
+				female = { 1 = gsk_komachi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_komachi_3 = {
+				index = 148
+				male = { 1 = gsk_komachi_3 }
+				female = { 1 = gsk_komachi_3 }
+				boy = male
+				girl = female
+			}
+			gsk_komachi_4 = {
+				index = 149
+				male = { 1 = gsk_komachi_4 }
+				female = { 1 = gsk_komachi_4 }
+				boy = male
+				girl = female
+			}
+			gsk_kosuzu_1 = {
+				index = 150
+				male = { 1 = gsk_kosuzu_1 }
+				female = { 1 = gsk_kosuzu_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kosuzu_2 = {
+				index = 151
+				male = { 1 = gsk_kosuzu_2 }
+				female = { 1 = gsk_kosuzu_2 }
+				boy = male
+				girl = female
+			}
+			gsk_kosuzu_3 = {
+				index = 152
+				male = { 1 = gsk_kosuzu_3 }
+				female = { 1 = gsk_kosuzu_3 }
+				boy = male
+				girl = female
+			}
+			gsk_kutaka_1 = {
+				index = 153
+				male = { 1 = gsk_kutaka_1 }
+				female = { 1 = gsk_kutaka_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kutaka_2 = {
+				index = 154
+				male = { 1 = gsk_kutaka_2 }
+				female = { 1 = gsk_kutaka_2 }
+				boy = male
+				girl = female
+			}
+			gsk_kutaka_3 = {
+				index = 155
+				male = { 1 = gsk_kutaka_3 }
+				female = { 1 = gsk_kutaka_3 }
+				boy = male
+				girl = female
+			}
+			gsk_kutaka_4 = {
+				index = 156
+				male = { 1 = gsk_kutaka_4 }
+				female = { 1 = gsk_kutaka_4 }
+				boy = male
+				girl = female
+			}
+			gsk_kyouko_1 = {
+				index = 157
+				male = { 1 = gsk_kyouko_1 }
+				female = { 1 = gsk_kyouko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_kyouko_2 = {
+				index = 158
+				male = { 1 = gsk_kyouko_2 }
+				female = { 1 = gsk_kyouko_2 }
+				boy = male
+				girl = female
+			}
+			gsk_lapislazuli_1 = {
+				index = 159
+				male = { 1 = gsk_lapislazuli_1 }
+				female = { 1 = gsk_lapislazuli_1 }
+				boy = male
+				girl = female
+			}
+			gsk_lapislazuli_2 = {
+				index = 160
+				male = { 1 = gsk_lapislazuli_2 }
+				female = { 1 = gsk_lapislazuli_2 }
+				boy = male
+				girl = female
+			}
+			gsk_lapislazuli_3 = {
+				index = 161
+				male = { 1 = gsk_lapislazuli_3 }
+				female = { 1 = gsk_lapislazuli_3 }
+				boy = male
+				girl = female
+			}
+			gsk_lapislazuli_4 = {
+				index = 162
+				male = { 1 = gsk_lapislazuli_4 }
+				female = { 1 = gsk_lapislazuli_4 }
+				boy = male
+				girl = female
+			}
+			gsk_lapislazuli_5 = {
+				index = 163
+				male = { 1 = gsk_lapislazuli_5 }
+				female = { 1 = gsk_lapislazuli_5 }
+				boy = male
+				girl = female
+			}
+			gsk_larva_1 = {
+				index = 164
+				male = { 1 = gsk_larva_1 }
+				female = { 1 = gsk_larva_1 }
+				boy = male
+				girl = female
+			}
+			gsk_larva_2 = {
+				index = 165
+				male = { 1 = gsk_larva_2 }
+				female = { 1 = gsk_larva_2 }
+				boy = male
+				girl = female
+			}
+			gsk_lilywhite_1 = {
+				index = 166
+				male = { 1 = gsk_lilywhite_1 }
+				female = { 1 = gsk_lilywhite_1 }
+				boy = male
+				girl = female
+			}
+			gsk_lilywhite_2 = {
+				index = 167
+				male = { 1 = gsk_lilywhite_2 }
+				female = { 1 = gsk_lilywhite_2 }
+				boy = male
+				girl = female
+			}
+			gsk_lilywhite_3 = {
+				index = 168
+				male = { 1 = gsk_lilywhite_3 }
+				female = { 1 = gsk_lilywhite_3 }
+				boy = male
+				girl = female
+			}
+			gsk_lunasa_1 = {
+				index = 169
+				male = { 1 = gsk_lunasa_1 }
+				female = { 1 = gsk_lunasa_1 }
+				boy = male
+				girl = female
+			}
+			gsk_lunasa_2 = {
+				index = 170
+				male = { 1 = gsk_lunasa_2 }
+				female = { 1 = gsk_lunasa_2 }
+				boy = male
+				girl = female
+			}
+			gsk_lunasa_3 = {
+				index = 171
+				male = { 1 = gsk_lunasa_3 }
+				female = { 1 = gsk_lunasa_3 }
+				boy = male
+				girl = female
+			}
+			gsk_lunasa_4 = {
+				index = 172
+				male = { 1 = gsk_lunasa_4 }
+				female = { 1 = gsk_lunasa_4 }
+				boy = male
+				girl = female
+			}
+			gsk_lunasa_5 = {
+				index = 173
+				male = { 1 = gsk_lunasa_5 }
+				female = { 1 = gsk_lunasa_5 }
+				boy = male
+				girl = female
+			}
+			gsk_luna_1 = {
+				index = 174
+				male = { 1 = gsk_luna_1 }
+				female = { 1 = gsk_luna_1 }
+				boy = male
+				girl = female
+			}
+			gsk_luna_2 = {
+				index = 175
+				male = { 1 = gsk_luna_2 }
+				female = { 1 = gsk_luna_2 }
+				boy = male
+				girl = female
+			}
+			gsk_luna_3 = {
+				index = 176
+				male = { 1 = gsk_luna_3 }
+				female = { 1 = gsk_luna_3 }
+				boy = male
+				girl = female
+			}
+			gsk_lyrica_1 = {
+				index = 177
+				male = { 1 = gsk_lyrica_1 }
+				female = { 1 = gsk_lyrica_1 }
+				boy = male
+				girl = female
+			}
+			gsk_lyrica_2 = {
+				index = 178
+				male = { 1 = gsk_lyrica_2 }
+				female = { 1 = gsk_lyrica_2 }
+				boy = male
+				girl = female
+			}
+			gsk_lyrica_3 = {
+				index = 179
+				male = { 1 = gsk_lyrica_3 }
+				female = { 1 = gsk_lyrica_3 }
+				boy = male
+				girl = female
+			}
+			gsk_lyrica_4 = {
+				index = 180
+				male = { 1 = gsk_lyrica_4 }
+				female = { 1 = gsk_lyrica_4 }
+				boy = male
+				girl = female
+			}
+			gsk_lyrica_5 = {
+				index = 181
+				male = { 1 = gsk_lyrica_5 }
+				female = { 1 = gsk_lyrica_5 }
+				boy = male
+				girl = female
+			}
+			gsk_mai_1 = {
+				index = 182
+				male = { 1 = gsk_mai_1 }
+				female = { 1 = gsk_mai_1 }
+				boy = male
+				girl = female
+			}
+			gsk_mai_2 = {
+				index = 183
+				male = { 1 = gsk_mai_2 }
+				female = { 1 = gsk_mai_2 }
+				boy = male
+				girl = female
+			}
+			gsk_mamizou_1 = {
+				index = 184
+				male = { 1 = gsk_mamizou_1 }
+				female = { 1 = gsk_mamizou_1 }
+				boy = male
+				girl = female
+			}
+			gsk_mamizou_2 = {
+				index = 185
+				male = { 1 = gsk_mamizou_2 }
+				female = { 1 = gsk_mamizou_2 }
+				boy = male
+				girl = female
+			}
+			gsk_mamizou_3 = {
+				index = 186
+				male = { 1 = gsk_mamizou_3 }
+				female = { 1 = gsk_mamizou_3 }
+				boy = male
+				girl = female
+			}
+			gsk_mamizou_4 = {
+				index = 187
+				male = { 1 = gsk_mamizou_4 }
+				female = { 1 = gsk_mamizou_4 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_10 = {
+				index = 188
+				male = { 1 = gsk_marisa_10 }
+				female = { 1 = gsk_marisa_10 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_11 = {
+				index = 189
+				male = { 1 = gsk_marisa_11 }
+				female = { 1 = gsk_marisa_11 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_12 = {
+				index = 190
+				male = { 1 = gsk_marisa_12 }
+				female = { 1 = gsk_marisa_12 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_13 = {
+				index = 191
+				male = { 1 = gsk_marisa_13 }
+				female = { 1 = gsk_marisa_13 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_14 = {
+				index = 192
+				male = { 1 = gsk_marisa_14 }
+				female = { 1 = gsk_marisa_14 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_1 = {
+				index = 193
+				male = { 1 = gsk_marisa_1 }
+				female = { 1 = gsk_marisa_1 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_2 = {
+				index = 194
+				male = { 1 = gsk_marisa_2 }
+				female = { 1 = gsk_marisa_2 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_3 = {
+				index = 195
+				male = { 1 = gsk_marisa_3 }
+				female = { 1 = gsk_marisa_3 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_4 = {
+				index = 196
+				male = { 1 = gsk_marisa_4 }
+				female = { 1 = gsk_marisa_4 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_5 = {
+				index = 197
+				male = { 1 = gsk_marisa_5 }
+				female = { 1 = gsk_marisa_5 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_6 = {
+				index = 198
+				male = { 1 = gsk_marisa_6 }
+				female = { 1 = gsk_marisa_6 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_7 = {
+				index = 199
+				male = { 1 = gsk_marisa_7 }
+				female = { 1 = gsk_marisa_7 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_8 = {
+				index = 200
+				male = { 1 = gsk_marisa_8 }
+				female = { 1 = gsk_marisa_8 }
+				boy = male
+				girl = female
+			}
+			gsk_marisa_9 = {
+				index = 201
+				male = { 1 = gsk_marisa_9 }
+				female = { 1 = gsk_marisa_9 }
+				boy = male
+				girl = female
+			}
+			gsk_mayumi_1 = {
+				index = 202
+				male = { 1 = gsk_mayumi_1 }
+				female = { 1 = gsk_mayumi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_mayumi_2 = {
+				index = 203
+				male = { 1 = gsk_mayumi_2 }
+				female = { 1 = gsk_mayumi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_mayumi_3 = {
+				index = 204
+				male = { 1 = gsk_mayumi_3 }
+				female = { 1 = gsk_mayumi_3 }
+				boy = male
+				girl = female
+			}
+			gsk_megumu_1 = {
+				index = 205
+				male = { 1 = gsk_megumu_1 }
+				female = { 1 = gsk_megumu_1 }
+				boy = male
+				girl = female
+			}
+			gsk_megumu_2 = {
+				index = 206
+				male = { 1 = gsk_megumu_2 }
+				female = { 1 = gsk_megumu_2 }
+				boy = male
+				girl = female
+			}
+			gsk_meirin_1 = {
+				index = 207
+				male = { 1 = gsk_meirin_1 }
+				female = { 1 = gsk_meirin_1 }
+				boy = male
+				girl = female
+			}
+			gsk_meirin_2 = {
+				index = 208
+				male = { 1 = gsk_meirin_2 }
+				female = { 1 = gsk_meirin_2 }
+				boy = male
+				girl = female
+			}
+			gsk_meirin_3 = {
+				index = 209
+				male = { 1 = gsk_meirin_3 }
+				female = { 1 = gsk_meirin_3 }
+				boy = male
+				girl = female
+			}
+			gsk_meirin_4 = {
+				index = 210
+				male = { 1 = gsk_meirin_4 }
+				female = { 1 = gsk_meirin_4 }
+				boy = male
+				girl = female
+			}
+			gsk_meirin_5 = {
+				index = 211
+				male = { 1 = gsk_meirin_5 }
+				female = { 1 = gsk_meirin_5 }
+				boy = male
+				girl = female
+			}
+			gsk_meirin_6 = {
+				index = 212
+				male = { 1 = gsk_meirin_6 }
+				female = { 1 = gsk_meirin_6 }
+				boy = male
+				girl = female
+			}
+			gsk_meirin_7 = {
+				index = 213
+				male = { 1 = gsk_meirin_7 }
+				female = { 1 = gsk_meirin_7 }
+				boy = male
+				girl = female
+			}
+			gsk_melancholy_1 = {
+				index = 214
+				male = { 1 = gsk_melancholy_1 }
+				female = { 1 = gsk_melancholy_1 }
+				boy = male
+				girl = female
+			}
+			gsk_melancholy_2 = {
+				index = 215
+				male = { 1 = gsk_melancholy_2 }
+				female = { 1 = gsk_melancholy_2 }
+				boy = male
+				girl = female
+			}
+			gsk_melancholy_3 = {
+				index = 216
+				male = { 1 = gsk_melancholy_3 }
+				female = { 1 = gsk_melancholy_3 }
+				boy = male
+				girl = female
+			}
+			gsk_melancholy_4 = {
+				index = 217
+				male = { 1 = gsk_melancholy_4 }
+				female = { 1 = gsk_melancholy_4 }
+				boy = male
+				girl = female
+			}
+			gsk_merlin_1 = {
+				index = 218
+				male = { 1 = gsk_merlin_1 }
+				female = { 1 = gsk_merlin_1 }
+				boy = male
+				girl = female
+			}
+			gsk_merlin_2 = {
+				index = 219
+				male = { 1 = gsk_merlin_2 }
+				female = { 1 = gsk_merlin_2 }
+				boy = male
+				girl = female
+			}
+			gsk_merlin_3 = {
+				index = 220
+				male = { 1 = gsk_merlin_3 }
+				female = { 1 = gsk_merlin_3 }
+				boy = male
+				girl = female
+			}
+			gsk_merlin_4 = {
+				index = 221
+				male = { 1 = gsk_merlin_4 }
+				female = { 1 = gsk_merlin_4 }
+				boy = male
+				girl = female
+			}
+			gsk_merlin_5 = {
+				index = 222
+				male = { 1 = gsk_merlin_5 }
+				female = { 1 = gsk_merlin_5 }
+				boy = male
+				girl = female
+			}
+			gsk_mike_1 = {
+				index = 223
+				male = { 1 = gsk_mike_1 }
+				female = { 1 = gsk_mike_1 }
+				boy = male
+				girl = female
+			}
+			gsk_mike_2 = {
+				index = 224
+				male = { 1 = gsk_mike_2 }
+				female = { 1 = gsk_mike_2 }
+				boy = male
+				girl = female
+			}
+			gsk_miko_1 = {
+				index = 225
+				male = { 1 = gsk_miko_1 }
+				female = { 1 = gsk_miko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_miko_2 = {
+				index = 226
+				male = { 1 = gsk_miko_2 }
+				female = { 1 = gsk_miko_2 }
+				boy = male
+				girl = female
+			}
+			gsk_miko_3 = {
+				index = 227
+				male = { 1 = gsk_miko_3 }
+				female = { 1 = gsk_miko_3 }
+				boy = male
+				girl = female
+			}
+			gsk_miko_4 = {
+				index = 228
+				male = { 1 = gsk_miko_4 }
+				female = { 1 = gsk_miko_4 }
+				boy = male
+				girl = female
+			}
+			gsk_miko_5 = {
+				index = 229
+				male = { 1 = gsk_miko_5 }
+				female = { 1 = gsk_miko_5 }
+				boy = male
+				girl = female
+			}
+			gsk_minamitu_1 = {
+				index = 230
+				male = { 1 = gsk_minamitu_1 }
+				female = { 1 = gsk_minamitu_1 }
+				boy = male
+				girl = female
+			}
+			gsk_minamitu_2 = {
+				index = 231
+				male = { 1 = gsk_minamitu_2 }
+				female = { 1 = gsk_minamitu_2 }
+				boy = male
+				girl = female
+			}
+			gsk_minoriko_1 = {
+				index = 232
+				male = { 1 = gsk_minoriko_1 }
+				female = { 1 = gsk_minoriko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_minoriko_2 = {
+				index = 233
+				male = { 1 = gsk_minoriko_2 }
+				female = { 1 = gsk_minoriko_2 }
+				boy = male
+				girl = female
+			}
+			gsk_minoriko_3 = {
+				index = 234
+				male = { 1 = gsk_minoriko_3 }
+				female = { 1 = gsk_minoriko_3 }
+				boy = male
+				girl = female
+			}
+			gsk_misumaru_1 = {
+				index = 235
+				male = { 1 = gsk_misumaru_1 }
+				female = { 1 = gsk_misumaru_1 }
+				boy = male
+				girl = female
+			}
+			gsk_misumaru_2 = {
+				index = 236
+				male = { 1 = gsk_misumaru_2 }
+				female = { 1 = gsk_misumaru_2 }
+				boy = male
+				girl = female
+			}
+			gsk_mokou_1 = {
+				index = 237
+				male = { 1 = gsk_mokou_1 }
+				female = { 1 = gsk_mokou_1 }
+				boy = male
+				girl = female
+			}
+			gsk_mokou_2 = {
+				index = 238
+				male = { 1 = gsk_mokou_2 }
+				female = { 1 = gsk_mokou_2 }
+				boy = male
+				girl = female
+			}
+			gsk_mokou_3 = {
+				index = 239
+				male = { 1 = gsk_mokou_3 }
+				female = { 1 = gsk_mokou_3 }
+				boy = male
+				girl = female
+			}
+			gsk_mokou_4 = {
+				index = 240
+				male = { 1 = gsk_mokou_4 }
+				female = { 1 = gsk_mokou_4 }
+				boy = male
+				girl = female
+			}
+			gsk_mokou_5 = {
+				index = 241
+				male = { 1 = gsk_mokou_5 }
+				female = { 1 = gsk_mokou_5 }
+				boy = male
+				girl = female
+			}
+			gsk_mokou_6 = {
+				index = 242
+				male = { 1 = gsk_mokou_6 }
+				female = { 1 = gsk_mokou_6 }
+				boy = male
+				girl = female
+			}
+			gsk_momizi_1 = {
+				index = 243
+				male = { 1 = gsk_momizi_1 }
+				female = { 1 = gsk_momizi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_momizi_2 = {
+				index = 244
+				male = { 1 = gsk_momizi_2 }
+				female = { 1 = gsk_momizi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_momizi_3 = {
+				index = 245
+				male = { 1 = gsk_momizi_3 }
+				female = { 1 = gsk_momizi_3 }
+				boy = male
+				girl = female
+			}
+			gsk_mystia_1 = {
+				index = 246
+				male = { 1 = gsk_mystia_1 }
+				female = { 1 = gsk_mystia_1 }
+				boy = male
+				girl = female
+			}
+			gsk_mystia_2 = {
+				index = 247
+				male = { 1 = gsk_mystia_2 }
+				female = { 1 = gsk_mystia_2 }
+				boy = male
+				girl = female
+			}
+			gsk_mystia_3 = {
+				index = 248
+				male = { 1 = gsk_mystia_3 }
+				female = { 1 = gsk_mystia_3 }
+				boy = male
+				girl = female
+			}
+			gsk_mystia_4 = {
+				index = 249
+				male = { 1 = gsk_mystia_4 }
+				female = { 1 = gsk_mystia_4 }
+				boy = male
+				girl = female
+			}
+			gsk_mystia_5 = {
+				index = 250
+				male = { 1 = gsk_mystia_5 }
+				female = { 1 = gsk_mystia_5 }
+				boy = male
+				girl = female
+			}
+			gsk_narumi_1 = {
+				index = 251
+				male = { 1 = gsk_narumi_1 }
+				female = { 1 = gsk_narumi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_narumi_2 = {
+				index = 252
+				male = { 1 = gsk_narumi_2 }
+				female = { 1 = gsk_narumi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_nazrin_1 = {
+				index = 253
+				male = { 1 = gsk_nazrin_1 }
+				female = { 1 = gsk_nazrin_1 }
+				boy = male
+				girl = female
+			}
+			gsk_nazrin_2 = {
+				index = 254
+				male = { 1 = gsk_nazrin_2 }
+				female = { 1 = gsk_nazrin_2 }
+				boy = male
+				girl = female
+			}
+			gsk_nemuno_1 = {
+				index = 255
+				male = { 1 = gsk_nemuno_1 }
+				female = { 1 = gsk_nemuno_1 }
+				boy = male
+				girl = female
+			}
+		}
+		touhou_props_2 = {
+			gsk_nemuno_2 = {
+				index = 1
+				male = { 1 = gsk_nemuno_2 }
+				female = { 1 = gsk_nemuno_2 }
+				boy = male
+				girl = female
+			}
+			gsk_nemuno_3 = {
+				index = 2
+				male = { 1 = gsk_nemuno_3 }
+				female = { 1 = gsk_nemuno_3 }
+				boy = male
+				girl = female
+			}
+			gsk_nightbug_1 = {
+				index = 3
+				male = { 1 = gsk_nightbug_1 }
+				female = { 1 = gsk_nightbug_1 }
+				boy = male
+				girl = female
+			}
+			gsk_nightbug_2 = {
+				index = 4
+				male = { 1 = gsk_nightbug_2 }
+				female = { 1 = gsk_nightbug_2 }
+				boy = male
+				girl = female
+			}
+			gsk_nightbug_3 = {
+				index = 5
+				male = { 1 = gsk_nightbug_3 }
+				female = { 1 = gsk_nightbug_3 }
+				boy = male
+				girl = female
+			}
+			gsk_nightbug_4 = {
+				index = 6
+				male = { 1 = gsk_nightbug_4 }
+				female = { 1 = gsk_nightbug_4 }
+				boy = male
+				girl = female
+			}
+			gsk_nitori_1 = {
+				index = 7
+				male = { 1 = gsk_nitori_1 }
+				female = { 1 = gsk_nitori_1 }
+				boy = male
+				girl = female
+			}
+			gsk_nitori_2 = {
+				index = 8
+				male = { 1 = gsk_nitori_2 }
+				female = { 1 = gsk_nitori_2 }
+				boy = male
+				girl = female
+			}
+			gsk_nitori_3 = {
+				index = 9
+				male = { 1 = gsk_nitori_3 }
+				female = { 1 = gsk_nitori_3 }
+				boy = male
+				girl = female
+			}
+			gsk_nitori_4 = {
+				index = 10
+				male = { 1 = gsk_nitori_4 }
+				female = { 1 = gsk_nitori_4 }
+				boy = male
+				girl = female
+			}
+			gsk_nitori_5 = {
+				index = 11
+				male = { 1 = gsk_nitori_5 }
+				female = { 1 = gsk_nitori_5 }
+				boy = male
+				girl = female
+			}
+			gsk_nue_1 = {
+				index = 12
+				male = { 1 = gsk_nue_1 }
+				female = { 1 = gsk_nue_1 }
+				boy = male
+				girl = female
+			}
+			gsk_nue_2 = {
+				index = 13
+				male = { 1 = gsk_nue_2 }
+				female = { 1 = gsk_nue_2 }
+				boy = male
+				girl = female
+			}
+			gsk_nue_3 = {
+				index = 14
+				male = { 1 = gsk_nue_3 }
+				female = { 1 = gsk_nue_3 }
+				boy = male
+				girl = female
+			}
+			gsk_nue_4 = {
+				index = 15
+				male = { 1 = gsk_nue_4 }
+				female = { 1 = gsk_nue_4 }
+				boy = male
+				girl = female
+			}
+			gsk_okina_1 = {
+				index = 16
+				male = { 1 = gsk_okina_1 }
+				female = { 1 = gsk_okina_1 }
+				boy = male
+				girl = female
+			}
+			gsk_okina_2 = {
+				index = 17
+				male = { 1 = gsk_okina_2 }
+				female = { 1 = gsk_okina_2 }
+				boy = male
+				girl = female
+			}
+			gsk_okina_3 = {
+				index = 18
+				male = { 1 = gsk_okina_3 }
+				female = { 1 = gsk_okina_3 }
+				boy = male
+				girl = female
+			}
+			gsk_okina_4 = {
+				index = 19
+				male = { 1 = gsk_okina_4 }
+				female = { 1 = gsk_okina_4 }
+				boy = male
+				girl = female
+			}
+			gsk_parsee_1 = {
+				index = 20
+				male = { 1 = gsk_parsee_1 }
+				female = { 1 = gsk_parsee_1 }
+				boy = male
+				girl = female
+			}
+			gsk_parsee_2 = {
+				index = 21
+				male = { 1 = gsk_parsee_2 }
+				female = { 1 = gsk_parsee_2 }
+				boy = male
+				girl = female
+			}
+			gsk_patchouli_1 = {
+				index = 22
+				male = { 1 = gsk_patchouli_1 }
+				female = { 1 = gsk_patchouli_1 }
+				boy = male
+				girl = female
+			}
+			gsk_patchouli_2 = {
+				index = 23
+				male = { 1 = gsk_patchouli_2 }
+				female = { 1 = gsk_patchouli_2 }
+				boy = male
+				girl = female
+			}
+			gsk_patchouli_3 = {
+				index = 24
+				male = { 1 = gsk_patchouli_3 }
+				female = { 1 = gsk_patchouli_3 }
+				boy = male
+				girl = female
+			}
+			gsk_patchouli_4 = {
+				index = 25
+				male = { 1 = gsk_patchouli_4 }
+				female = { 1 = gsk_patchouli_4 }
+				boy = male
+				girl = female
+			}
+			gsk_patchouli_5 = {
+				index = 26
+				male = { 1 = gsk_patchouli_5 }
+				female = { 1 = gsk_patchouli_5 }
+				boy = male
+				girl = female
+			}
+			gsk_patchouli_6 = {
+				index = 27
+				male = { 1 = gsk_patchouli_6 }
+				female = { 1 = gsk_patchouli_6 }
+				boy = male
+				girl = female
+			}
+			gsk_raiko_1 = {
+				index = 28
+				male = { 1 = gsk_raiko_1 }
+				female = { 1 = gsk_raiko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_raiko_2 = {
+				index = 29
+				male = { 1 = gsk_raiko_2 }
+				female = { 1 = gsk_raiko_2 }
+				boy = male
+				girl = female
+			}
+			gsk_raiko_3 = {
+				index = 30
+				male = { 1 = gsk_raiko_3 }
+				female = { 1 = gsk_raiko_3 }
+				boy = male
+				girl = female
+			}
+			gsk_ran_1 = {
+				index = 31
+				male = { 1 = gsk_ran_1 }
+				female = { 1 = gsk_ran_1 }
+				boy = male
+				girl = female
+			}
+			gsk_ran_2 = {
+				index = 32
+				male = { 1 = gsk_ran_2 }
+				female = { 1 = gsk_ran_2 }
+				boy = male
+				girl = female
+			}
+			gsk_ran_3 = {
+				index = 33
+				male = { 1 = gsk_ran_3 }
+				female = { 1 = gsk_ran_3 }
+				boy = male
+				girl = female
+			}
+			gsk_ran_4 = {
+				index = 34
+				male = { 1 = gsk_ran_4 }
+				female = { 1 = gsk_ran_4 }
+				boy = male
+				girl = female
+			}
+			gsk_ran_5 = {
+				index = 35
+				male = { 1 = gsk_ran_5 }
+				female = { 1 = gsk_ran_5 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_10 = {
+				index = 36
+				male = { 1 = gsk_reimu_10 }
+				female = { 1 = gsk_reimu_10 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_11 = {
+				index = 37
+				male = { 1 = gsk_reimu_11 }
+				female = { 1 = gsk_reimu_11 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_12 = {
+				index = 38
+				male = { 1 = gsk_reimu_12 }
+				female = { 1 = gsk_reimu_12 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_1 = {
+				index = 39
 				male = { 1 = gsk_reimu_1 }
 				female = { 1 = gsk_reimu_1 }
 				boy = male
 				girl = female
 			}
 			gsk_reimu_2 = {
-				index = 2
+				index = 40
 				male = { 1 = gsk_reimu_2 }
 				female = { 1 = gsk_reimu_2 }
 				boy = male
 				girl = female
 			}
 			gsk_reimu_3 = {
-				index = 3
+				index = 41
 				male = { 1 = gsk_reimu_3 }
 				female = { 1 = gsk_reimu_3 }
 				boy = male
 				girl = female
 			}
 			gsk_reimu_4 = {
-				index = 4
+				index = 42
 				male = { 1 = gsk_reimu_4 }
 				female = { 1 = gsk_reimu_4 }
 				boy = male
 				girl = female
 			}
 			gsk_reimu_5 = {
-				index = 5
+				index = 43
 				male = { 1 = gsk_reimu_5 }
 				female = { 1 = gsk_reimu_5 }
 				boy = male
 				girl = female
 			}
+			gsk_reimu_6 = {
+				index = 44
+				male = { 1 = gsk_reimu_6 }
+				female = { 1 = gsk_reimu_6 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_7 = {
+				index = 45
+				male = { 1 = gsk_reimu_7 }
+				female = { 1 = gsk_reimu_7 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_8 = {
+				index = 46
+				male = { 1 = gsk_reimu_8 }
+				female = { 1 = gsk_reimu_8 }
+				boy = male
+				girl = female
+			}
+			gsk_reimu_9 = {
+				index = 47
+				male = { 1 = gsk_reimu_9 }
+				female = { 1 = gsk_reimu_9 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen2_1 = {
+				index = 48
+				male = { 1 = gsk_reisen2_1 }
+				female = { 1 = gsk_reisen2_1 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen2_2 = {
+				index = 49
+				male = { 1 = gsk_reisen2_2 }
+				female = { 1 = gsk_reisen2_2 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen2_3 = {
+				index = 50
+				male = { 1 = gsk_reisen2_3 }
+				female = { 1 = gsk_reisen2_3 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen2_4 = {
+				index = 51
+				male = { 1 = gsk_reisen2_4 }
+				female = { 1 = gsk_reisen2_4 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_1 = {
+				index = 52
+				male = { 1 = gsk_reisen_1 }
+				female = { 1 = gsk_reisen_1 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_2 = {
+				index = 53
+				male = { 1 = gsk_reisen_2 }
+				female = { 1 = gsk_reisen_2 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_3 = {
+				index = 54
+				male = { 1 = gsk_reisen_3 }
+				female = { 1 = gsk_reisen_3 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_4 = {
+				index = 55
+				male = { 1 = gsk_reisen_4 }
+				female = { 1 = gsk_reisen_4 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_5 = {
+				index = 56
+				male = { 1 = gsk_reisen_5 }
+				female = { 1 = gsk_reisen_5 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_6 = {
+				index = 57
+				male = { 1 = gsk_reisen_6 }
+				female = { 1 = gsk_reisen_6 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_7 = {
+				index = 58
+				male = { 1 = gsk_reisen_7 }
+				female = { 1 = gsk_reisen_7 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_8 = {
+				index = 59
+				male = { 1 = gsk_reisen_8 }
+				female = { 1 = gsk_reisen_8 }
+				boy = male
+				girl = female
+			}
+			gsk_reisen_9 = {
+				index = 60
+				male = { 1 = gsk_reisen_9 }
+				female = { 1 = gsk_reisen_9 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_10 = {
+				index = 61
+				male = { 1 = gsk_remilia_10 }
+				female = { 1 = gsk_remilia_10 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_11 = {
+				index = 62
+				male = { 1 = gsk_remilia_11 }
+				female = { 1 = gsk_remilia_11 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_12 = {
+				index = 63
+				male = { 1 = gsk_remilia_12 }
+				female = { 1 = gsk_remilia_12 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_13 = {
+				index = 64
+				male = { 1 = gsk_remilia_13 }
+				female = { 1 = gsk_remilia_13 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_14 = {
+				index = 65
+				male = { 1 = gsk_remilia_14 }
+				female = { 1 = gsk_remilia_14 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_1 = {
+				index = 66
+				male = { 1 = gsk_remilia_1 }
+				female = { 1 = gsk_remilia_1 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_2 = {
+				index = 67
+				male = { 1 = gsk_remilia_2 }
+				female = { 1 = gsk_remilia_2 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_3 = {
+				index = 68
+				male = { 1 = gsk_remilia_3 }
+				female = { 1 = gsk_remilia_3 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_4 = {
+				index = 69
+				male = { 1 = gsk_remilia_4 }
+				female = { 1 = gsk_remilia_4 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_5 = {
+				index = 70
+				male = { 1 = gsk_remilia_5 }
+				female = { 1 = gsk_remilia_5 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_6 = {
+				index = 71
+				male = { 1 = gsk_remilia_6 }
+				female = { 1 = gsk_remilia_6 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_7 = {
+				index = 72
+				male = { 1 = gsk_remilia_7 }
+				female = { 1 = gsk_remilia_7 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_8 = {
+				index = 73
+				male = { 1 = gsk_remilia_8 }
+				female = { 1 = gsk_remilia_8 }
+				boy = male
+				girl = female
+			}
+			gsk_remilia_9 = {
+				index = 74
+				male = { 1 = gsk_remilia_9 }
+				female = { 1 = gsk_remilia_9 }
+				boy = male
+				girl = female
+			}
+			gsk_renko_1 = {
+				index = 75
+				male = { 1 = gsk_renko_1 }
+				female = { 1 = gsk_renko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_ringo_1 = {
+				index = 76
+				male = { 1 = gsk_ringo_1 }
+				female = { 1 = gsk_ringo_1 }
+				boy = male
+				girl = female
+			}
+			gsk_ringo_2 = {
+				index = 77
+				male = { 1 = gsk_ringo_2 }
+				female = { 1 = gsk_ringo_2 }
+				boy = male
+				girl = female
+			}
+			gsk_ringo_3 = {
+				index = 78
+				male = { 1 = gsk_ringo_3 }
+				female = { 1 = gsk_ringo_3 }
+				boy = male
+				girl = female
+			}
+			gsk_ringo_4 = {
+				index = 79
+				male = { 1 = gsk_ringo_4 }
+				female = { 1 = gsk_ringo_4 }
+				boy = male
+				girl = female
+			}
+			gsk_rin_1 = {
+				index = 80
+				male = { 1 = gsk_rin_1 }
+				female = { 1 = gsk_rin_1 }
+				boy = male
+				girl = female
+			}
+			gsk_rin_2 = {
+				index = 81
+				male = { 1 = gsk_rin_2 }
+				female = { 1 = gsk_rin_2 }
+				boy = male
+				girl = female
+			}
+			gsk_rin_3 = {
+				index = 82
+				male = { 1 = gsk_rin_3 }
+				female = { 1 = gsk_rin_3 }
+				boy = male
+				girl = female
+			}
+			gsk_rin_4 = {
+				index = 83
+				male = { 1 = gsk_rin_4 }
+				female = { 1 = gsk_rin_4 }
+				boy = male
+				girl = female
+			}
+			gsk_rumia_1 = {
+				index = 84
+				male = { 1 = gsk_rumia_1 }
+				female = { 1 = gsk_rumia_1 }
+				boy = male
+				girl = female
+			}
+			gsk_rumia_2 = {
+				index = 85
+				male = { 1 = gsk_rumia_2 }
+				female = { 1 = gsk_rumia_2 }
+				boy = male
+				girl = female
+			}
+			gsk_rumia_3 = {
+				index = 86
+				male = { 1 = gsk_rumia_3 }
+				female = { 1 = gsk_rumia_3 }
+				boy = male
+				girl = female
+			}
+			gsk_rumia_4 = {
+				index = 87
+				male = { 1 = gsk_rumia_4 }
+				female = { 1 = gsk_rumia_4 }
+				boy = male
+				girl = female
+			}
 			gsk_sagume_1 = {
-				index = 6
+				index = 88
 				male = { 1 = gsk_sagume_1 }
 				female = { 1 = gsk_sagume_1 }
+				boy = male
+				girl = female
+			}
+			gsk_sagume_2 = {
+				index = 89
+				male = { 1 = gsk_sagume_2 }
+				female = { 1 = gsk_sagume_2 }
+				boy = male
+				girl = female
+			}
+			gsk_sagume_3 = {
+				index = 90
+				male = { 1 = gsk_sagume_3 }
+				female = { 1 = gsk_sagume_3 }
+				boy = male
+				girl = female
+			}
+			gsk_sagume_4 = {
+				index = 91
+				male = { 1 = gsk_sagume_4 }
+				female = { 1 = gsk_sagume_4 }
+				boy = male
+				girl = female
+			}
+			gsk_saki_1 = {
+				index = 92
+				male = { 1 = gsk_saki_1 }
+				female = { 1 = gsk_saki_1 }
+				boy = male
+				girl = female
+			}
+			gsk_saki_2 = {
+				index = 93
+				male = { 1 = gsk_saki_2 }
+				female = { 1 = gsk_saki_2 }
+				boy = male
+				girl = female
+			}
+			gsk_saki_3 = {
+				index = 94
+				male = { 1 = gsk_saki_3 }
+				female = { 1 = gsk_saki_3 }
+				boy = male
+				girl = female
+			}
+			gsk_saki_4 = {
+				index = 95
+				male = { 1 = gsk_saki_4 }
+				female = { 1 = gsk_saki_4 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_10 = {
+				index = 96
+				male = { 1 = gsk_sakuya_10 }
+				female = { 1 = gsk_sakuya_10 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_11 = {
+				index = 97
+				male = { 1 = gsk_sakuya_11 }
+				female = { 1 = gsk_sakuya_11 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_12 = {
+				index = 98
+				male = { 1 = gsk_sakuya_12 }
+				female = { 1 = gsk_sakuya_12 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_13 = {
+				index = 99
+				male = { 1 = gsk_sakuya_13 }
+				female = { 1 = gsk_sakuya_13 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_14 = {
+				index = 100
+				male = { 1 = gsk_sakuya_14 }
+				female = { 1 = gsk_sakuya_14 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_1 = {
+				index = 101
+				male = { 1 = gsk_sakuya_1 }
+				female = { 1 = gsk_sakuya_1 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_2 = {
+				index = 102
+				male = { 1 = gsk_sakuya_2 }
+				female = { 1 = gsk_sakuya_2 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_3 = {
+				index = 103
+				male = { 1 = gsk_sakuya_3 }
+				female = { 1 = gsk_sakuya_3 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_4 = {
+				index = 104
+				male = { 1 = gsk_sakuya_4 }
+				female = { 1 = gsk_sakuya_4 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_5 = {
+				index = 105
+				male = { 1 = gsk_sakuya_5 }
+				female = { 1 = gsk_sakuya_5 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_6 = {
+				index = 106
+				male = { 1 = gsk_sakuya_6 }
+				female = { 1 = gsk_sakuya_6 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_7 = {
+				index = 107
+				male = { 1 = gsk_sakuya_7 }
+				female = { 1 = gsk_sakuya_7 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_8 = {
+				index = 108
+				male = { 1 = gsk_sakuya_8 }
+				female = { 1 = gsk_sakuya_8 }
+				boy = male
+				girl = female
+			}
+			gsk_sakuya_9 = {
+				index = 109
+				male = { 1 = gsk_sakuya_9 }
+				female = { 1 = gsk_sakuya_9 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_10 = {
+				index = 110
+				male = { 1 = gsk_sanae_10 }
+				female = { 1 = gsk_sanae_10 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_11 = {
+				index = 111
+				male = { 1 = gsk_sanae_11 }
+				female = { 1 = gsk_sanae_11 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_12 = {
+				index = 112
+				male = { 1 = gsk_sanae_12 }
+				female = { 1 = gsk_sanae_12 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_1 = {
+				index = 113
+				male = { 1 = gsk_sanae_1 }
+				female = { 1 = gsk_sanae_1 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_2 = {
+				index = 114
+				male = { 1 = gsk_sanae_2 }
+				female = { 1 = gsk_sanae_2 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_3 = {
+				index = 115
+				male = { 1 = gsk_sanae_3 }
+				female = { 1 = gsk_sanae_3 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_4 = {
+				index = 116
+				male = { 1 = gsk_sanae_4 }
+				female = { 1 = gsk_sanae_4 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_5 = {
+				index = 117
+				male = { 1 = gsk_sanae_5 }
+				female = { 1 = gsk_sanae_5 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_6 = {
+				index = 118
+				male = { 1 = gsk_sanae_6 }
+				female = { 1 = gsk_sanae_6 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_7 = {
+				index = 119
+				male = { 1 = gsk_sanae_7 }
+				female = { 1 = gsk_sanae_7 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_8 = {
+				index = 120
+				male = { 1 = gsk_sanae_8 }
+				female = { 1 = gsk_sanae_8 }
+				boy = male
+				girl = female
+			}
+			gsk_sanae_9 = {
+				index = 121
+				male = { 1 = gsk_sanae_9 }
+				female = { 1 = gsk_sanae_9 }
+				boy = male
+				girl = female
+			}
+			gsk_satono_1 = {
+				index = 122
+				male = { 1 = gsk_satono_1 }
+				female = { 1 = gsk_satono_1 }
+				boy = male
+				girl = female
+			}
+			gsk_satono_2 = {
+				index = 123
+				male = { 1 = gsk_satono_2 }
+				female = { 1 = gsk_satono_2 }
+				boy = male
+				girl = female
+			}
+			gsk_satori_1 = {
+				index = 124
+				male = { 1 = gsk_satori_1 }
+				female = { 1 = gsk_satori_1 }
+				boy = male
+				girl = female
+			}
+			gsk_satori_2 = {
+				index = 125
+				male = { 1 = gsk_satori_2 }
+				female = { 1 = gsk_satori_2 }
+				boy = male
+				girl = female
+			}
+			gsk_satori_3 = {
+				index = 126
+				male = { 1 = gsk_satori_3 }
+				female = { 1 = gsk_satori_3 }
+				boy = male
+				girl = female
+			}
+			gsk_satori_4 = {
+				index = 127
+				male = { 1 = gsk_satori_4 }
+				female = { 1 = gsk_satori_4 }
+				boy = male
+				girl = female
+			}
+			gsk_satori_5 = {
+				index = 128
+				male = { 1 = gsk_satori_5 }
+				female = { 1 = gsk_satori_5 }
+				boy = male
+				girl = female
+			}
+			gsk_satori_6 = {
+				index = 129
+				male = { 1 = gsk_satori_6 }
+				female = { 1 = gsk_satori_6 }
+				boy = male
+				girl = female
+			}
+			gsk_satori_7 = {
+				index = 130
+				male = { 1 = gsk_satori_7 }
+				female = { 1 = gsk_satori_7 }
+				boy = male
+				girl = female
+			}
+			gsk_satori_8 = {
+				index = 131
+				male = { 1 = gsk_satori_8 }
+				female = { 1 = gsk_satori_8 }
+				boy = male
+				girl = female
+			}
+			gsk_seiga_1 = {
+				index = 132
+				male = { 1 = gsk_seiga_1 }
+				female = { 1 = gsk_seiga_1 }
+				boy = male
+				girl = female
+			}
+			gsk_seiga_2 = {
+				index = 133
+				male = { 1 = gsk_seiga_2 }
+				female = { 1 = gsk_seiga_2 }
+				boy = male
+				girl = female
+			}
+			gsk_seiga_3 = {
+				index = 134
+				male = { 1 = gsk_seiga_3 }
+				female = { 1 = gsk_seiga_3 }
+				boy = male
+				girl = female
+			}
+			gsk_seiga_4 = {
+				index = 135
+				male = { 1 = gsk_seiga_4 }
+				female = { 1 = gsk_seiga_4 }
+				boy = male
+				girl = female
+			}
+			gsk_seiga_5 = {
+				index = 136
+				male = { 1 = gsk_seiga_5 }
+				female = { 1 = gsk_seiga_5 }
+				boy = male
+				girl = female
+			}
+			gsk_seija_1 = {
+				index = 137
+				male = { 1 = gsk_seija_1 }
+				female = { 1 = gsk_seija_1 }
+				boy = male
+				girl = female
+			}
+			gsk_seija_2 = {
+				index = 138
+				male = { 1 = gsk_seija_2 }
+				female = { 1 = gsk_seija_2 }
+				boy = male
+				girl = female
+			}
+			gsk_seiran_1 = {
+				index = 139
+				male = { 1 = gsk_seiran_1 }
+				female = { 1 = gsk_seiran_1 }
+				boy = male
+				girl = female
+			}
+			gsk_seiran_2 = {
+				index = 140
+				male = { 1 = gsk_seiran_2 }
+				female = { 1 = gsk_seiran_2 }
+				boy = male
+				girl = female
+			}
+			gsk_seiran_3 = {
+				index = 141
+				male = { 1 = gsk_seiran_3 }
+				female = { 1 = gsk_seiran_3 }
+				boy = male
+				girl = female
+			}
+			gsk_seiran_4 = {
+				index = 142
+				male = { 1 = gsk_seiran_4 }
+				female = { 1 = gsk_seiran_4 }
+				boy = male
+				girl = female
+			}
+			gsk_sekibanki_1 = {
+				index = 143
+				male = { 1 = gsk_sekibanki_1 }
+				female = { 1 = gsk_sekibanki_1 }
+				boy = male
+				girl = female
+			}
+			gsk_sekibanki_2 = {
+				index = 144
+				male = { 1 = gsk_sekibanki_2 }
+				female = { 1 = gsk_sekibanki_2 }
+				boy = male
+				girl = female
+			}
+			gsk_shikieiki_1 = {
+				index = 145
+				male = { 1 = gsk_shikieiki_1 }
+				female = { 1 = gsk_shikieiki_1 }
+				boy = male
+				girl = female
+			}
+			gsk_shikieiki_2 = {
+				index = 146
+				male = { 1 = gsk_shikieiki_2 }
+				female = { 1 = gsk_shikieiki_2 }
+				boy = male
+				girl = female
+			}
+			gsk_shikieiki_3 = {
+				index = 147
+				male = { 1 = gsk_shikieiki_3 }
+				female = { 1 = gsk_shikieiki_3 }
+				boy = male
+				girl = female
+			}
+			gsk_shikieiki_4 = {
+				index = 148
+				male = { 1 = gsk_shikieiki_4 }
+				female = { 1 = gsk_shikieiki_4 }
+				boy = male
+				girl = female
+			}
+			gsk_shinmyoumaru_1 = {
+				index = 149
+				male = { 1 = gsk_shinmyoumaru_1 }
+				female = { 1 = gsk_shinmyoumaru_1 }
+				boy = male
+				girl = female
+			}
+			gsk_shinmyoumaru_2 = {
+				index = 150
+				male = { 1 = gsk_shinmyoumaru_2 }
+				female = { 1 = gsk_shinmyoumaru_2 }
+				boy = male
+				girl = female
+			}
+			gsk_shinmyoumaru_3 = {
+				index = 151
+				male = { 1 = gsk_shinmyoumaru_3 }
+				female = { 1 = gsk_shinmyoumaru_3 }
+				boy = male
+				girl = female
+			}
+			gsk_shion_1 = {
+				index = 152
+				male = { 1 = gsk_shion_1 }
+				female = { 1 = gsk_shion_1 }
+				boy = male
+				girl = female
+			}
+			gsk_shion_2 = {
+				index = 153
+				male = { 1 = gsk_shion_2 }
+				female = { 1 = gsk_shion_2 }
+				boy = male
+				girl = female
+			}
+			gsk_shion_3 = {
+				index = 154
+				male = { 1 = gsk_shion_3 }
+				female = { 1 = gsk_shion_3 }
+				boy = male
+				girl = female
+			}
+			gsk_shion_4 = {
+				index = 155
+				male = { 1 = gsk_shion_4 }
+				female = { 1 = gsk_shion_4 }
+				boy = male
+				girl = female
+			}
+			gsk_shion_5 = {
+				index = 156
+				male = { 1 = gsk_shion_5 }
+				female = { 1 = gsk_shion_5 }
+				boy = male
+				girl = female
+			}
+			gsk_shou_1 = {
+				index = 157
+				male = { 1 = gsk_shou_1 }
+				female = { 1 = gsk_shou_1 }
+				boy = male
+				girl = female
+			}
+			gsk_shou_2 = {
+				index = 158
+				male = { 1 = gsk_shou_2 }
+				female = { 1 = gsk_shou_2 }
+				boy = male
+				girl = female
+			}
+			gsk_sizuha_1 = {
+				index = 159
+				male = { 1 = gsk_sizuha_1 }
+				female = { 1 = gsk_sizuha_1 }
+				boy = male
+				girl = female
+			}
+			gsk_sizuha_2 = {
+				index = 160
+				male = { 1 = gsk_sizuha_2 }
+				female = { 1 = gsk_sizuha_2 }
+				boy = male
+				girl = female
+			}
+			gsk_sizuha_3 = {
+				index = 161
+				male = { 1 = gsk_sizuha_3 }
+				female = { 1 = gsk_sizuha_3 }
+				boy = male
+				girl = female
+			}
+			gsk_star_1 = {
+				index = 162
+				male = { 1 = gsk_star_1 }
+				female = { 1 = gsk_star_1 }
+				boy = male
+				girl = female
+			}
+			gsk_star_2 = {
+				index = 163
+				male = { 1 = gsk_star_2 }
+				female = { 1 = gsk_star_2 }
+				boy = male
+				girl = female
+			}
+			gsk_star_3 = {
+				index = 164
+				male = { 1 = gsk_star_3 }
+				female = { 1 = gsk_star_3 }
+				boy = male
+				girl = female
+			}
+			gsk_suika_1 = {
+				index = 165
+				male = { 1 = gsk_suika_1 }
+				female = { 1 = gsk_suika_1 }
+				boy = male
+				girl = female
+			}
+			gsk_suika_2 = {
+				index = 166
+				male = { 1 = gsk_suika_2 }
+				female = { 1 = gsk_suika_2 }
+				boy = male
+				girl = female
+			}
+			gsk_suika_3 = {
+				index = 167
+				male = { 1 = gsk_suika_3 }
+				female = { 1 = gsk_suika_3 }
+				boy = male
+				girl = female
+			}
+			gsk_suika_4 = {
+				index = 168
+				male = { 1 = gsk_suika_4 }
+				female = { 1 = gsk_suika_4 }
+				boy = male
+				girl = female
+			}
+			gsk_suika_5 = {
+				index = 169
+				male = { 1 = gsk_suika_5 }
+				female = { 1 = gsk_suika_5 }
+				boy = male
+				girl = female
+			}
+			gsk_sumireko_1 = {
+				index = 170
+				male = { 1 = gsk_sumireko_1 }
+				female = { 1 = gsk_sumireko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_sumireko_2 = {
+				index = 171
+				male = { 1 = gsk_sumireko_2 }
+				female = { 1 = gsk_sumireko_2 }
+				boy = male
+				girl = female
+			}
+			gsk_sumireko_3 = {
+				index = 172
+				male = { 1 = gsk_sumireko_3 }
+				female = { 1 = gsk_sumireko_3 }
+				boy = male
+				girl = female
+			}
+			gsk_sunny_1 = {
+				index = 173
+				male = { 1 = gsk_sunny_1 }
+				female = { 1 = gsk_sunny_1 }
+				boy = male
+				girl = female
+			}
+			gsk_sunny_2 = {
+				index = 174
+				male = { 1 = gsk_sunny_2 }
+				female = { 1 = gsk_sunny_2 }
+				boy = male
+				girl = female
+			}
+			gsk_sunny_3 = {
+				index = 175
+				male = { 1 = gsk_sunny_3 }
+				female = { 1 = gsk_sunny_3 }
+				boy = male
+				girl = female
+			}
+			gsk_sunny_4 = {
+				index = 176
+				male = { 1 = gsk_sunny_4 }
+				female = { 1 = gsk_sunny_4 }
+				boy = male
+				girl = female
+			}
+			gsk_suwako_1 = {
+				index = 177
+				male = { 1 = gsk_suwako_1 }
+				female = { 1 = gsk_suwako_1 }
+				boy = male
+				girl = female
+			}
+			gsk_suwako_2 = {
+				index = 178
+				male = { 1 = gsk_suwako_2 }
+				female = { 1 = gsk_suwako_2 }
+				boy = male
+				girl = female
+			}
+			gsk_suwako_3 = {
+				index = 179
+				male = { 1 = gsk_suwako_3 }
+				female = { 1 = gsk_suwako_3 }
+				boy = male
+				girl = female
+			}
+			gsk_suwako_4 = {
+				index = 180
+				male = { 1 = gsk_suwako_4 }
+				female = { 1 = gsk_suwako_4 }
+				boy = male
+				girl = female
+			}
+			gsk_suwako_5 = {
+				index = 181
+				male = { 1 = gsk_suwako_5 }
+				female = { 1 = gsk_suwako_5 }
+				boy = male
+				girl = female
+			}
+			gsk_suwako_6 = {
+				index = 182
+				male = { 1 = gsk_suwako_6 }
+				female = { 1 = gsk_suwako_6 }
+				boy = male
+				girl = female
+			}
+			gsk_sweet_1 = {
+				index = 183
+				male = { 1 = gsk_sweet_1 }
+				female = { 1 = gsk_sweet_1 }
+				boy = male
+				girl = female
+			}
+			gsk_sweet_2 = {
+				index = 184
+				male = { 1 = gsk_sweet_2 }
+				female = { 1 = gsk_sweet_2 }
+				boy = male
+				girl = female
+			}
+			gsk_sweet_3 = {
+				index = 185
+				male = { 1 = gsk_sweet_3 }
+				female = { 1 = gsk_sweet_3 }
+				boy = male
+				girl = female
+			}
+			gsk_sweet_4 = {
+				index = 186
+				male = { 1 = gsk_sweet_4 }
+				female = { 1 = gsk_sweet_4 }
+				boy = male
+				girl = female
+			}
+			gsk_takane_1 = {
+				index = 187
+				male = { 1 = gsk_takane_1 }
+				female = { 1 = gsk_takane_1 }
+				boy = male
+				girl = female
+			}
+			gsk_takane_2 = {
+				index = 188
+				male = { 1 = gsk_takane_2 }
+				female = { 1 = gsk_takane_2 }
+				boy = male
+				girl = female
+			}
+			gsk_tenshi_1 = {
+				index = 189
+				male = { 1 = gsk_tenshi_1 }
+				female = { 1 = gsk_tenshi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_tenshi_2 = {
+				index = 190
+				male = { 1 = gsk_tenshi_2 }
+				female = { 1 = gsk_tenshi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_tenshi_3 = {
+				index = 191
+				male = { 1 = gsk_tenshi_3 }
+				female = { 1 = gsk_tenshi_3 }
+				boy = male
+				girl = female
+			}
+			gsk_tenshi_4 = {
+				index = 192
+				male = { 1 = gsk_tenshi_4 }
+				female = { 1 = gsk_tenshi_4 }
+				boy = male
+				girl = female
+			}
+			gsk_tenshi_5 = {
+				index = 193
+				male = { 1 = gsk_tenshi_5 }
+				female = { 1 = gsk_tenshi_5 }
+				boy = male
+				girl = female
+			}
+			gsk_tewi_1 = {
+				index = 194
+				male = { 1 = gsk_tewi_1 }
+				female = { 1 = gsk_tewi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_tewi_2 = {
+				index = 195
+				male = { 1 = gsk_tewi_2 }
+				female = { 1 = gsk_tewi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_tewi_3 = {
+				index = 196
+				male = { 1 = gsk_tewi_3 }
+				female = { 1 = gsk_tewi_3 }
+				boy = male
+				girl = female
+			}
+			gsk_tewi_4 = {
+				index = 197
+				male = { 1 = gsk_tewi_4 }
+				female = { 1 = gsk_tewi_4 }
+				boy = male
+				girl = female
+			}
+			gsk_tewi_5 = {
+				index = 198
+				male = { 1 = gsk_tewi_5 }
+				female = { 1 = gsk_tewi_5 }
+				boy = male
+				girl = female
+			}
+			gsk_toyohime_1 = {
+				index = 199
+				male = { 1 = gsk_toyohime_1 }
+				female = { 1 = gsk_toyohime_1 }
+				boy = male
+				girl = female
+			}
+			gsk_toyohime_2 = {
+				index = 200
+				male = { 1 = gsk_toyohime_2 }
+				female = { 1 = gsk_toyohime_2 }
+				boy = male
+				girl = female
+			}
+			gsk_toyohime_3 = {
+				index = 201
+				male = { 1 = gsk_toyohime_3 }
+				female = { 1 = gsk_toyohime_3 }
+				boy = male
+				girl = female
+			}
+			gsk_toyohime_4 = {
+				index = 202
+				male = { 1 = gsk_toyohime_4 }
+				female = { 1 = gsk_toyohime_4 }
+				boy = male
+				girl = female
+			}
+			gsk_toziko_1 = {
+				index = 203
+				male = { 1 = gsk_toziko_1 }
+				female = { 1 = gsk_toziko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_toziko_2 = {
+				index = 204
+				male = { 1 = gsk_toziko_2 }
+				female = { 1 = gsk_toziko_2 }
+				boy = male
+				girl = female
+			}
+			gsk_toziko_3 = {
+				index = 205
+				male = { 1 = gsk_toziko_3 }
+				female = { 1 = gsk_toziko_3 }
+				boy = male
+				girl = female
+			}
+			gsk_tsukasa_1 = {
+				index = 206
+				male = { 1 = gsk_tsukasa_1 }
+				female = { 1 = gsk_tsukasa_1 }
+				boy = male
+				girl = female
+			}
+			gsk_tsukasa_2 = {
+				index = 207
+				male = { 1 = gsk_tsukasa_2 }
+				female = { 1 = gsk_tsukasa_2 }
+				boy = male
+				girl = female
+			}
+			gsk_urumi_1 = {
+				index = 208
+				male = { 1 = gsk_urumi_1 }
+				female = { 1 = gsk_urumi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_urumi_2 = {
+				index = 209
+				male = { 1 = gsk_urumi_2 }
+				female = { 1 = gsk_urumi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_utsuho_1 = {
+				index = 210
+				male = { 1 = gsk_utsuho_1 }
+				female = { 1 = gsk_utsuho_1 }
+				boy = male
+				girl = female
+			}
+			gsk_utsuho_2 = {
+				index = 211
+				male = { 1 = gsk_utsuho_2 }
+				female = { 1 = gsk_utsuho_2 }
+				boy = male
+				girl = female
+			}
+			gsk_utsuho_3 = {
+				index = 212
+				male = { 1 = gsk_utsuho_3 }
+				female = { 1 = gsk_utsuho_3 }
+				boy = male
+				girl = female
+			}
+			gsk_utsuho_4 = {
+				index = 213
+				male = { 1 = gsk_utsuho_4 }
+				female = { 1 = gsk_utsuho_4 }
+				boy = male
+				girl = female
+			}
+			gsk_wakasagihime_1 = {
+				index = 214
+				male = { 1 = gsk_wakasagihime_1 }
+				female = { 1 = gsk_wakasagihime_1 }
+				boy = male
+				girl = female
+			}
+			gsk_wakasagihime_2 = {
+				index = 215
+				male = { 1 = gsk_wakasagihime_2 }
+				female = { 1 = gsk_wakasagihime_2 }
+				boy = male
+				girl = female
+			}
+			gsk_whiterock_1 = {
+				index = 216
+				male = { 1 = gsk_whiterock_1 }
+				female = { 1 = gsk_whiterock_1 }
+				boy = male
+				girl = female
+			}
+			gsk_whiterock_2 = {
+				index = 217
+				male = { 1 = gsk_whiterock_2 }
+				female = { 1 = gsk_whiterock_2 }
+				boy = male
+				girl = female
+			}
+			gsk_whiterock_3 = {
+				index = 218
+				male = { 1 = gsk_whiterock_3 }
+				female = { 1 = gsk_whiterock_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yachie_1 = {
+				index = 219
+				male = { 1 = gsk_yachie_1 }
+				female = { 1 = gsk_yachie_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yachie_2 = {
+				index = 220
+				male = { 1 = gsk_yachie_2 }
+				female = { 1 = gsk_yachie_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yachie_3 = {
+				index = 221
+				male = { 1 = gsk_yachie_3 }
+				female = { 1 = gsk_yachie_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yachie_4 = {
+				index = 222
+				male = { 1 = gsk_yachie_4 }
+				female = { 1 = gsk_yachie_4 }
+				boy = male
+				girl = female
+			}
+			gsk_yamame_1 = {
+				index = 223
+				male = { 1 = gsk_yamame_1 }
+				female = { 1 = gsk_yamame_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yamame_2 = {
+				index = 224
+				male = { 1 = gsk_yamame_2 }
+				female = { 1 = gsk_yamame_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yatsuhashi_1 = {
+				index = 225
+				male = { 1 = gsk_yatsuhashi_1 }
+				female = { 1 = gsk_yatsuhashi_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yatsuhashi_2 = {
+				index = 226
+				male = { 1 = gsk_yatsuhashi_2 }
+				female = { 1 = gsk_yatsuhashi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yatsuhashi_3 = {
+				index = 227
+				male = { 1 = gsk_yatsuhashi_3 }
+				female = { 1 = gsk_yatsuhashi_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yorihime_1 = {
+				index = 228
+				male = { 1 = gsk_yorihime_1 }
+				female = { 1 = gsk_yorihime_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yorihime_2 = {
+				index = 229
+				male = { 1 = gsk_yorihime_2 }
+				female = { 1 = gsk_yorihime_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yorihime_3 = {
+				index = 230
+				male = { 1 = gsk_yorihime_3 }
+				female = { 1 = gsk_yorihime_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yorihime_4 = {
+				index = 231
+				male = { 1 = gsk_yorihime_4 }
+				female = { 1 = gsk_yorihime_4 }
+				boy = male
+				girl = female
+			}
+			gsk_yorihime_5 = {
+				index = 232
+				male = { 1 = gsk_yorihime_5 }
+				female = { 1 = gsk_yorihime_5 }
+				boy = male
+				girl = female
+			}
+			gsk_yorihime_6 = {
+				index = 233
+				male = { 1 = gsk_yorihime_6 }
+				female = { 1 = gsk_yorihime_6 }
+				boy = male
+				girl = female
+			}
+			gsk_yorihime_7 = {
+				index = 234
+				male = { 1 = gsk_yorihime_7 }
+				female = { 1 = gsk_yorihime_7 }
+				boy = male
+				girl = female
+			}
+			gsk_yoshika_1 = {
+				index = 235
+				male = { 1 = gsk_yoshika_1 }
+				female = { 1 = gsk_yoshika_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yoshika_2 = {
+				index = 236
+				male = { 1 = gsk_yoshika_2 }
+				female = { 1 = gsk_yoshika_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yoshika_3 = {
+				index = 237
+				male = { 1 = gsk_yoshika_3 }
+				female = { 1 = gsk_yoshika_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yoshika_4 = {
+				index = 238
+				male = { 1 = gsk_yoshika_4 }
+				female = { 1 = gsk_yoshika_4 }
+				boy = male
+				girl = female
+			}
+			gsk_yoshika_5 = {
+				index = 239
+				male = { 1 = gsk_yoshika_5 }
+				female = { 1 = gsk_yoshika_5 }
+				boy = male
+				girl = female
+			}
+			gsk_youka_1 = {
+				index = 240
+				male = { 1 = gsk_youka_1 }
+				female = { 1 = gsk_youka_1 }
+				boy = male
+				girl = female
+			}
+			gsk_youka_2 = {
+				index = 241
+				male = { 1 = gsk_youka_2 }
+				female = { 1 = gsk_youka_2 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_10 = {
+				index = 242
+				male = { 1 = gsk_youmu_10 }
+				female = { 1 = gsk_youmu_10 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_11 = {
+				index = 243
+				male = { 1 = gsk_youmu_11 }
+				female = { 1 = gsk_youmu_11 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_12 = {
+				index = 244
+				male = { 1 = gsk_youmu_12 }
+				female = { 1 = gsk_youmu_12 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_13 = {
+				index = 245
+				male = { 1 = gsk_youmu_13 }
+				female = { 1 = gsk_youmu_13 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_1 = {
+				index = 246
+				male = { 1 = gsk_youmu_1 }
+				female = { 1 = gsk_youmu_1 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_2 = {
+				index = 247
+				male = { 1 = gsk_youmu_2 }
+				female = { 1 = gsk_youmu_2 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_3 = {
+				index = 248
+				male = { 1 = gsk_youmu_3 }
+				female = { 1 = gsk_youmu_3 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_4 = {
+				index = 249
+				male = { 1 = gsk_youmu_4 }
+				female = { 1 = gsk_youmu_4 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_5 = {
+				index = 250
+				male = { 1 = gsk_youmu_5 }
+				female = { 1 = gsk_youmu_5 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_6 = {
+				index = 251
+				male = { 1 = gsk_youmu_6 }
+				female = { 1 = gsk_youmu_6 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_7 = {
+				index = 252
+				male = { 1 = gsk_youmu_7 }
+				female = { 1 = gsk_youmu_7 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_8 = {
+				index = 253
+				male = { 1 = gsk_youmu_8 }
+				female = { 1 = gsk_youmu_8 }
+				boy = male
+				girl = female
+			}
+			gsk_youmu_9 = {
+				index = 254
+				male = { 1 = gsk_youmu_9 }
+				female = { 1 = gsk_youmu_9 }
+				boy = male
+				girl = female
+			}
+			gsk_yugi_1 = {
+				index = 255
+				male = { 1 = gsk_yugi_1 }
+				female = { 1 = gsk_yugi_1 }
+				boy = male
+				girl = female
+			}
+		}
+		touhou_props_3 = {
+			gsk_yugi_2 = {
+				index = 1
+				male = { 1 = gsk_yugi_2 }
+				female = { 1 = gsk_yugi_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yugi_3 = {
+				index = 2
+				male = { 1 = gsk_yugi_3 }
+				female = { 1 = gsk_yugi_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yugi_4 = {
+				index = 3
+				male = { 1 = gsk_yugi_4 }
+				female = { 1 = gsk_yugi_4 }
+				boy = male
+				girl = female
+			}
+			gsk_yugi_5 = {
+				index = 4
+				male = { 1 = gsk_yugi_5 }
+				female = { 1 = gsk_yugi_5 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_1 = {
+				index = 5
+				male = { 1 = gsk_yukari_1 }
+				female = { 1 = gsk_yukari_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_2 = {
+				index = 6
+				male = { 1 = gsk_yukari_2 }
+				female = { 1 = gsk_yukari_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_3 = {
+				index = 7
+				male = { 1 = gsk_yukari_3 }
+				female = { 1 = gsk_yukari_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_4 = {
+				index = 8
+				male = { 1 = gsk_yukari_4 }
+				female = { 1 = gsk_yukari_4 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_5 = {
+				index = 9
+				male = { 1 = gsk_yukari_5 }
+				female = { 1 = gsk_yukari_5 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_6 = {
+				index = 10
+				male = { 1 = gsk_yukari_6 }
+				female = { 1 = gsk_yukari_6 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_7 = {
+				index = 11
+				male = { 1 = gsk_yukari_7 }
+				female = { 1 = gsk_yukari_7 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_8 = {
+				index = 12
+				male = { 1 = gsk_yukari_8 }
+				female = { 1 = gsk_yukari_8 }
+				boy = male
+				girl = female
+			}
+			gsk_yukari_9 = {
+				index = 13
+				male = { 1 = gsk_yukari_9 }
+				female = { 1 = gsk_yukari_9 }
+				boy = male
+				girl = female
+			}
+			gsk_yuka_1 = {
+				index = 14
+				male = { 1 = gsk_yuka_1 }
+				female = { 1 = gsk_yuka_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yuka_2 = {
+				index = 15
+				male = { 1 = gsk_yuka_2 }
+				female = { 1 = gsk_yuka_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yuka_3 = {
+				index = 16
+				male = { 1 = gsk_yuka_3 }
+				female = { 1 = gsk_yuka_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yuka_4 = {
+				index = 17
+				male = { 1 = gsk_yuka_4 }
+				female = { 1 = gsk_yuka_4 }
+				boy = male
+				girl = female
+			}
+			gsk_yuma_1 = {
+				index = 18
+				male = { 1 = gsk_yuma_1 }
+				female = { 1 = gsk_yuma_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yuma_2 = {
+				index = 19
+				male = { 1 = gsk_yuma_2 }
+				female = { 1 = gsk_yuma_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_10 = {
+				index = 20
+				male = { 1 = gsk_yuyuko_10 }
+				female = { 1 = gsk_yuyuko_10 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_1 = {
+				index = 21
+				male = { 1 = gsk_yuyuko_1 }
+				female = { 1 = gsk_yuyuko_1 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_2 = {
+				index = 22
+				male = { 1 = gsk_yuyuko_2 }
+				female = { 1 = gsk_yuyuko_2 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_3 = {
+				index = 23
+				male = { 1 = gsk_yuyuko_3 }
+				female = { 1 = gsk_yuyuko_3 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_4 = {
+				index = 24
+				male = { 1 = gsk_yuyuko_4 }
+				female = { 1 = gsk_yuyuko_4 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_5 = {
+				index = 25
+				male = { 1 = gsk_yuyuko_5 }
+				female = { 1 = gsk_yuyuko_5 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_6 = {
+				index = 26
+				male = { 1 = gsk_yuyuko_6 }
+				female = { 1 = gsk_yuyuko_6 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_7 = {
+				index = 27
+				male = { 1 = gsk_yuyuko_7 }
+				female = { 1 = gsk_yuyuko_7 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_8 = {
+				index = 28
+				male = { 1 = gsk_yuyuko_8 }
+				female = { 1 = gsk_yuyuko_8 }
+				boy = male
+				girl = female
+			}
+			gsk_yuyuko_9 = {
+				index = 29
+				male = { 1 = gsk_yuyuko_9 }
+				female = { 1 = gsk_yuyuko_9 }
 				boy = male
 				girl = female
 			}

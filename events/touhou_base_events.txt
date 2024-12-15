@@ -18,7 +18,10 @@ touhou_base_events.001 = { # pick your starter pokemon
 	option = {
 		name = touhou_base_events.001.a
 		hidden_effect = {
-            create_touhou_character = { NAME = reimu }
+			create_touhou_character = { NAME = akyuu }
+			create_touhou_character = { NAME = alice }
+			create_touhou_character = { NAME = aun }
+			create_touhou_character = { NAME = aya }
 		}	
 	}
 	option = {

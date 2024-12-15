@@ -1,22 +1,4 @@
-﻿gsk_reimu = {
-	flag = touhou
-	diplomacy = 1
-	martial = 1
-	stewardship = 1
-	intrigue = 1
-	learning = 1
-	general_opinion = 15
-	icon = "trait_gsk_reimu.dds"
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = { NOT = { exists = this } }
-				desc = trait_gsk_reimu_desc
-			}
-			desc = trait_gsk_reimu_character_desc
-		}
-	}
-}
+﻿
 gsk_akyuu = {
 	flag = touhou
 	diplomacy = 1
@@ -36,3 +18,10764 @@ gsk_akyuu = {
 		}
 	}
 }
+    
+gsk_akyuu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_akyuu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_akyuu_desc
+			}
+			desc = trait_gsk_akyuu_character_desc
+		}
+	}
+}
+    
+gsk_akyuu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_akyuu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_akyuu_desc
+			}
+			desc = trait_gsk_akyuu_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_alice = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_alice.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_alice_desc
+			}
+			desc = trait_gsk_alice_character_desc
+		}
+	}
+}
+    
+gsk_aun = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aun.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aun_desc
+			}
+			desc = trait_gsk_aun_character_desc
+		}
+	}
+}
+    
+gsk_aun = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aun.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aun_desc
+			}
+			desc = trait_gsk_aun_character_desc
+		}
+	}
+}
+    
+gsk_aya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aya_desc
+			}
+			desc = trait_gsk_aya_character_desc
+		}
+	}
+}
+    
+gsk_aya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aya_desc
+			}
+			desc = trait_gsk_aya_character_desc
+		}
+	}
+}
+    
+gsk_aya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aya_desc
+			}
+			desc = trait_gsk_aya_character_desc
+		}
+	}
+}
+    
+gsk_aya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aya_desc
+			}
+			desc = trait_gsk_aya_character_desc
+		}
+	}
+}
+    
+gsk_aya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aya_desc
+			}
+			desc = trait_gsk_aya_character_desc
+		}
+	}
+}
+    
+gsk_aya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aya_desc
+			}
+			desc = trait_gsk_aya_character_desc
+		}
+	}
+}
+    
+gsk_aya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_aya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_aya_desc
+			}
+			desc = trait_gsk_aya_character_desc
+		}
+	}
+}
+    
+gsk_benben = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_benben.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_benben_desc
+			}
+			desc = trait_gsk_benben_character_desc
+		}
+	}
+}
+    
+gsk_benben = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_benben.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_benben_desc
+			}
+			desc = trait_gsk_benben_character_desc
+		}
+	}
+}
+    
+gsk_benben = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_benben.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_benben_desc
+			}
+			desc = trait_gsk_benben_character_desc
+		}
+	}
+}
+    
+gsk_byakuren = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_byakuren.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_byakuren_desc
+			}
+			desc = trait_gsk_byakuren_character_desc
+		}
+	}
+}
+    
+gsk_byakuren = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_byakuren.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_byakuren_desc
+			}
+			desc = trait_gsk_byakuren_character_desc
+		}
+	}
+}
+    
+gsk_byakuren = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_byakuren.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_byakuren_desc
+			}
+			desc = trait_gsk_byakuren_character_desc
+		}
+	}
+}
+    
+gsk_byakuren = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_byakuren.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_byakuren_desc
+			}
+			desc = trait_gsk_byakuren_character_desc
+		}
+	}
+}
+    
+gsk_byakuren = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_byakuren.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_byakuren_desc
+			}
+			desc = trait_gsk_byakuren_character_desc
+		}
+	}
+}
+    
+gsk_byakuren = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_byakuren.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_byakuren_desc
+			}
+			desc = trait_gsk_byakuren_character_desc
+		}
+	}
+}
+    
+gsk_byakuren = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_byakuren.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_byakuren_desc
+			}
+			desc = trait_gsk_byakuren_character_desc
+		}
+	}
+}
+    
+gsk_chen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_chen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_chen_desc
+			}
+			desc = trait_gsk_chen_character_desc
+		}
+	}
+}
+    
+gsk_chen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_chen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_chen_desc
+			}
+			desc = trait_gsk_chen_character_desc
+		}
+	}
+}
+    
+gsk_chen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_chen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_chen_desc
+			}
+			desc = trait_gsk_chen_character_desc
+		}
+	}
+}
+    
+gsk_chen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_chen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_chen_desc
+			}
+			desc = trait_gsk_chen_character_desc
+		}
+	}
+}
+    
+gsk_chen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_chen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_chen_desc
+			}
+			desc = trait_gsk_chen_character_desc
+		}
+	}
+}
+    
+gsk_chen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_chen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_chen_desc
+			}
+			desc = trait_gsk_chen_character_desc
+		}
+	}
+}
+    
+gsk_chimata = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_chimata.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_chimata_desc
+			}
+			desc = trait_gsk_chimata_character_desc
+		}
+	}
+}
+    
+gsk_chimata = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_chimata.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_chimata_desc
+			}
+			desc = trait_gsk_chimata_character_desc
+		}
+	}
+}
+    
+gsk_cirno = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_cirno.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_cirno_desc
+			}
+			desc = trait_gsk_cirno_character_desc
+		}
+	}
+}
+    
+gsk_cirno = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_cirno.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_cirno_desc
+			}
+			desc = trait_gsk_cirno_character_desc
+		}
+	}
+}
+    
+gsk_cirno = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_cirno.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_cirno_desc
+			}
+			desc = trait_gsk_cirno_character_desc
+		}
+	}
+}
+    
+gsk_cirno = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_cirno.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_cirno_desc
+			}
+			desc = trait_gsk_cirno_character_desc
+		}
+	}
+}
+    
+gsk_clownpiece = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_clownpiece.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_clownpiece_desc
+			}
+			desc = trait_gsk_clownpiece_character_desc
+		}
+	}
+}
+    
+gsk_clownpiece = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_clownpiece.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_clownpiece_desc
+			}
+			desc = trait_gsk_clownpiece_character_desc
+		}
+	}
+}
+    
+gsk_clownpiece = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_clownpiece.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_clownpiece_desc
+			}
+			desc = trait_gsk_clownpiece_character_desc
+		}
+	}
+}
+    
+gsk_daiyousei = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_daiyousei.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_daiyousei_desc
+			}
+			desc = trait_gsk_daiyousei_character_desc
+		}
+	}
+}
+    
+gsk_daiyousei = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_daiyousei.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_daiyousei_desc
+			}
+			desc = trait_gsk_daiyousei_character_desc
+		}
+	}
+}
+    
+gsk_daiyousei = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_daiyousei.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_daiyousei_desc
+			}
+			desc = trait_gsk_daiyousei_character_desc
+		}
+	}
+}
+    
+gsk_daiyousei = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_daiyousei.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_daiyousei_desc
+			}
+			desc = trait_gsk_daiyousei_character_desc
+		}
+	}
+}
+    
+gsk_eirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_eirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_eirin_desc
+			}
+			desc = trait_gsk_eirin_character_desc
+		}
+	}
+}
+    
+gsk_eirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_eirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_eirin_desc
+			}
+			desc = trait_gsk_eirin_character_desc
+		}
+	}
+}
+    
+gsk_eirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_eirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_eirin_desc
+			}
+			desc = trait_gsk_eirin_character_desc
+		}
+	}
+}
+    
+gsk_eirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_eirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_eirin_desc
+			}
+			desc = trait_gsk_eirin_character_desc
+		}
+	}
+}
+    
+gsk_eirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_eirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_eirin_desc
+			}
+			desc = trait_gsk_eirin_character_desc
+		}
+	}
+}
+    
+gsk_flandre_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre__desc
+			}
+			desc = trait_gsk_flandre__character_desc
+		}
+	}
+}
+    
+gsk_flandre_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre__desc
+			}
+			desc = trait_gsk_flandre__character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_flandre = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_flandre.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_flandre_desc
+			}
+			desc = trait_gsk_flandre_character_desc
+		}
+	}
+}
+    
+gsk_futo = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_futo.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_futo_desc
+			}
+			desc = trait_gsk_futo_character_desc
+		}
+	}
+}
+    
+gsk_futo = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_futo.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_futo_desc
+			}
+			desc = trait_gsk_futo_character_desc
+		}
+	}
+}
+    
+gsk_futo = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_futo.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_futo_desc
+			}
+			desc = trait_gsk_futo_character_desc
+		}
+	}
+}
+    
+gsk_hatate = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_hatate.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_hatate_desc
+			}
+			desc = trait_gsk_hatate_character_desc
+		}
+	}
+}
+    
+gsk_hatate = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_hatate.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_hatate_desc
+			}
+			desc = trait_gsk_hatate_character_desc
+		}
+	}
+}
+    
+gsk_hatate = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_hatate.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_hatate_desc
+			}
+			desc = trait_gsk_hatate_character_desc
+		}
+	}
+}
+    
+gsk_hearn = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_hearn.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_hearn_desc
+			}
+			desc = trait_gsk_hearn_character_desc
+		}
+	}
+}
+    
+gsk_himemushi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_himemushi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_himemushi_desc
+			}
+			desc = trait_gsk_himemushi_character_desc
+		}
+	}
+}
+    
+gsk_hina = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_hina.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_hina_desc
+			}
+			desc = trait_gsk_hina_character_desc
+		}
+	}
+}
+    
+gsk_hina = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_hina.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_hina_desc
+			}
+			desc = trait_gsk_hina_character_desc
+		}
+	}
+}
+    
+gsk_hina = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_hina.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_hina_desc
+			}
+			desc = trait_gsk_hina_character_desc
+		}
+	}
+}
+    
+gsk_ichirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ichirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ichirin_desc
+			}
+			desc = trait_gsk_ichirin_character_desc
+		}
+	}
+}
+    
+gsk_ichirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ichirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ichirin_desc
+			}
+			desc = trait_gsk_ichirin_character_desc
+		}
+	}
+}
+    
+gsk_ichirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ichirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ichirin_desc
+			}
+			desc = trait_gsk_ichirin_character_desc
+		}
+	}
+}
+    
+gsk_iku = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_iku.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_iku_desc
+			}
+			desc = trait_gsk_iku_character_desc
+		}
+	}
+}
+    
+gsk_iku = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_iku.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_iku_desc
+			}
+			desc = trait_gsk_iku_character_desc
+		}
+	}
+}
+    
+gsk_junko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_junko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_junko_desc
+			}
+			desc = trait_gsk_junko_character_desc
+		}
+	}
+}
+    
+gsk_junko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_junko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_junko_desc
+			}
+			desc = trait_gsk_junko_character_desc
+		}
+	}
+}
+    
+gsk_junko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_junko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_junko_desc
+			}
+			desc = trait_gsk_junko_character_desc
+		}
+	}
+}
+    
+gsk_junko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_junko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_junko_desc
+			}
+			desc = trait_gsk_junko_character_desc
+		}
+	}
+}
+    
+gsk_jyoon = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_jyoon.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_jyoon_desc
+			}
+			desc = trait_gsk_jyoon_character_desc
+		}
+	}
+}
+    
+gsk_jyoon = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_jyoon.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_jyoon_desc
+			}
+			desc = trait_gsk_jyoon_character_desc
+		}
+	}
+}
+    
+gsk_jyoon = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_jyoon.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_jyoon_desc
+			}
+			desc = trait_gsk_jyoon_character_desc
+		}
+	}
+}
+    
+gsk_jyoon = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_jyoon.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_jyoon_desc
+			}
+			desc = trait_gsk_jyoon_character_desc
+		}
+	}
+}
+    
+gsk_jyoon = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_jyoon.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_jyoon_desc
+			}
+			desc = trait_gsk_jyoon_character_desc
+		}
+	}
+}
+    
+gsk_kagerou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kagerou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kagerou_desc
+			}
+			desc = trait_gsk_kagerou_character_desc
+		}
+	}
+}
+    
+gsk_kagerou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kagerou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kagerou_desc
+			}
+			desc = trait_gsk_kagerou_character_desc
+		}
+	}
+}
+    
+gsk_kaguya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kaguya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kaguya_desc
+			}
+			desc = trait_gsk_kaguya_character_desc
+		}
+	}
+}
+    
+gsk_kaguya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kaguya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kaguya_desc
+			}
+			desc = trait_gsk_kaguya_character_desc
+		}
+	}
+}
+    
+gsk_kaguya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kaguya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kaguya_desc
+			}
+			desc = trait_gsk_kaguya_character_desc
+		}
+	}
+}
+    
+gsk_kaguya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kaguya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kaguya_desc
+			}
+			desc = trait_gsk_kaguya_character_desc
+		}
+	}
+}
+    
+gsk_kaguya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kaguya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kaguya_desc
+			}
+			desc = trait_gsk_kaguya_character_desc
+		}
+	}
+}
+    
+gsk_kanako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kanako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kanako_desc
+			}
+			desc = trait_gsk_kanako_character_desc
+		}
+	}
+}
+    
+gsk_kanako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kanako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kanako_desc
+			}
+			desc = trait_gsk_kanako_character_desc
+		}
+	}
+}
+    
+gsk_kanako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kanako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kanako_desc
+			}
+			desc = trait_gsk_kanako_character_desc
+		}
+	}
+}
+    
+gsk_kanako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kanako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kanako_desc
+			}
+			desc = trait_gsk_kanako_character_desc
+		}
+	}
+}
+    
+gsk_kanako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kanako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kanako_desc
+			}
+			desc = trait_gsk_kanako_character_desc
+		}
+	}
+}
+    
+gsk_kanako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kanako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kanako_desc
+			}
+			desc = trait_gsk_kanako_character_desc
+		}
+	}
+}
+    
+gsk_kanako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kanako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kanako_desc
+			}
+			desc = trait_gsk_kanako_character_desc
+		}
+	}
+}
+    
+gsk_kasen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kasen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kasen_desc
+			}
+			desc = trait_gsk_kasen_character_desc
+		}
+	}
+}
+    
+gsk_kasen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kasen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kasen_desc
+			}
+			desc = trait_gsk_kasen_character_desc
+		}
+	}
+}
+    
+gsk_kasen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kasen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kasen_desc
+			}
+			desc = trait_gsk_kasen_character_desc
+		}
+	}
+}
+    
+gsk_kasen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kasen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kasen_desc
+			}
+			desc = trait_gsk_kasen_character_desc
+		}
+	}
+}
+    
+gsk_kasen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kasen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kasen_desc
+			}
+			desc = trait_gsk_kasen_character_desc
+		}
+	}
+}
+    
+gsk_kasen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kasen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kasen_desc
+			}
+			desc = trait_gsk_kasen_character_desc
+		}
+	}
+}
+    
+gsk_kasen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kasen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kasen_desc
+			}
+			desc = trait_gsk_kasen_character_desc
+		}
+	}
+}
+    
+gsk_keiki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_keiki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_keiki_desc
+			}
+			desc = trait_gsk_keiki_character_desc
+		}
+	}
+}
+    
+gsk_keiki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_keiki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_keiki_desc
+			}
+			desc = trait_gsk_keiki_character_desc
+		}
+	}
+}
+    
+gsk_keine = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_keine.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_keine_desc
+			}
+			desc = trait_gsk_keine_character_desc
+		}
+	}
+}
+    
+gsk_keine = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_keine.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_keine_desc
+			}
+			desc = trait_gsk_keine_character_desc
+		}
+	}
+}
+    
+gsk_keine = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_keine.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_keine_desc
+			}
+			desc = trait_gsk_keine_character_desc
+		}
+	}
+}
+    
+gsk_keine = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_keine.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_keine_desc
+			}
+			desc = trait_gsk_keine_character_desc
+		}
+	}
+}
+    
+gsk_keine = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_keine.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_keine_desc
+			}
+			desc = trait_gsk_keine_character_desc
+		}
+	}
+}
+    
+gsk_kisume = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kisume.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kisume_desc
+			}
+			desc = trait_gsk_kisume_character_desc
+		}
+	}
+}
+    
+gsk_kisume = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kisume.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kisume_desc
+			}
+			desc = trait_gsk_kisume_character_desc
+		}
+	}
+}
+    
+gsk_koakuma = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koakuma.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koakuma_desc
+			}
+			desc = trait_gsk_koakuma_character_desc
+		}
+	}
+}
+    
+gsk_koakuma = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koakuma.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koakuma_desc
+			}
+			desc = trait_gsk_koakuma_character_desc
+		}
+	}
+}
+    
+gsk_koakuma = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koakuma.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koakuma_desc
+			}
+			desc = trait_gsk_koakuma_character_desc
+		}
+	}
+}
+    
+gsk_koakuma = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koakuma.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koakuma_desc
+			}
+			desc = trait_gsk_koakuma_character_desc
+		}
+	}
+}
+    
+gsk_koakuma = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koakuma.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koakuma_desc
+			}
+			desc = trait_gsk_koakuma_character_desc
+		}
+	}
+}
+    
+gsk_koakuma = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koakuma.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koakuma_desc
+			}
+			desc = trait_gsk_koakuma_character_desc
+		}
+	}
+}
+    
+gsk_kogasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kogasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kogasa_desc
+			}
+			desc = trait_gsk_kogasa_character_desc
+		}
+	}
+}
+    
+gsk_kogasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kogasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kogasa_desc
+			}
+			desc = trait_gsk_kogasa_character_desc
+		}
+	}
+}
+    
+gsk_kogasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kogasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kogasa_desc
+			}
+			desc = trait_gsk_kogasa_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_koishi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_koishi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_koishi_desc
+			}
+			desc = trait_gsk_koishi_character_desc
+		}
+	}
+}
+    
+gsk_kokoro = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kokoro.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kokoro_desc
+			}
+			desc = trait_gsk_kokoro_character_desc
+		}
+	}
+}
+    
+gsk_kokoro = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kokoro.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kokoro_desc
+			}
+			desc = trait_gsk_kokoro_character_desc
+		}
+	}
+}
+    
+gsk_kokoro = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kokoro.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kokoro_desc
+			}
+			desc = trait_gsk_kokoro_character_desc
+		}
+	}
+}
+    
+gsk_kokoro = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kokoro.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kokoro_desc
+			}
+			desc = trait_gsk_kokoro_character_desc
+		}
+	}
+}
+    
+gsk_kokoro = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kokoro.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kokoro_desc
+			}
+			desc = trait_gsk_kokoro_character_desc
+		}
+	}
+}
+    
+gsk_kokoro = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kokoro.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kokoro_desc
+			}
+			desc = trait_gsk_kokoro_character_desc
+		}
+	}
+}
+    
+gsk_komachi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_komachi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_komachi_desc
+			}
+			desc = trait_gsk_komachi_character_desc
+		}
+	}
+}
+    
+gsk_komachi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_komachi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_komachi_desc
+			}
+			desc = trait_gsk_komachi_character_desc
+		}
+	}
+}
+    
+gsk_komachi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_komachi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_komachi_desc
+			}
+			desc = trait_gsk_komachi_character_desc
+		}
+	}
+}
+    
+gsk_komachi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_komachi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_komachi_desc
+			}
+			desc = trait_gsk_komachi_character_desc
+		}
+	}
+}
+    
+gsk_kosuzu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kosuzu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kosuzu_desc
+			}
+			desc = trait_gsk_kosuzu_character_desc
+		}
+	}
+}
+    
+gsk_kosuzu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kosuzu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kosuzu_desc
+			}
+			desc = trait_gsk_kosuzu_character_desc
+		}
+	}
+}
+    
+gsk_kosuzu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kosuzu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kosuzu_desc
+			}
+			desc = trait_gsk_kosuzu_character_desc
+		}
+	}
+}
+    
+gsk_kutaka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kutaka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kutaka_desc
+			}
+			desc = trait_gsk_kutaka_character_desc
+		}
+	}
+}
+    
+gsk_kutaka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kutaka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kutaka_desc
+			}
+			desc = trait_gsk_kutaka_character_desc
+		}
+	}
+}
+    
+gsk_kutaka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kutaka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kutaka_desc
+			}
+			desc = trait_gsk_kutaka_character_desc
+		}
+	}
+}
+    
+gsk_kutaka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kutaka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kutaka_desc
+			}
+			desc = trait_gsk_kutaka_character_desc
+		}
+	}
+}
+    
+gsk_kyouko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kyouko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kyouko_desc
+			}
+			desc = trait_gsk_kyouko_character_desc
+		}
+	}
+}
+    
+gsk_kyouko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_kyouko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_kyouko_desc
+			}
+			desc = trait_gsk_kyouko_character_desc
+		}
+	}
+}
+    
+gsk_lapislazuli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lapislazuli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lapislazuli_desc
+			}
+			desc = trait_gsk_lapislazuli_character_desc
+		}
+	}
+}
+    
+gsk_lapislazuli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lapislazuli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lapislazuli_desc
+			}
+			desc = trait_gsk_lapislazuli_character_desc
+		}
+	}
+}
+    
+gsk_lapislazuli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lapislazuli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lapislazuli_desc
+			}
+			desc = trait_gsk_lapislazuli_character_desc
+		}
+	}
+}
+    
+gsk_lapislazuli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lapislazuli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lapislazuli_desc
+			}
+			desc = trait_gsk_lapislazuli_character_desc
+		}
+	}
+}
+    
+gsk_lapislazuli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lapislazuli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lapislazuli_desc
+			}
+			desc = trait_gsk_lapislazuli_character_desc
+		}
+	}
+}
+    
+gsk_larva = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_larva.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_larva_desc
+			}
+			desc = trait_gsk_larva_character_desc
+		}
+	}
+}
+    
+gsk_larva = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_larva.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_larva_desc
+			}
+			desc = trait_gsk_larva_character_desc
+		}
+	}
+}
+    
+gsk_lilywhite = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lilywhite.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lilywhite_desc
+			}
+			desc = trait_gsk_lilywhite_character_desc
+		}
+	}
+}
+    
+gsk_lilywhite = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lilywhite.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lilywhite_desc
+			}
+			desc = trait_gsk_lilywhite_character_desc
+		}
+	}
+}
+    
+gsk_lilywhite = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lilywhite.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lilywhite_desc
+			}
+			desc = trait_gsk_lilywhite_character_desc
+		}
+	}
+}
+    
+gsk_lunasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lunasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lunasa_desc
+			}
+			desc = trait_gsk_lunasa_character_desc
+		}
+	}
+}
+    
+gsk_lunasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lunasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lunasa_desc
+			}
+			desc = trait_gsk_lunasa_character_desc
+		}
+	}
+}
+    
+gsk_lunasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lunasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lunasa_desc
+			}
+			desc = trait_gsk_lunasa_character_desc
+		}
+	}
+}
+    
+gsk_lunasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lunasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lunasa_desc
+			}
+			desc = trait_gsk_lunasa_character_desc
+		}
+	}
+}
+    
+gsk_lunasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lunasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lunasa_desc
+			}
+			desc = trait_gsk_lunasa_character_desc
+		}
+	}
+}
+    
+gsk_luna = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_luna.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_luna_desc
+			}
+			desc = trait_gsk_luna_character_desc
+		}
+	}
+}
+    
+gsk_luna = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_luna.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_luna_desc
+			}
+			desc = trait_gsk_luna_character_desc
+		}
+	}
+}
+    
+gsk_luna = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_luna.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_luna_desc
+			}
+			desc = trait_gsk_luna_character_desc
+		}
+	}
+}
+    
+gsk_lyrica = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lyrica.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lyrica_desc
+			}
+			desc = trait_gsk_lyrica_character_desc
+		}
+	}
+}
+    
+gsk_lyrica = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lyrica.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lyrica_desc
+			}
+			desc = trait_gsk_lyrica_character_desc
+		}
+	}
+}
+    
+gsk_lyrica = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lyrica.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lyrica_desc
+			}
+			desc = trait_gsk_lyrica_character_desc
+		}
+	}
+}
+    
+gsk_lyrica = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lyrica.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lyrica_desc
+			}
+			desc = trait_gsk_lyrica_character_desc
+		}
+	}
+}
+    
+gsk_lyrica = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_lyrica.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_lyrica_desc
+			}
+			desc = trait_gsk_lyrica_character_desc
+		}
+	}
+}
+    
+gsk_mai = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mai.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mai_desc
+			}
+			desc = trait_gsk_mai_character_desc
+		}
+	}
+}
+    
+gsk_mai = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mai.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mai_desc
+			}
+			desc = trait_gsk_mai_character_desc
+		}
+	}
+}
+    
+gsk_mamizou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mamizou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mamizou_desc
+			}
+			desc = trait_gsk_mamizou_character_desc
+		}
+	}
+}
+    
+gsk_mamizou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mamizou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mamizou_desc
+			}
+			desc = trait_gsk_mamizou_character_desc
+		}
+	}
+}
+    
+gsk_mamizou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mamizou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mamizou_desc
+			}
+			desc = trait_gsk_mamizou_character_desc
+		}
+	}
+}
+    
+gsk_mamizou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mamizou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mamizou_desc
+			}
+			desc = trait_gsk_mamizou_character_desc
+		}
+	}
+}
+    
+gsk_marisa_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa__desc
+			}
+			desc = trait_gsk_marisa__character_desc
+		}
+	}
+}
+    
+gsk_marisa_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa__desc
+			}
+			desc = trait_gsk_marisa__character_desc
+		}
+	}
+}
+    
+gsk_marisa_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa__desc
+			}
+			desc = trait_gsk_marisa__character_desc
+		}
+	}
+}
+    
+gsk_marisa_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa__desc
+			}
+			desc = trait_gsk_marisa__character_desc
+		}
+	}
+}
+    
+gsk_marisa_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa__desc
+			}
+			desc = trait_gsk_marisa__character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_marisa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_marisa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_marisa_desc
+			}
+			desc = trait_gsk_marisa_character_desc
+		}
+	}
+}
+    
+gsk_mayumi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mayumi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mayumi_desc
+			}
+			desc = trait_gsk_mayumi_character_desc
+		}
+	}
+}
+    
+gsk_mayumi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mayumi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mayumi_desc
+			}
+			desc = trait_gsk_mayumi_character_desc
+		}
+	}
+}
+    
+gsk_mayumi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mayumi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mayumi_desc
+			}
+			desc = trait_gsk_mayumi_character_desc
+		}
+	}
+}
+    
+gsk_megumu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_megumu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_megumu_desc
+			}
+			desc = trait_gsk_megumu_character_desc
+		}
+	}
+}
+    
+gsk_megumu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_megumu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_megumu_desc
+			}
+			desc = trait_gsk_megumu_character_desc
+		}
+	}
+}
+    
+gsk_meirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_meirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_meirin_desc
+			}
+			desc = trait_gsk_meirin_character_desc
+		}
+	}
+}
+    
+gsk_meirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_meirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_meirin_desc
+			}
+			desc = trait_gsk_meirin_character_desc
+		}
+	}
+}
+    
+gsk_meirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_meirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_meirin_desc
+			}
+			desc = trait_gsk_meirin_character_desc
+		}
+	}
+}
+    
+gsk_meirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_meirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_meirin_desc
+			}
+			desc = trait_gsk_meirin_character_desc
+		}
+	}
+}
+    
+gsk_meirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_meirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_meirin_desc
+			}
+			desc = trait_gsk_meirin_character_desc
+		}
+	}
+}
+    
+gsk_meirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_meirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_meirin_desc
+			}
+			desc = trait_gsk_meirin_character_desc
+		}
+	}
+}
+    
+gsk_meirin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_meirin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_meirin_desc
+			}
+			desc = trait_gsk_meirin_character_desc
+		}
+	}
+}
+    
+gsk_melancholy = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_melancholy.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_melancholy_desc
+			}
+			desc = trait_gsk_melancholy_character_desc
+		}
+	}
+}
+    
+gsk_melancholy = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_melancholy.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_melancholy_desc
+			}
+			desc = trait_gsk_melancholy_character_desc
+		}
+	}
+}
+    
+gsk_melancholy = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_melancholy.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_melancholy_desc
+			}
+			desc = trait_gsk_melancholy_character_desc
+		}
+	}
+}
+    
+gsk_melancholy = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_melancholy.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_melancholy_desc
+			}
+			desc = trait_gsk_melancholy_character_desc
+		}
+	}
+}
+    
+gsk_merlin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_merlin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_merlin_desc
+			}
+			desc = trait_gsk_merlin_character_desc
+		}
+	}
+}
+    
+gsk_merlin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_merlin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_merlin_desc
+			}
+			desc = trait_gsk_merlin_character_desc
+		}
+	}
+}
+    
+gsk_merlin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_merlin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_merlin_desc
+			}
+			desc = trait_gsk_merlin_character_desc
+		}
+	}
+}
+    
+gsk_merlin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_merlin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_merlin_desc
+			}
+			desc = trait_gsk_merlin_character_desc
+		}
+	}
+}
+    
+gsk_merlin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_merlin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_merlin_desc
+			}
+			desc = trait_gsk_merlin_character_desc
+		}
+	}
+}
+    
+gsk_mike = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mike.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mike_desc
+			}
+			desc = trait_gsk_mike_character_desc
+		}
+	}
+}
+    
+gsk_mike = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mike.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mike_desc
+			}
+			desc = trait_gsk_mike_character_desc
+		}
+	}
+}
+    
+gsk_miko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_miko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_miko_desc
+			}
+			desc = trait_gsk_miko_character_desc
+		}
+	}
+}
+    
+gsk_miko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_miko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_miko_desc
+			}
+			desc = trait_gsk_miko_character_desc
+		}
+	}
+}
+    
+gsk_miko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_miko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_miko_desc
+			}
+			desc = trait_gsk_miko_character_desc
+		}
+	}
+}
+    
+gsk_miko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_miko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_miko_desc
+			}
+			desc = trait_gsk_miko_character_desc
+		}
+	}
+}
+    
+gsk_miko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_miko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_miko_desc
+			}
+			desc = trait_gsk_miko_character_desc
+		}
+	}
+}
+    
+gsk_minamitu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_minamitu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_minamitu_desc
+			}
+			desc = trait_gsk_minamitu_character_desc
+		}
+	}
+}
+    
+gsk_minamitu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_minamitu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_minamitu_desc
+			}
+			desc = trait_gsk_minamitu_character_desc
+		}
+	}
+}
+    
+gsk_minoriko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_minoriko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_minoriko_desc
+			}
+			desc = trait_gsk_minoriko_character_desc
+		}
+	}
+}
+    
+gsk_minoriko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_minoriko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_minoriko_desc
+			}
+			desc = trait_gsk_minoriko_character_desc
+		}
+	}
+}
+    
+gsk_minoriko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_minoriko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_minoriko_desc
+			}
+			desc = trait_gsk_minoriko_character_desc
+		}
+	}
+}
+    
+gsk_misumaru = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_misumaru.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_misumaru_desc
+			}
+			desc = trait_gsk_misumaru_character_desc
+		}
+	}
+}
+    
+gsk_misumaru = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_misumaru.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_misumaru_desc
+			}
+			desc = trait_gsk_misumaru_character_desc
+		}
+	}
+}
+    
+gsk_mokou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mokou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mokou_desc
+			}
+			desc = trait_gsk_mokou_character_desc
+		}
+	}
+}
+    
+gsk_mokou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mokou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mokou_desc
+			}
+			desc = trait_gsk_mokou_character_desc
+		}
+	}
+}
+    
+gsk_mokou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mokou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mokou_desc
+			}
+			desc = trait_gsk_mokou_character_desc
+		}
+	}
+}
+    
+gsk_mokou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mokou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mokou_desc
+			}
+			desc = trait_gsk_mokou_character_desc
+		}
+	}
+}
+    
+gsk_mokou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mokou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mokou_desc
+			}
+			desc = trait_gsk_mokou_character_desc
+		}
+	}
+}
+    
+gsk_mokou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mokou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mokou_desc
+			}
+			desc = trait_gsk_mokou_character_desc
+		}
+	}
+}
+    
+gsk_momizi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_momizi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_momizi_desc
+			}
+			desc = trait_gsk_momizi_character_desc
+		}
+	}
+}
+    
+gsk_momizi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_momizi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_momizi_desc
+			}
+			desc = trait_gsk_momizi_character_desc
+		}
+	}
+}
+    
+gsk_momizi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_momizi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_momizi_desc
+			}
+			desc = trait_gsk_momizi_character_desc
+		}
+	}
+}
+    
+gsk_mystia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mystia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mystia_desc
+			}
+			desc = trait_gsk_mystia_character_desc
+		}
+	}
+}
+    
+gsk_mystia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mystia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mystia_desc
+			}
+			desc = trait_gsk_mystia_character_desc
+		}
+	}
+}
+    
+gsk_mystia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mystia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mystia_desc
+			}
+			desc = trait_gsk_mystia_character_desc
+		}
+	}
+}
+    
+gsk_mystia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mystia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mystia_desc
+			}
+			desc = trait_gsk_mystia_character_desc
+		}
+	}
+}
+    
+gsk_mystia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_mystia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_mystia_desc
+			}
+			desc = trait_gsk_mystia_character_desc
+		}
+	}
+}
+    
+gsk_narumi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_narumi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_narumi_desc
+			}
+			desc = trait_gsk_narumi_character_desc
+		}
+	}
+}
+    
+gsk_narumi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_narumi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_narumi_desc
+			}
+			desc = trait_gsk_narumi_character_desc
+		}
+	}
+}
+    
+gsk_nazrin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nazrin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nazrin_desc
+			}
+			desc = trait_gsk_nazrin_character_desc
+		}
+	}
+}
+    
+gsk_nazrin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nazrin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nazrin_desc
+			}
+			desc = trait_gsk_nazrin_character_desc
+		}
+	}
+}
+    
+gsk_nemuno = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nemuno.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nemuno_desc
+			}
+			desc = trait_gsk_nemuno_character_desc
+		}
+	}
+}
+    
+gsk_nemuno = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nemuno.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nemuno_desc
+			}
+			desc = trait_gsk_nemuno_character_desc
+		}
+	}
+}
+    
+gsk_nemuno = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nemuno.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nemuno_desc
+			}
+			desc = trait_gsk_nemuno_character_desc
+		}
+	}
+}
+    
+gsk_nightbug = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nightbug.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nightbug_desc
+			}
+			desc = trait_gsk_nightbug_character_desc
+		}
+	}
+}
+    
+gsk_nightbug = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nightbug.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nightbug_desc
+			}
+			desc = trait_gsk_nightbug_character_desc
+		}
+	}
+}
+    
+gsk_nightbug = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nightbug.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nightbug_desc
+			}
+			desc = trait_gsk_nightbug_character_desc
+		}
+	}
+}
+    
+gsk_nightbug = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nightbug.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nightbug_desc
+			}
+			desc = trait_gsk_nightbug_character_desc
+		}
+	}
+}
+    
+gsk_nitori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nitori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nitori_desc
+			}
+			desc = trait_gsk_nitori_character_desc
+		}
+	}
+}
+    
+gsk_nitori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nitori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nitori_desc
+			}
+			desc = trait_gsk_nitori_character_desc
+		}
+	}
+}
+    
+gsk_nitori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nitori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nitori_desc
+			}
+			desc = trait_gsk_nitori_character_desc
+		}
+	}
+}
+    
+gsk_nitori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nitori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nitori_desc
+			}
+			desc = trait_gsk_nitori_character_desc
+		}
+	}
+}
+    
+gsk_nitori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nitori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nitori_desc
+			}
+			desc = trait_gsk_nitori_character_desc
+		}
+	}
+}
+    
+gsk_nue = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nue.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nue_desc
+			}
+			desc = trait_gsk_nue_character_desc
+		}
+	}
+}
+    
+gsk_nue = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nue.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nue_desc
+			}
+			desc = trait_gsk_nue_character_desc
+		}
+	}
+}
+    
+gsk_nue = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nue.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nue_desc
+			}
+			desc = trait_gsk_nue_character_desc
+		}
+	}
+}
+    
+gsk_nue = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_nue.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_nue_desc
+			}
+			desc = trait_gsk_nue_character_desc
+		}
+	}
+}
+    
+gsk_okina = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_okina.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_okina_desc
+			}
+			desc = trait_gsk_okina_character_desc
+		}
+	}
+}
+    
+gsk_okina = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_okina.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_okina_desc
+			}
+			desc = trait_gsk_okina_character_desc
+		}
+	}
+}
+    
+gsk_okina = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_okina.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_okina_desc
+			}
+			desc = trait_gsk_okina_character_desc
+		}
+	}
+}
+    
+gsk_okina = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_okina.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_okina_desc
+			}
+			desc = trait_gsk_okina_character_desc
+		}
+	}
+}
+    
+gsk_parsee = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_parsee.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_parsee_desc
+			}
+			desc = trait_gsk_parsee_character_desc
+		}
+	}
+}
+    
+gsk_parsee = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_parsee.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_parsee_desc
+			}
+			desc = trait_gsk_parsee_character_desc
+		}
+	}
+}
+    
+gsk_patchouli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_patchouli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_patchouli_desc
+			}
+			desc = trait_gsk_patchouli_character_desc
+		}
+	}
+}
+    
+gsk_patchouli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_patchouli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_patchouli_desc
+			}
+			desc = trait_gsk_patchouli_character_desc
+		}
+	}
+}
+    
+gsk_patchouli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_patchouli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_patchouli_desc
+			}
+			desc = trait_gsk_patchouli_character_desc
+		}
+	}
+}
+    
+gsk_patchouli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_patchouli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_patchouli_desc
+			}
+			desc = trait_gsk_patchouli_character_desc
+		}
+	}
+}
+    
+gsk_patchouli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_patchouli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_patchouli_desc
+			}
+			desc = trait_gsk_patchouli_character_desc
+		}
+	}
+}
+    
+gsk_patchouli = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_patchouli.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_patchouli_desc
+			}
+			desc = trait_gsk_patchouli_character_desc
+		}
+	}
+}
+    
+gsk_raiko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_raiko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_raiko_desc
+			}
+			desc = trait_gsk_raiko_character_desc
+		}
+	}
+}
+    
+gsk_raiko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_raiko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_raiko_desc
+			}
+			desc = trait_gsk_raiko_character_desc
+		}
+	}
+}
+    
+gsk_raiko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_raiko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_raiko_desc
+			}
+			desc = trait_gsk_raiko_character_desc
+		}
+	}
+}
+    
+gsk_ran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ran_desc
+			}
+			desc = trait_gsk_ran_character_desc
+		}
+	}
+}
+    
+gsk_ran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ran_desc
+			}
+			desc = trait_gsk_ran_character_desc
+		}
+	}
+}
+    
+gsk_ran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ran_desc
+			}
+			desc = trait_gsk_ran_character_desc
+		}
+	}
+}
+    
+gsk_ran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ran_desc
+			}
+			desc = trait_gsk_ran_character_desc
+		}
+	}
+}
+    
+gsk_ran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ran_desc
+			}
+			desc = trait_gsk_ran_character_desc
+		}
+	}
+}
+    
+gsk_reimu_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu__desc
+			}
+			desc = trait_gsk_reimu__character_desc
+		}
+	}
+}
+    
+gsk_reimu_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu__desc
+			}
+			desc = trait_gsk_reimu__character_desc
+		}
+	}
+}
+    
+gsk_reimu_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu__desc
+			}
+			desc = trait_gsk_reimu__character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reimu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reimu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reimu_desc
+			}
+			desc = trait_gsk_reimu_character_desc
+		}
+	}
+}
+    
+gsk_reisen2 = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen2.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen2_desc
+			}
+			desc = trait_gsk_reisen2_character_desc
+		}
+	}
+}
+    
+gsk_reisen2 = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen2.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen2_desc
+			}
+			desc = trait_gsk_reisen2_character_desc
+		}
+	}
+}
+    
+gsk_reisen2 = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen2.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen2_desc
+			}
+			desc = trait_gsk_reisen2_character_desc
+		}
+	}
+}
+    
+gsk_reisen2 = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen2.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen2_desc
+			}
+			desc = trait_gsk_reisen2_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_reisen = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_reisen.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_reisen_desc
+			}
+			desc = trait_gsk_reisen_character_desc
+		}
+	}
+}
+    
+gsk_remilia_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia__desc
+			}
+			desc = trait_gsk_remilia__character_desc
+		}
+	}
+}
+    
+gsk_remilia_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia__desc
+			}
+			desc = trait_gsk_remilia__character_desc
+		}
+	}
+}
+    
+gsk_remilia_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia__desc
+			}
+			desc = trait_gsk_remilia__character_desc
+		}
+	}
+}
+    
+gsk_remilia_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia__desc
+			}
+			desc = trait_gsk_remilia__character_desc
+		}
+	}
+}
+    
+gsk_remilia_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia__desc
+			}
+			desc = trait_gsk_remilia__character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_remilia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_remilia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_remilia_desc
+			}
+			desc = trait_gsk_remilia_character_desc
+		}
+	}
+}
+    
+gsk_renko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_renko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_renko_desc
+			}
+			desc = trait_gsk_renko_character_desc
+		}
+	}
+}
+    
+gsk_ringo = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ringo.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ringo_desc
+			}
+			desc = trait_gsk_ringo_character_desc
+		}
+	}
+}
+    
+gsk_ringo = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ringo.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ringo_desc
+			}
+			desc = trait_gsk_ringo_character_desc
+		}
+	}
+}
+    
+gsk_ringo = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ringo.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ringo_desc
+			}
+			desc = trait_gsk_ringo_character_desc
+		}
+	}
+}
+    
+gsk_ringo = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_ringo.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_ringo_desc
+			}
+			desc = trait_gsk_ringo_character_desc
+		}
+	}
+}
+    
+gsk_rin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_rin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_rin_desc
+			}
+			desc = trait_gsk_rin_character_desc
+		}
+	}
+}
+    
+gsk_rin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_rin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_rin_desc
+			}
+			desc = trait_gsk_rin_character_desc
+		}
+	}
+}
+    
+gsk_rin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_rin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_rin_desc
+			}
+			desc = trait_gsk_rin_character_desc
+		}
+	}
+}
+    
+gsk_rin = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_rin.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_rin_desc
+			}
+			desc = trait_gsk_rin_character_desc
+		}
+	}
+}
+    
+gsk_rumia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_rumia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_rumia_desc
+			}
+			desc = trait_gsk_rumia_character_desc
+		}
+	}
+}
+    
+gsk_rumia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_rumia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_rumia_desc
+			}
+			desc = trait_gsk_rumia_character_desc
+		}
+	}
+}
+    
+gsk_rumia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_rumia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_rumia_desc
+			}
+			desc = trait_gsk_rumia_character_desc
+		}
+	}
+}
+    
+gsk_rumia = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_rumia.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_rumia_desc
+			}
+			desc = trait_gsk_rumia_character_desc
+		}
+	}
+}
+    
+gsk_sagume = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sagume.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sagume_desc
+			}
+			desc = trait_gsk_sagume_character_desc
+		}
+	}
+}
+    
+gsk_sagume = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sagume.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sagume_desc
+			}
+			desc = trait_gsk_sagume_character_desc
+		}
+	}
+}
+    
+gsk_sagume = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sagume.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sagume_desc
+			}
+			desc = trait_gsk_sagume_character_desc
+		}
+	}
+}
+    
+gsk_sagume = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sagume.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sagume_desc
+			}
+			desc = trait_gsk_sagume_character_desc
+		}
+	}
+}
+    
+gsk_saki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_saki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_saki_desc
+			}
+			desc = trait_gsk_saki_character_desc
+		}
+	}
+}
+    
+gsk_saki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_saki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_saki_desc
+			}
+			desc = trait_gsk_saki_character_desc
+		}
+	}
+}
+    
+gsk_saki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_saki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_saki_desc
+			}
+			desc = trait_gsk_saki_character_desc
+		}
+	}
+}
+    
+gsk_saki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_saki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_saki_desc
+			}
+			desc = trait_gsk_saki_character_desc
+		}
+	}
+}
+    
+gsk_sakuya_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya__desc
+			}
+			desc = trait_gsk_sakuya__character_desc
+		}
+	}
+}
+    
+gsk_sakuya_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya__desc
+			}
+			desc = trait_gsk_sakuya__character_desc
+		}
+	}
+}
+    
+gsk_sakuya_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya__desc
+			}
+			desc = trait_gsk_sakuya__character_desc
+		}
+	}
+}
+    
+gsk_sakuya_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya__desc
+			}
+			desc = trait_gsk_sakuya__character_desc
+		}
+	}
+}
+    
+gsk_sakuya_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya__desc
+			}
+			desc = trait_gsk_sakuya__character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sakuya = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sakuya.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sakuya_desc
+			}
+			desc = trait_gsk_sakuya_character_desc
+		}
+	}
+}
+    
+gsk_sanae_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae__desc
+			}
+			desc = trait_gsk_sanae__character_desc
+		}
+	}
+}
+    
+gsk_sanae_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae__desc
+			}
+			desc = trait_gsk_sanae__character_desc
+		}
+	}
+}
+    
+gsk_sanae_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae__desc
+			}
+			desc = trait_gsk_sanae__character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_sanae = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sanae.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sanae_desc
+			}
+			desc = trait_gsk_sanae_character_desc
+		}
+	}
+}
+    
+gsk_satono = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satono.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satono_desc
+			}
+			desc = trait_gsk_satono_character_desc
+		}
+	}
+}
+    
+gsk_satono = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satono.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satono_desc
+			}
+			desc = trait_gsk_satono_character_desc
+		}
+	}
+}
+    
+gsk_satori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satori_desc
+			}
+			desc = trait_gsk_satori_character_desc
+		}
+	}
+}
+    
+gsk_satori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satori_desc
+			}
+			desc = trait_gsk_satori_character_desc
+		}
+	}
+}
+    
+gsk_satori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satori_desc
+			}
+			desc = trait_gsk_satori_character_desc
+		}
+	}
+}
+    
+gsk_satori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satori_desc
+			}
+			desc = trait_gsk_satori_character_desc
+		}
+	}
+}
+    
+gsk_satori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satori_desc
+			}
+			desc = trait_gsk_satori_character_desc
+		}
+	}
+}
+    
+gsk_satori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satori_desc
+			}
+			desc = trait_gsk_satori_character_desc
+		}
+	}
+}
+    
+gsk_satori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satori_desc
+			}
+			desc = trait_gsk_satori_character_desc
+		}
+	}
+}
+    
+gsk_satori = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_satori.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_satori_desc
+			}
+			desc = trait_gsk_satori_character_desc
+		}
+	}
+}
+    
+gsk_seiga = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiga.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiga_desc
+			}
+			desc = trait_gsk_seiga_character_desc
+		}
+	}
+}
+    
+gsk_seiga = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiga.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiga_desc
+			}
+			desc = trait_gsk_seiga_character_desc
+		}
+	}
+}
+    
+gsk_seiga = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiga.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiga_desc
+			}
+			desc = trait_gsk_seiga_character_desc
+		}
+	}
+}
+    
+gsk_seiga = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiga.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiga_desc
+			}
+			desc = trait_gsk_seiga_character_desc
+		}
+	}
+}
+    
+gsk_seiga = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiga.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiga_desc
+			}
+			desc = trait_gsk_seiga_character_desc
+		}
+	}
+}
+    
+gsk_seija = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seija.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seija_desc
+			}
+			desc = trait_gsk_seija_character_desc
+		}
+	}
+}
+    
+gsk_seija = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seija.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seija_desc
+			}
+			desc = trait_gsk_seija_character_desc
+		}
+	}
+}
+    
+gsk_seiran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiran_desc
+			}
+			desc = trait_gsk_seiran_character_desc
+		}
+	}
+}
+    
+gsk_seiran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiran_desc
+			}
+			desc = trait_gsk_seiran_character_desc
+		}
+	}
+}
+    
+gsk_seiran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiran_desc
+			}
+			desc = trait_gsk_seiran_character_desc
+		}
+	}
+}
+    
+gsk_seiran = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_seiran.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_seiran_desc
+			}
+			desc = trait_gsk_seiran_character_desc
+		}
+	}
+}
+    
+gsk_sekibanki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sekibanki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sekibanki_desc
+			}
+			desc = trait_gsk_sekibanki_character_desc
+		}
+	}
+}
+    
+gsk_sekibanki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sekibanki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sekibanki_desc
+			}
+			desc = trait_gsk_sekibanki_character_desc
+		}
+	}
+}
+    
+gsk_shikieiki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shikieiki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shikieiki_desc
+			}
+			desc = trait_gsk_shikieiki_character_desc
+		}
+	}
+}
+    
+gsk_shikieiki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shikieiki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shikieiki_desc
+			}
+			desc = trait_gsk_shikieiki_character_desc
+		}
+	}
+}
+    
+gsk_shikieiki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shikieiki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shikieiki_desc
+			}
+			desc = trait_gsk_shikieiki_character_desc
+		}
+	}
+}
+    
+gsk_shikieiki = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shikieiki.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shikieiki_desc
+			}
+			desc = trait_gsk_shikieiki_character_desc
+		}
+	}
+}
+    
+gsk_shinmyoumaru = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shinmyoumaru.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shinmyoumaru_desc
+			}
+			desc = trait_gsk_shinmyoumaru_character_desc
+		}
+	}
+}
+    
+gsk_shinmyoumaru = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shinmyoumaru.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shinmyoumaru_desc
+			}
+			desc = trait_gsk_shinmyoumaru_character_desc
+		}
+	}
+}
+    
+gsk_shinmyoumaru = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shinmyoumaru.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shinmyoumaru_desc
+			}
+			desc = trait_gsk_shinmyoumaru_character_desc
+		}
+	}
+}
+    
+gsk_shion = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shion.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shion_desc
+			}
+			desc = trait_gsk_shion_character_desc
+		}
+	}
+}
+    
+gsk_shion = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shion.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shion_desc
+			}
+			desc = trait_gsk_shion_character_desc
+		}
+	}
+}
+    
+gsk_shion = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shion.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shion_desc
+			}
+			desc = trait_gsk_shion_character_desc
+		}
+	}
+}
+    
+gsk_shion = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shion.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shion_desc
+			}
+			desc = trait_gsk_shion_character_desc
+		}
+	}
+}
+    
+gsk_shion = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shion.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shion_desc
+			}
+			desc = trait_gsk_shion_character_desc
+		}
+	}
+}
+    
+gsk_shou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shou_desc
+			}
+			desc = trait_gsk_shou_character_desc
+		}
+	}
+}
+    
+gsk_shou = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_shou.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_shou_desc
+			}
+			desc = trait_gsk_shou_character_desc
+		}
+	}
+}
+    
+gsk_sizuha = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sizuha.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sizuha_desc
+			}
+			desc = trait_gsk_sizuha_character_desc
+		}
+	}
+}
+    
+gsk_sizuha = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sizuha.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sizuha_desc
+			}
+			desc = trait_gsk_sizuha_character_desc
+		}
+	}
+}
+    
+gsk_sizuha = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sizuha.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sizuha_desc
+			}
+			desc = trait_gsk_sizuha_character_desc
+		}
+	}
+}
+    
+gsk_star = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_star.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_star_desc
+			}
+			desc = trait_gsk_star_character_desc
+		}
+	}
+}
+    
+gsk_star = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_star.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_star_desc
+			}
+			desc = trait_gsk_star_character_desc
+		}
+	}
+}
+    
+gsk_star = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_star.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_star_desc
+			}
+			desc = trait_gsk_star_character_desc
+		}
+	}
+}
+    
+gsk_suika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suika_desc
+			}
+			desc = trait_gsk_suika_character_desc
+		}
+	}
+}
+    
+gsk_suika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suika_desc
+			}
+			desc = trait_gsk_suika_character_desc
+		}
+	}
+}
+    
+gsk_suika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suika_desc
+			}
+			desc = trait_gsk_suika_character_desc
+		}
+	}
+}
+    
+gsk_suika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suika_desc
+			}
+			desc = trait_gsk_suika_character_desc
+		}
+	}
+}
+    
+gsk_suika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suika_desc
+			}
+			desc = trait_gsk_suika_character_desc
+		}
+	}
+}
+    
+gsk_sumireko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sumireko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sumireko_desc
+			}
+			desc = trait_gsk_sumireko_character_desc
+		}
+	}
+}
+    
+gsk_sumireko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sumireko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sumireko_desc
+			}
+			desc = trait_gsk_sumireko_character_desc
+		}
+	}
+}
+    
+gsk_sumireko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sumireko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sumireko_desc
+			}
+			desc = trait_gsk_sumireko_character_desc
+		}
+	}
+}
+    
+gsk_sunny = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sunny.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sunny_desc
+			}
+			desc = trait_gsk_sunny_character_desc
+		}
+	}
+}
+    
+gsk_sunny = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sunny.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sunny_desc
+			}
+			desc = trait_gsk_sunny_character_desc
+		}
+	}
+}
+    
+gsk_sunny = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sunny.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sunny_desc
+			}
+			desc = trait_gsk_sunny_character_desc
+		}
+	}
+}
+    
+gsk_sunny = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sunny.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sunny_desc
+			}
+			desc = trait_gsk_sunny_character_desc
+		}
+	}
+}
+    
+gsk_suwako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suwako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suwako_desc
+			}
+			desc = trait_gsk_suwako_character_desc
+		}
+	}
+}
+    
+gsk_suwako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suwako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suwako_desc
+			}
+			desc = trait_gsk_suwako_character_desc
+		}
+	}
+}
+    
+gsk_suwako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suwako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suwako_desc
+			}
+			desc = trait_gsk_suwako_character_desc
+		}
+	}
+}
+    
+gsk_suwako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suwako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suwako_desc
+			}
+			desc = trait_gsk_suwako_character_desc
+		}
+	}
+}
+    
+gsk_suwako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suwako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suwako_desc
+			}
+			desc = trait_gsk_suwako_character_desc
+		}
+	}
+}
+    
+gsk_suwako = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_suwako.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_suwako_desc
+			}
+			desc = trait_gsk_suwako_character_desc
+		}
+	}
+}
+    
+gsk_sweet = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sweet.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sweet_desc
+			}
+			desc = trait_gsk_sweet_character_desc
+		}
+	}
+}
+    
+gsk_sweet = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sweet.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sweet_desc
+			}
+			desc = trait_gsk_sweet_character_desc
+		}
+	}
+}
+    
+gsk_sweet = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sweet.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sweet_desc
+			}
+			desc = trait_gsk_sweet_character_desc
+		}
+	}
+}
+    
+gsk_sweet = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_sweet.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_sweet_desc
+			}
+			desc = trait_gsk_sweet_character_desc
+		}
+	}
+}
+    
+gsk_takane = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_takane.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_takane_desc
+			}
+			desc = trait_gsk_takane_character_desc
+		}
+	}
+}
+    
+gsk_takane = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_takane.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_takane_desc
+			}
+			desc = trait_gsk_takane_character_desc
+		}
+	}
+}
+    
+gsk_tenshi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tenshi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tenshi_desc
+			}
+			desc = trait_gsk_tenshi_character_desc
+		}
+	}
+}
+    
+gsk_tenshi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tenshi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tenshi_desc
+			}
+			desc = trait_gsk_tenshi_character_desc
+		}
+	}
+}
+    
+gsk_tenshi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tenshi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tenshi_desc
+			}
+			desc = trait_gsk_tenshi_character_desc
+		}
+	}
+}
+    
+gsk_tenshi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tenshi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tenshi_desc
+			}
+			desc = trait_gsk_tenshi_character_desc
+		}
+	}
+}
+    
+gsk_tenshi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tenshi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tenshi_desc
+			}
+			desc = trait_gsk_tenshi_character_desc
+		}
+	}
+}
+    
+gsk_tewi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tewi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tewi_desc
+			}
+			desc = trait_gsk_tewi_character_desc
+		}
+	}
+}
+    
+gsk_tewi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tewi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tewi_desc
+			}
+			desc = trait_gsk_tewi_character_desc
+		}
+	}
+}
+    
+gsk_tewi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tewi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tewi_desc
+			}
+			desc = trait_gsk_tewi_character_desc
+		}
+	}
+}
+    
+gsk_tewi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tewi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tewi_desc
+			}
+			desc = trait_gsk_tewi_character_desc
+		}
+	}
+}
+    
+gsk_tewi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tewi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tewi_desc
+			}
+			desc = trait_gsk_tewi_character_desc
+		}
+	}
+}
+    
+gsk_toyohime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_toyohime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_toyohime_desc
+			}
+			desc = trait_gsk_toyohime_character_desc
+		}
+	}
+}
+    
+gsk_toyohime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_toyohime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_toyohime_desc
+			}
+			desc = trait_gsk_toyohime_character_desc
+		}
+	}
+}
+    
+gsk_toyohime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_toyohime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_toyohime_desc
+			}
+			desc = trait_gsk_toyohime_character_desc
+		}
+	}
+}
+    
+gsk_toyohime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_toyohime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_toyohime_desc
+			}
+			desc = trait_gsk_toyohime_character_desc
+		}
+	}
+}
+    
+gsk_toziko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_toziko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_toziko_desc
+			}
+			desc = trait_gsk_toziko_character_desc
+		}
+	}
+}
+    
+gsk_toziko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_toziko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_toziko_desc
+			}
+			desc = trait_gsk_toziko_character_desc
+		}
+	}
+}
+    
+gsk_toziko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_toziko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_toziko_desc
+			}
+			desc = trait_gsk_toziko_character_desc
+		}
+	}
+}
+    
+gsk_tsukasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tsukasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tsukasa_desc
+			}
+			desc = trait_gsk_tsukasa_character_desc
+		}
+	}
+}
+    
+gsk_tsukasa = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_tsukasa.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_tsukasa_desc
+			}
+			desc = trait_gsk_tsukasa_character_desc
+		}
+	}
+}
+    
+gsk_urumi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_urumi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_urumi_desc
+			}
+			desc = trait_gsk_urumi_character_desc
+		}
+	}
+}
+    
+gsk_urumi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_urumi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_urumi_desc
+			}
+			desc = trait_gsk_urumi_character_desc
+		}
+	}
+}
+    
+gsk_utsuho = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_utsuho.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_utsuho_desc
+			}
+			desc = trait_gsk_utsuho_character_desc
+		}
+	}
+}
+    
+gsk_utsuho = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_utsuho.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_utsuho_desc
+			}
+			desc = trait_gsk_utsuho_character_desc
+		}
+	}
+}
+    
+gsk_utsuho = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_utsuho.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_utsuho_desc
+			}
+			desc = trait_gsk_utsuho_character_desc
+		}
+	}
+}
+    
+gsk_utsuho = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_utsuho.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_utsuho_desc
+			}
+			desc = trait_gsk_utsuho_character_desc
+		}
+	}
+}
+    
+gsk_wakasagihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_wakasagihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_wakasagihime_desc
+			}
+			desc = trait_gsk_wakasagihime_character_desc
+		}
+	}
+}
+    
+gsk_wakasagihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_wakasagihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_wakasagihime_desc
+			}
+			desc = trait_gsk_wakasagihime_character_desc
+		}
+	}
+}
+    
+gsk_whiterock = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_whiterock.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_whiterock_desc
+			}
+			desc = trait_gsk_whiterock_character_desc
+		}
+	}
+}
+    
+gsk_whiterock = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_whiterock.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_whiterock_desc
+			}
+			desc = trait_gsk_whiterock_character_desc
+		}
+	}
+}
+    
+gsk_whiterock = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_whiterock.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_whiterock_desc
+			}
+			desc = trait_gsk_whiterock_character_desc
+		}
+	}
+}
+    
+gsk_yachie = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yachie.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yachie_desc
+			}
+			desc = trait_gsk_yachie_character_desc
+		}
+	}
+}
+    
+gsk_yachie = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yachie.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yachie_desc
+			}
+			desc = trait_gsk_yachie_character_desc
+		}
+	}
+}
+    
+gsk_yachie = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yachie.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yachie_desc
+			}
+			desc = trait_gsk_yachie_character_desc
+		}
+	}
+}
+    
+gsk_yachie = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yachie.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yachie_desc
+			}
+			desc = trait_gsk_yachie_character_desc
+		}
+	}
+}
+    
+gsk_yamame = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yamame.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yamame_desc
+			}
+			desc = trait_gsk_yamame_character_desc
+		}
+	}
+}
+    
+gsk_yamame = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yamame.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yamame_desc
+			}
+			desc = trait_gsk_yamame_character_desc
+		}
+	}
+}
+    
+gsk_yatsuhashi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yatsuhashi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yatsuhashi_desc
+			}
+			desc = trait_gsk_yatsuhashi_character_desc
+		}
+	}
+}
+    
+gsk_yatsuhashi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yatsuhashi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yatsuhashi_desc
+			}
+			desc = trait_gsk_yatsuhashi_character_desc
+		}
+	}
+}
+    
+gsk_yatsuhashi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yatsuhashi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yatsuhashi_desc
+			}
+			desc = trait_gsk_yatsuhashi_character_desc
+		}
+	}
+}
+    
+gsk_yorihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yorihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yorihime_desc
+			}
+			desc = trait_gsk_yorihime_character_desc
+		}
+	}
+}
+    
+gsk_yorihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yorihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yorihime_desc
+			}
+			desc = trait_gsk_yorihime_character_desc
+		}
+	}
+}
+    
+gsk_yorihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yorihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yorihime_desc
+			}
+			desc = trait_gsk_yorihime_character_desc
+		}
+	}
+}
+    
+gsk_yorihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yorihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yorihime_desc
+			}
+			desc = trait_gsk_yorihime_character_desc
+		}
+	}
+}
+    
+gsk_yorihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yorihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yorihime_desc
+			}
+			desc = trait_gsk_yorihime_character_desc
+		}
+	}
+}
+    
+gsk_yorihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yorihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yorihime_desc
+			}
+			desc = trait_gsk_yorihime_character_desc
+		}
+	}
+}
+    
+gsk_yorihime = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yorihime.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yorihime_desc
+			}
+			desc = trait_gsk_yorihime_character_desc
+		}
+	}
+}
+    
+gsk_yoshika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yoshika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yoshika_desc
+			}
+			desc = trait_gsk_yoshika_character_desc
+		}
+	}
+}
+    
+gsk_yoshika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yoshika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yoshika_desc
+			}
+			desc = trait_gsk_yoshika_character_desc
+		}
+	}
+}
+    
+gsk_yoshika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yoshika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yoshika_desc
+			}
+			desc = trait_gsk_yoshika_character_desc
+		}
+	}
+}
+    
+gsk_yoshika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yoshika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yoshika_desc
+			}
+			desc = trait_gsk_yoshika_character_desc
+		}
+	}
+}
+    
+gsk_yoshika = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yoshika.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yoshika_desc
+			}
+			desc = trait_gsk_yoshika_character_desc
+		}
+	}
+}
+    
+gsk_youka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youka_desc
+			}
+			desc = trait_gsk_youka_character_desc
+		}
+	}
+}
+    
+gsk_youka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youka_desc
+			}
+			desc = trait_gsk_youka_character_desc
+		}
+	}
+}
+    
+gsk_youmu_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu__desc
+			}
+			desc = trait_gsk_youmu__character_desc
+		}
+	}
+}
+    
+gsk_youmu_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu__desc
+			}
+			desc = trait_gsk_youmu__character_desc
+		}
+	}
+}
+    
+gsk_youmu_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu__desc
+			}
+			desc = trait_gsk_youmu__character_desc
+		}
+	}
+}
+    
+gsk_youmu_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu__desc
+			}
+			desc = trait_gsk_youmu__character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_youmu = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_youmu.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_youmu_desc
+			}
+			desc = trait_gsk_youmu_character_desc
+		}
+	}
+}
+    
+gsk_yugi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yugi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yugi_desc
+			}
+			desc = trait_gsk_yugi_character_desc
+		}
+	}
+}
+    
+gsk_yugi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yugi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yugi_desc
+			}
+			desc = trait_gsk_yugi_character_desc
+		}
+	}
+}
+    
+gsk_yugi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yugi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yugi_desc
+			}
+			desc = trait_gsk_yugi_character_desc
+		}
+	}
+}
+    
+gsk_yugi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yugi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yugi_desc
+			}
+			desc = trait_gsk_yugi_character_desc
+		}
+	}
+}
+    
+gsk_yugi = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yugi.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yugi_desc
+			}
+			desc = trait_gsk_yugi_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yukari = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yukari.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yukari_desc
+			}
+			desc = trait_gsk_yukari_character_desc
+		}
+	}
+}
+    
+gsk_yuka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuka_desc
+			}
+			desc = trait_gsk_yuka_character_desc
+		}
+	}
+}
+    
+gsk_yuka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuka_desc
+			}
+			desc = trait_gsk_yuka_character_desc
+		}
+	}
+}
+    
+gsk_yuka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuka_desc
+			}
+			desc = trait_gsk_yuka_character_desc
+		}
+	}
+}
+    
+gsk_yuka = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuka.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuka_desc
+			}
+			desc = trait_gsk_yuka_character_desc
+		}
+	}
+}
+    
+gsk_yuma = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuma.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuma_desc
+			}
+			desc = trait_gsk_yuma_character_desc
+		}
+	}
+}
+    
+gsk_yuma = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuma.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuma_desc
+			}
+			desc = trait_gsk_yuma_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko_ = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko_.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko__desc
+			}
+			desc = trait_gsk_yuyuko__character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    
+gsk_yuyuko = {
+	flag = touhou
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	general_opinion = 15
+	icon = "trait_gsk_yuyuko.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_yuyuko_desc
+			}
+			desc = trait_gsk_yuyuko_character_desc
+		}
+	}
+}
+    

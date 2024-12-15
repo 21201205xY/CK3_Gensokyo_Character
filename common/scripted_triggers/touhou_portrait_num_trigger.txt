@@ -1,25 +1,155 @@
-﻿touhou_portrait_num_5 = {
+﻿touhou_portrait_num_9 = {
 	OR = {
 		always = no
+	}
+}
+touhou_portrait_num_8 = {
+	OR = {
+		has_trait = gsk_alice
+		has_trait = gsk_flandre
+		has_trait = gsk_koishi
+		has_trait = gsk_marisa
+		has_trait = gsk_reimu
+		has_trait = gsk_reisen
+		has_trait = gsk_remilia
+		has_trait = gsk_sakuya
+		has_trait = gsk_sanae
+		has_trait = gsk_youmu
+		has_trait = gsk_yukari
+		has_trait = gsk_yuyuko
+	}
+}
+touhou_portrait_num_7 = {
+	OR = {
+		has_trait = gsk_satori
+	}
+}
+touhou_portrait_num_6 = {
+	OR = {
+		has_trait = gsk_aya
+		has_trait = gsk_byakuren
+		has_trait = gsk_kanako
+		has_trait = gsk_kasen
+		has_trait = gsk_meirin
+		has_trait = gsk_yorihime
+	}
+}
+touhou_portrait_num_5 = {
+	OR = {
+		has_trait = gsk_chen
+		has_trait = gsk_koakuma
+		has_trait = gsk_kokoro
+		has_trait = gsk_mokou
+		has_trait = gsk_patchouli
+		has_trait = gsk_suwako
 	}
 }
 touhou_portrait_num_4 = {
 	OR = {
-		has_trait = gsk_reimu
+		has_trait = gsk_eirin
+		has_trait = gsk_jyoon
+		has_trait = gsk_kaguya
+		has_trait = gsk_keine
+		has_trait = gsk_lapislazuli
+		has_trait = gsk_lunasa
+		has_trait = gsk_lyrica
+		has_trait = gsk_merlin
+		has_trait = gsk_miko
+		has_trait = gsk_mystia
+		has_trait = gsk_nitori
+		has_trait = gsk_ran
+		has_trait = gsk_seiga
+		has_trait = gsk_shion
+		has_trait = gsk_suika
+		has_trait = gsk_tenshi
+		has_trait = gsk_tewi
+		has_trait = gsk_yoshika
+		has_trait = gsk_yugi
 	}
 }
 touhou_portrait_num_3 = {
 	OR = {
-		always = no
+		has_trait = gsk_cirno
+		has_trait = gsk_daiyousei
+		has_trait = gsk_junko
+		has_trait = gsk_komachi
+		has_trait = gsk_kutaka
+		has_trait = gsk_mamizou
+		has_trait = gsk_melancholy
+		has_trait = gsk_nightbug
+		has_trait = gsk_nue
+		has_trait = gsk_okina
+		has_trait = gsk_reisen2
+		has_trait = gsk_ringo
+		has_trait = gsk_rin
+		has_trait = gsk_rumia
+		has_trait = gsk_sagume
+		has_trait = gsk_saki
+		has_trait = gsk_seiran
+		has_trait = gsk_shikieiki
+		has_trait = gsk_sunny
+		has_trait = gsk_sweet
+		has_trait = gsk_toyohime
+		has_trait = gsk_utsuho
+		has_trait = gsk_yachie
+		has_trait = gsk_yuka
 	}
 }
 touhou_portrait_num_2 = {
 	OR = {
-		always = no
+		has_trait = gsk_akyuu
+		has_trait = gsk_benben
+		has_trait = gsk_clownpiece
+		has_trait = gsk_futo
+		has_trait = gsk_hatate
+		has_trait = gsk_hina
+		has_trait = gsk_ichirin
+		has_trait = gsk_kogasa
+		has_trait = gsk_kosuzu
+		has_trait = gsk_lilywhite
+		has_trait = gsk_luna
+		has_trait = gsk_mayumi
+		has_trait = gsk_minoriko
+		has_trait = gsk_momizi
+		has_trait = gsk_nemuno
+		has_trait = gsk_raiko
+		has_trait = gsk_shinmyoumaru
+		has_trait = gsk_sizuha
+		has_trait = gsk_star
+		has_trait = gsk_sumireko
+		has_trait = gsk_toziko
+		has_trait = gsk_whiterock
+		has_trait = gsk_yatsuhashi
 	}
 }
 touhou_portrait_num_1 = {
 	OR = {
-		always = no
+		has_trait = gsk_aun
+		has_trait = gsk_chimata
+		has_trait = gsk_iku
+		has_trait = gsk_kagerou
+		has_trait = gsk_keiki
+		has_trait = gsk_kisume
+		has_trait = gsk_kyouko
+		has_trait = gsk_larva
+		has_trait = gsk_mai
+		has_trait = gsk_megumu
+		has_trait = gsk_mike
+		has_trait = gsk_minamitu
+		has_trait = gsk_misumaru
+		has_trait = gsk_narumi
+		has_trait = gsk_nazrin
+		has_trait = gsk_parsee
+		has_trait = gsk_satono
+		has_trait = gsk_seija
+		has_trait = gsk_sekibanki
+		has_trait = gsk_shou
+		has_trait = gsk_takane
+		has_trait = gsk_tsukasa
+		has_trait = gsk_urumi
+		has_trait = gsk_wakasagihime
+		has_trait = gsk_yamame
+		has_trait = gsk_youka
+		has_trait = gsk_yuma
 	}
 }

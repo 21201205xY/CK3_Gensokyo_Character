@@ -2,7 +2,7 @@
 	categories = {
 		game_modes touhou
 	}
-	default = touhou_character_sexuality_none
+	default = touhou_character_sexuality_homosexual
 	touhou_character_sexuality_none = { }
 	touhou_character_sexuality_homosexual = { }
 	touhou_character_sexuality_bisexual = { }
