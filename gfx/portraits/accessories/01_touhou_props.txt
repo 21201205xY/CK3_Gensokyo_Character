@@ -53,8 +53,6 @@ gsk_eirin_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "g
 gsk_eirin_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_eirin_3_entity" } }
 gsk_eirin_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_eirin_4_entity" } }
 gsk_eirin_5 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_eirin_5_entity" } }
-gsk_flandre_10 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_flandre_10_entity" } }
-gsk_flandre_11 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_flandre_11_entity" } }
 gsk_flandre_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_flandre_1_entity" } }
 gsk_flandre_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_flandre_2_entity" } }
 gsk_flandre_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_flandre_3_entity" } }
@@ -185,11 +183,6 @@ gsk_mamizou_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = 
 gsk_mamizou_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_mamizou_2_entity" } }
 gsk_mamizou_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_mamizou_3_entity" } }
 gsk_mamizou_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_mamizou_4_entity" } }
-gsk_marisa_10 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_marisa_10_entity" } }
-gsk_marisa_11 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_marisa_11_entity" } }
-gsk_marisa_12 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_marisa_12_entity" } }
-gsk_marisa_13 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_marisa_13_entity" } }
-gsk_marisa_14 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_marisa_14_entity" } }
 gsk_marisa_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_marisa_1_entity" } }
 gsk_marisa_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_marisa_2_entity" } }
 gsk_marisa_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_marisa_3_entity" } }
@@ -288,9 +281,6 @@ gsk_ran_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk
 gsk_ran_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_ran_3_entity" } }
 gsk_ran_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_ran_4_entity" } }
 gsk_ran_5 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_ran_5_entity" } }
-gsk_reimu_10 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_10_entity" } }
-gsk_reimu_11 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_11_entity" } }
-gsk_reimu_12 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_12_entity" } }
 gsk_reimu_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_1_entity" } }
 gsk_reimu_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_2_entity" } }
 gsk_reimu_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reimu_3_entity" } }
@@ -313,11 +303,6 @@ gsk_reisen_6 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "
 gsk_reisen_7 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reisen_7_entity" } }
 gsk_reisen_8 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reisen_8_entity" } }
 gsk_reisen_9 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_reisen_9_entity" } }
-gsk_remilia_10 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_remilia_10_entity" } }
-gsk_remilia_11 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_remilia_11_entity" } }
-gsk_remilia_12 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_remilia_12_entity" } }
-gsk_remilia_13 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_remilia_13_entity" } }
-gsk_remilia_14 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_remilia_14_entity" } }
 gsk_remilia_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_remilia_1_entity" } }
 gsk_remilia_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_remilia_2_entity" } }
 gsk_remilia_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_remilia_3_entity" } }
@@ -348,11 +333,6 @@ gsk_saki_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gs
 gsk_saki_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_saki_2_entity" } }
 gsk_saki_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_saki_3_entity" } }
 gsk_saki_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_saki_4_entity" } }
-gsk_sakuya_10 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_10_entity" } }
-gsk_sakuya_11 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_11_entity" } }
-gsk_sakuya_12 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_12_entity" } }
-gsk_sakuya_13 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_13_entity" } }
-gsk_sakuya_14 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_14_entity" } }
 gsk_sakuya_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_1_entity" } }
 gsk_sakuya_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_2_entity" } }
 gsk_sakuya_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_3_entity" } }
@@ -362,9 +342,6 @@ gsk_sakuya_6 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "
 gsk_sakuya_7 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_7_entity" } }
 gsk_sakuya_8 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_8_entity" } }
 gsk_sakuya_9 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sakuya_9_entity" } }
-gsk_sanae_10 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sanae_10_entity" } }
-gsk_sanae_11 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sanae_11_entity" } }
-gsk_sanae_12 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sanae_12_entity" } }
 gsk_sanae_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sanae_1_entity" } }
 gsk_sanae_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sanae_2_entity" } }
 gsk_sanae_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_sanae_3_entity" } }
@@ -494,10 +471,6 @@ gsk_yoshika_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = 
 gsk_yoshika_5 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yoshika_5_entity" } }
 gsk_youka_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youka_1_entity" } }
 gsk_youka_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youka_2_entity" } }
-gsk_youmu_10 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youmu_10_entity" } }
-gsk_youmu_11 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youmu_11_entity" } }
-gsk_youmu_12 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youmu_12_entity" } }
-gsk_youmu_13 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youmu_13_entity" } }
 gsk_youmu_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youmu_1_entity" } }
 gsk_youmu_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youmu_2_entity" } }
 gsk_youmu_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_youmu_3_entity" } }
@@ -527,7 +500,6 @@ gsk_yuka_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gs
 gsk_yuka_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuka_4_entity" } }
 gsk_yuma_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuma_1_entity" } }
 gsk_yuma_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuma_2_entity" } }
-gsk_yuyuko_10 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuyuko_10_entity" } }
 gsk_yuyuko_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuyuko_1_entity" } }
 gsk_yuyuko_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuyuko_2_entity" } }
 gsk_yuyuko_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuyuko_3_entity" } }
