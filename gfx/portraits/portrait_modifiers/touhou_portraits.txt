@@ -2327,30 +2327,6 @@
 			}
 		}
 	}
-	just_touhou_kaguya_5 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = touhou_props_1
-				template = gsk_kaguya_5
-				value = 0.5
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 400
-				normal_portrait_blocked_trigger = no
-				has_trait = gsk_kaguya
-				exists = var:portrait_index
-				trigger_if = {
-					limit = { exists = var:portrait_index }
-					var:portrait_index = 4
-				}
-				touhou_portrait_trigger = yes
-			}
-		}
-	}
 	just_touhou_kanako_1 = {
 		dna_modifiers = {
 			accessory = {
@@ -3960,30 +3936,6 @@
 						var:portrait_index > touhou_max_portrait
 						var:portrait_index = 0
 					}
-				}
-				touhou_portrait_trigger = yes
-			}
-		}
-	}
-	just_touhou_larva_2 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = touhou_props_1
-				template = gsk_larva_2
-				value = 0.5
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 400
-				normal_portrait_blocked_trigger = no
-				has_trait = gsk_larva
-				exists = var:portrait_index
-				trigger_if = {
-					limit = { exists = var:portrait_index }
-					var:portrait_index = 1
 				}
 				touhou_portrait_trigger = yes
 			}
@@ -6197,30 +6149,6 @@
 			}
 		}
 	}
-	just_touhou_nightbug_4 = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = touhou_props_1
-				template = gsk_nightbug_4
-				value = 0.5
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 400
-				normal_portrait_blocked_trigger = no
-				has_trait = gsk_nightbug
-				exists = var:portrait_index
-				trigger_if = {
-					limit = { exists = var:portrait_index }
-					var:portrait_index = 3
-				}
-				touhou_portrait_trigger = yes
-			}
-		}
-	}
 	just_touhou_nitori_1 = {
 		dna_modifiers = {
 			accessory = {
@@ -6251,7 +6179,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = touhou_props_2
+				gene = touhou_props_1
 				template = gsk_nitori_2
 				value = 0.5
 			}
@@ -6275,7 +6203,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = touhou_props_2
+				gene = touhou_props_1
 				template = gsk_nitori_3
 				value = 0.5
 			}
@@ -6299,7 +6227,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = touhou_props_2
+				gene = touhou_props_1
 				template = gsk_nitori_4
 				value = 0.5
 			}
@@ -10893,6 +10821,56 @@
 			}
 		}
 	}
+	just_touhou_voyager_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_2
+				template = gsk_voyager_1
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_voyager
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					OR = {
+						var:portrait_index > touhou_max_portrait
+						var:portrait_index = 0
+					}
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
+	just_touhou_voyager_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_2
+				template = gsk_voyager_2
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_voyager
+				exists = var:portrait_index
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					var:portrait_index = 1
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
 	just_touhou_wakasagihime_1 = {
 		dna_modifiers = {
 			accessory = {
@@ -12485,7 +12463,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = touhou_props_3
+				gene = touhou_props_2
 				template = gsk_yuyuko_9
 				value = 0.5
 			}
@@ -12500,6 +12478,32 @@
 				trigger_if = {
 					limit = { exists = var:portrait_index }
 					var:portrait_index = 8
+				}
+				touhou_portrait_trigger = yes
+			}
+		}
+	}
+	just_touhou_zun_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = touhou_props_3
+				template = gsk_zun_1
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				normal_portrait_blocked_trigger = no
+				has_trait = gsk_zun
+				trigger_if = {
+					limit = { exists = var:portrait_index }
+					OR = {
+						var:portrait_index > touhou_max_portrait
+						var:portrait_index = 0
+					}
 				}
 				touhou_portrait_trigger = yes
 			}

@@ -93,7 +93,6 @@ gsk_kaguya_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "
 gsk_kaguya_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_kaguya_2_entity" } }
 gsk_kaguya_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_kaguya_3_entity" } }
 gsk_kaguya_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_kaguya_4_entity" } }
-gsk_kaguya_5 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_kaguya_5_entity" } }
 gsk_kanako_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_kanako_1_entity" } }
 gsk_kanako_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_kanako_2_entity" } }
 gsk_kanako_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_kanako_3_entity" } }
@@ -160,7 +159,6 @@ gsk_lapislazuli_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entit
 gsk_lapislazuli_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_lapislazuli_4_entity" } }
 gsk_lapislazuli_5 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_lapislazuli_5_entity" } }
 gsk_larva_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_larva_1_entity" } }
-gsk_larva_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_larva_2_entity" } }
 gsk_lilywhite_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_lilywhite_1_entity" } }
 gsk_lilywhite_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_lilywhite_2_entity" } }
 gsk_lilywhite_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_lilywhite_3_entity" } }
@@ -251,7 +249,6 @@ gsk_nemuno_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "
 gsk_nightbug_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_nightbug_1_entity" } }
 gsk_nightbug_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_nightbug_2_entity" } }
 gsk_nightbug_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_nightbug_3_entity" } }
-gsk_nightbug_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_nightbug_4_entity" } }
 gsk_nitori_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_nitori_1_entity" } }
 gsk_nitori_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_nitori_2_entity" } }
 gsk_nitori_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_nitori_3_entity" } }
@@ -443,6 +440,8 @@ gsk_utsuho_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "
 gsk_utsuho_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_utsuho_2_entity" } }
 gsk_utsuho_3 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_utsuho_3_entity" } }
 gsk_utsuho_4 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_utsuho_4_entity" } }
+gsk_voyager_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_voyager_1_entity" } }
+gsk_voyager_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_voyager_2_entity" } }
 gsk_wakasagihime_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_wakasagihime_1_entity" } }
 gsk_wakasagihime_2 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_wakasagihime_2_entity" } }
 gsk_whiterock_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_whiterock_1_entity" } }
@@ -509,3 +508,4 @@ gsk_yuyuko_6 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "
 gsk_yuyuko_7 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuyuko_7_entity" } }
 gsk_yuyuko_8 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuyuko_8_entity" } }
 gsk_yuyuko_9 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_yuyuko_9_entity" } }
+gsk_zun_1 = { entity = { required_tags = "" node = "bn_h_head_mid" entity = "gsk_zun_1_entity" } }

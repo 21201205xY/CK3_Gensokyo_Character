@@ -1614,23 +1614,6 @@ entity = {
 	pdxmesh = "gsk_kaguya_4_mesh"
 }
 pdxmesh = {
-	name = "gsk_kaguya_5_mesh"
-	file = "hm_prophet.mesh"
-	scale = 1.6
-	meshsettings = {
-		name = "prophet_shieldShape"
-		index = 0
-		texture_diffuse = "gsk_kaguya_5_diffuse.dds"
-		texture_specular = "gsk_kaguya_5_diffuse.dds"
-		shader = "portrait_attachment_alpha_to_coverage"
-		shader_file = "gfx/hmportrait.shader"
-	}
-}
-entity = {
-	name = "gsk_kaguya_5_entity"
-	pdxmesh = "gsk_kaguya_5_mesh"
-}
-pdxmesh = {
 	name = "gsk_kanako_1_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
@@ -2751,23 +2734,6 @@ pdxmesh = {
 entity = {
 	name = "gsk_larva_1_entity"
 	pdxmesh = "gsk_larva_1_mesh"
-}
-pdxmesh = {
-	name = "gsk_larva_2_mesh"
-	file = "hm_prophet.mesh"
-	scale = 1.6
-	meshsettings = {
-		name = "prophet_shieldShape"
-		index = 0
-		texture_diffuse = "gsk_larva_2_diffuse.dds"
-		texture_specular = "gsk_larva_2_diffuse.dds"
-		shader = "portrait_attachment_alpha_to_coverage"
-		shader_file = "gfx/hmportrait.shader"
-	}
-}
-entity = {
-	name = "gsk_larva_2_entity"
-	pdxmesh = "gsk_larva_2_mesh"
 }
 pdxmesh = {
 	name = "gsk_lilywhite_1_mesh"
@@ -4298,23 +4264,6 @@ pdxmesh = {
 entity = {
 	name = "gsk_nightbug_3_entity"
 	pdxmesh = "gsk_nightbug_3_mesh"
-}
-pdxmesh = {
-	name = "gsk_nightbug_4_mesh"
-	file = "hm_prophet.mesh"
-	scale = 1.6
-	meshsettings = {
-		name = "prophet_shieldShape"
-		index = 0
-		texture_diffuse = "gsk_nightbug_4_diffuse.dds"
-		texture_specular = "gsk_nightbug_4_diffuse.dds"
-		shader = "portrait_attachment_alpha_to_coverage"
-		shader_file = "gfx/hmportrait.shader"
-	}
-}
-entity = {
-	name = "gsk_nightbug_4_entity"
-	pdxmesh = "gsk_nightbug_4_mesh"
 }
 pdxmesh = {
 	name = "gsk_nitori_1_mesh"
@@ -7564,6 +7513,40 @@ entity = {
 	pdxmesh = "gsk_utsuho_4_mesh"
 }
 pdxmesh = {
+	name = "gsk_voyager_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "gsk_voyager_1_diffuse.dds"
+		texture_specular = "gsk_voyager_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "gsk_voyager_1_entity"
+	pdxmesh = "gsk_voyager_1_mesh"
+}
+pdxmesh = {
+	name = "gsk_voyager_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "gsk_voyager_2_diffuse.dds"
+		texture_specular = "gsk_voyager_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "gsk_voyager_2_entity"
+	pdxmesh = "gsk_voyager_2_mesh"
+}
+pdxmesh = {
 	name = "gsk_wakasagihime_1_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
@@ -8684,4 +8667,21 @@ pdxmesh = {
 entity = {
 	name = "gsk_yuyuko_9_entity"
 	pdxmesh = "gsk_yuyuko_9_mesh"
+}
+pdxmesh = {
+	name = "gsk_zun_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "gsk_zun_1_diffuse.dds"
+		texture_specular = "gsk_zun_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "gsk_zun_1_entity"
+	pdxmesh = "gsk_zun_1_mesh"
 }

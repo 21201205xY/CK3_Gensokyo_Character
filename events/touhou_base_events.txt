@@ -125,6 +125,7 @@ touhou_base_events.001 = { # pick your starter pokemon
 			create_touhou_character = { NAME = tsukasa }
 			create_touhou_character = { NAME = urumi }
 			create_touhou_character = { NAME = utsuho }
+			create_touhou_character = { NAME = voyager }
 			create_touhou_character = { NAME = wakasagihime }
 			create_touhou_character = { NAME = whiterock }
 			create_touhou_character = { NAME = yachie }
@@ -139,6 +140,7 @@ touhou_base_events.001 = { # pick your starter pokemon
 			create_touhou_character = { NAME = yuka }
 			create_touhou_character = { NAME = yuma }
 			create_touhou_character = { NAME = yuyuko }
+			create_touhou_character = { NAME = zun }
 		}	
 	}
 	option = {
@@ -179,7 +181,7 @@ touhou_base_events.001 = { # pick your starter pokemon
 				}
 				scope:invited_character = {
 					set_variable = { name = portrait_index value = 0 }
-					marry = employer
+					#marry = employer
 				}
 				set_mishu = { CHARACTER = scope:invited_character }
 			}

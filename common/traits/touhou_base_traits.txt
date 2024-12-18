@@ -1,1 +1,29 @@
-﻿
+﻿gsk_zun = {
+	flag = touhou
+	general_opinion = 200
+	icon = "trait_gsk_zun.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_zun_desc
+			}
+			desc = trait_gsk_zun_character_desc
+		}
+	}
+}
+
+gsk_voyager = {
+	flag = touhou
+	general_opinion = 200
+	icon = "trait_gsk_voyager.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_gsk_voyager_desc
+			}
+			desc = trait_gsk_voyager_character_desc
+		}
+	}
+}

@@ -106,6 +106,7 @@ create_touhou_character = { NAME = toziko }
 create_touhou_character = { NAME = tsukasa }
 create_touhou_character = { NAME = urumi }
 create_touhou_character = { NAME = utsuho }
+create_touhou_character = { NAME = voyager }
 create_touhou_character = { NAME = wakasagihime }
 create_touhou_character = { NAME = whiterock }
 create_touhou_character = { NAME = yachie }
@@ -120,3 +121,4 @@ create_touhou_character = { NAME = yukari }
 create_touhou_character = { NAME = yuka }
 create_touhou_character = { NAME = yuma }
 create_touhou_character = { NAME = yuyuko }
+create_touhou_character = { NAME = zun }
