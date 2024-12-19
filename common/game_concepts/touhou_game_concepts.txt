@@ -1,0 +1,12 @@
+﻿touhou_girl = {
+	texture = "gfx/interface/icons/traits/trait_gsk_touhou_characterss.dds"
+	alias = { touhou_girl }
+}
+touhou = {
+	texture = "gfx/interface/icons/traits/trait_gsk_touhou_characterss.dds"
+	alias = { touhou }
+}
+gensokyo = {
+	texture = "gfx/interface/icons/traits/trait_gsk_touhou_characterss.dds"
+	alias = { gensokyo }
+}
