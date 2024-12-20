@@ -32,3 +32,70 @@ set_touhou_character_sexuality_script = {
 		game_rule_sexuality_distribution_reroll_effect = yes
 	}
 }
+
+# set_touhou_random_traits = {
+# 	random_traits_list = {
+# 		count = $COUNT$
+# 		lustful = {}
+# 		gluttonous = {}
+# 		temperate = {}
+# 		greedy = {}
+# 		generous = {}
+# 		lazy = {}
+# 		diligent = {}
+# 		wrathful = {}
+# 		calm = {}
+# 		patient = {}
+# 		impatient = {}
+# 		arrogant = {}
+# 		humble = {}
+# 		deceitful = {}
+# 		honest = {}
+# 		craven = {}
+# 		brave = {}
+# 		shy = {}
+# 		gregarious = {}
+# 		ambitious = {}
+# 		content = {}
+# 		arbitrary = {}
+# 		just = {}
+# 		cynical = {}
+# 		zealous = {}
+# 		paranoid = {}
+# 		trusting = {}
+# 		compassionate = {}
+# 		callous = {}
+# 		sadistic = {}
+# 		stubborn = {}
+# 		fickle = {}
+# 		vengeful = {}
+# 		forgiving = {}
+# 		eccentric = {}
+# 	}
+# }
+
+# set_touhou_random_edu_traits = {
+# 	random_traits_list = {
+# 		count = 1
+# 		education_intrigue_1 = {}
+# 		education_diplomacy_1 = {}
+# 		education_stewardship_1 = {}
+# 		education_martial_1 = {}
+# 		education_learning_1 = {}
+# 		education_intrigue_2 = {}
+# 		education_diplomacy_2 = {}
+# 		education_stewardship_2 = {}
+# 		education_martial_2 = {}
+# 		education_learning_2 = {}
+# 		education_intrigue_3 = {}
+# 		education_diplomacy_3 = {}
+# 		education_stewardship_3 = {}
+# 		education_martial_3 = {}
+# 		education_learning_3 = {}
+# 		education_intrigue_4 = {}
+# 		education_diplomacy_4 = {}
+# 		education_stewardship_4 = {}
+# 		education_martial_4 = {}
+# 		education_learning_4 = {}
+# 	}
+# }

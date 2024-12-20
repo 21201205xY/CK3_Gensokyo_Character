@@ -12,7 +12,7 @@ gsk_akyuu = {
 		}
 	}
 }
-    
+
 gsk_alice = {
 	flag = touhou
 	icon = "trait_gsk_alice.dds"
@@ -26,7 +26,7 @@ gsk_alice = {
 		}
 	}
 }
-    
+
 gsk_aun = {
 	flag = touhou
 	icon = "trait_gsk_aun.dds"
@@ -40,7 +40,7 @@ gsk_aun = {
 		}
 	}
 }
-    
+
 gsk_aya = {
 	flag = touhou
 	icon = "trait_gsk_aya.dds"
@@ -54,7 +54,7 @@ gsk_aya = {
 		}
 	}
 }
-    
+
 gsk_benben = {
 	flag = touhou
 	icon = "trait_gsk_benben.dds"
@@ -68,7 +68,7 @@ gsk_benben = {
 		}
 	}
 }
-    
+
 gsk_byakuren = {
 	flag = touhou
 	icon = "trait_gsk_byakuren.dds"
@@ -82,7 +82,7 @@ gsk_byakuren = {
 		}
 	}
 }
-    
+
 gsk_chen = {
 	flag = touhou
 	icon = "trait_gsk_chen.dds"
@@ -96,7 +96,7 @@ gsk_chen = {
 		}
 	}
 }
-    
+
 gsk_chimata = {
 	flag = touhou
 	icon = "trait_gsk_chimata.dds"
@@ -110,7 +110,7 @@ gsk_chimata = {
 		}
 	}
 }
-    
+
 gsk_cirno = {
 	flag = touhou
 	icon = "trait_gsk_cirno.dds"
@@ -124,7 +124,7 @@ gsk_cirno = {
 		}
 	}
 }
-    
+
 gsk_clownpiece = {
 	flag = touhou
 	icon = "trait_gsk_clownpiece.dds"
@@ -138,7 +138,7 @@ gsk_clownpiece = {
 		}
 	}
 }
-    
+
 gsk_daiyousei = {
 	flag = touhou
 	icon = "trait_gsk_daiyousei.dds"
@@ -152,7 +152,7 @@ gsk_daiyousei = {
 		}
 	}
 }
-    
+
 gsk_eirin = {
 	flag = touhou
 	icon = "trait_gsk_eirin.dds"
@@ -166,7 +166,7 @@ gsk_eirin = {
 		}
 	}
 }
-    
+
 gsk_flandre = {
 	flag = touhou
 	icon = "trait_gsk_flandre.dds"
@@ -180,7 +180,7 @@ gsk_flandre = {
 		}
 	}
 }
-    
+
 gsk_futo = {
 	flag = touhou
 	icon = "trait_gsk_futo.dds"
@@ -194,7 +194,7 @@ gsk_futo = {
 		}
 	}
 }
-    
+
 gsk_hatate = {
 	flag = touhou
 	icon = "trait_gsk_hatate.dds"
@@ -208,7 +208,7 @@ gsk_hatate = {
 		}
 	}
 }
-    
+
 gsk_hearn = {
 	flag = touhou
 	icon = "trait_gsk_hearn.dds"
@@ -222,7 +222,7 @@ gsk_hearn = {
 		}
 	}
 }
-    
+
 gsk_himemushi = {
 	flag = touhou
 	icon = "trait_gsk_himemushi.dds"
@@ -236,7 +236,7 @@ gsk_himemushi = {
 		}
 	}
 }
-    
+
 gsk_hina = {
 	flag = touhou
 	icon = "trait_gsk_hina.dds"
@@ -250,7 +250,7 @@ gsk_hina = {
 		}
 	}
 }
-    
+
 gsk_ichirin = {
 	flag = touhou
 	icon = "trait_gsk_ichirin.dds"
@@ -264,7 +264,7 @@ gsk_ichirin = {
 		}
 	}
 }
-    
+
 gsk_iku = {
 	flag = touhou
 	icon = "trait_gsk_iku.dds"
@@ -278,7 +278,7 @@ gsk_iku = {
 		}
 	}
 }
-    
+
 gsk_junko = {
 	flag = touhou
 	icon = "trait_gsk_junko.dds"
@@ -292,7 +292,7 @@ gsk_junko = {
 		}
 	}
 }
-    
+
 gsk_jyoon = {
 	flag = touhou
 	icon = "trait_gsk_jyoon.dds"
@@ -306,7 +306,7 @@ gsk_jyoon = {
 		}
 	}
 }
-    
+
 gsk_kagerou = {
 	flag = touhou
 	icon = "trait_gsk_kagerou.dds"
@@ -320,7 +320,7 @@ gsk_kagerou = {
 		}
 	}
 }
-    
+
 gsk_kaguya = {
 	flag = touhou
 	icon = "trait_gsk_kaguya.dds"
@@ -334,7 +334,7 @@ gsk_kaguya = {
 		}
 	}
 }
-    
+
 gsk_kanako = {
 	flag = touhou
 	icon = "trait_gsk_kanako.dds"
@@ -348,7 +348,7 @@ gsk_kanako = {
 		}
 	}
 }
-    
+
 gsk_kasen = {
 	flag = touhou
 	icon = "trait_gsk_kasen.dds"
@@ -362,7 +362,7 @@ gsk_kasen = {
 		}
 	}
 }
-    
+
 gsk_keiki = {
 	flag = touhou
 	icon = "trait_gsk_keiki.dds"
@@ -376,7 +376,7 @@ gsk_keiki = {
 		}
 	}
 }
-    
+
 gsk_keine = {
 	flag = touhou
 	icon = "trait_gsk_keine.dds"
@@ -390,7 +390,7 @@ gsk_keine = {
 		}
 	}
 }
-    
+
 gsk_kisume = {
 	flag = touhou
 	icon = "trait_gsk_kisume.dds"
@@ -404,7 +404,7 @@ gsk_kisume = {
 		}
 	}
 }
-    
+
 gsk_koakuma = {
 	flag = touhou
 	icon = "trait_gsk_koakuma.dds"
@@ -418,7 +418,7 @@ gsk_koakuma = {
 		}
 	}
 }
-    
+
 gsk_kogasa = {
 	flag = touhou
 	icon = "trait_gsk_kogasa.dds"
@@ -432,7 +432,7 @@ gsk_kogasa = {
 		}
 	}
 }
-    
+
 gsk_koishi = {
 	flag = touhou
 	icon = "trait_gsk_koishi.dds"
@@ -446,7 +446,7 @@ gsk_koishi = {
 		}
 	}
 }
-    
+
 gsk_kokoro = {
 	flag = touhou
 	icon = "trait_gsk_kokoro.dds"
@@ -460,7 +460,7 @@ gsk_kokoro = {
 		}
 	}
 }
-    
+
 gsk_komachi = {
 	flag = touhou
 	icon = "trait_gsk_komachi.dds"
@@ -474,7 +474,7 @@ gsk_komachi = {
 		}
 	}
 }
-    
+
 gsk_kosuzu = {
 	flag = touhou
 	icon = "trait_gsk_kosuzu.dds"
@@ -488,7 +488,7 @@ gsk_kosuzu = {
 		}
 	}
 }
-    
+
 gsk_kutaka = {
 	flag = touhou
 	icon = "trait_gsk_kutaka.dds"
@@ -502,7 +502,7 @@ gsk_kutaka = {
 		}
 	}
 }
-    
+
 gsk_kyouko = {
 	flag = touhou
 	icon = "trait_gsk_kyouko.dds"
@@ -516,7 +516,7 @@ gsk_kyouko = {
 		}
 	}
 }
-    
+
 gsk_lapislazuli = {
 	flag = touhou
 	icon = "trait_gsk_lapislazuli.dds"
@@ -530,7 +530,7 @@ gsk_lapislazuli = {
 		}
 	}
 }
-    
+
 gsk_larva = {
 	flag = touhou
 	icon = "trait_gsk_larva.dds"
@@ -544,7 +544,7 @@ gsk_larva = {
 		}
 	}
 }
-    
+
 gsk_lilywhite = {
 	flag = touhou
 	icon = "trait_gsk_lilywhite.dds"
@@ -558,7 +558,7 @@ gsk_lilywhite = {
 		}
 	}
 }
-    
+
 gsk_lunasa = {
 	flag = touhou
 	icon = "trait_gsk_lunasa.dds"
@@ -572,7 +572,7 @@ gsk_lunasa = {
 		}
 	}
 }
-    
+
 gsk_luna = {
 	flag = touhou
 	icon = "trait_gsk_luna.dds"
@@ -586,7 +586,7 @@ gsk_luna = {
 		}
 	}
 }
-    
+
 gsk_lyrica = {
 	flag = touhou
 	icon = "trait_gsk_lyrica.dds"
@@ -600,7 +600,7 @@ gsk_lyrica = {
 		}
 	}
 }
-    
+
 gsk_mai = {
 	flag = touhou
 	icon = "trait_gsk_mai.dds"
@@ -614,7 +614,7 @@ gsk_mai = {
 		}
 	}
 }
-    
+
 gsk_mamizou = {
 	flag = touhou
 	icon = "trait_gsk_mamizou.dds"
@@ -628,7 +628,7 @@ gsk_mamizou = {
 		}
 	}
 }
-    
+
 gsk_marisa = {
 	flag = touhou
 	icon = "trait_gsk_marisa.dds"
@@ -642,7 +642,7 @@ gsk_marisa = {
 		}
 	}
 }
-    
+
 gsk_mayumi = {
 	flag = touhou
 	icon = "trait_gsk_mayumi.dds"
@@ -656,7 +656,7 @@ gsk_mayumi = {
 		}
 	}
 }
-    
+
 gsk_megumu = {
 	flag = touhou
 	icon = "trait_gsk_megumu.dds"
@@ -670,7 +670,7 @@ gsk_megumu = {
 		}
 	}
 }
-    
+
 gsk_meirin = {
 	flag = touhou
 	icon = "trait_gsk_meirin.dds"
@@ -684,7 +684,7 @@ gsk_meirin = {
 		}
 	}
 }
-    
+
 gsk_melancholy = {
 	flag = touhou
 	icon = "trait_gsk_melancholy.dds"
@@ -698,7 +698,7 @@ gsk_melancholy = {
 		}
 	}
 }
-    
+
 gsk_merlin = {
 	flag = touhou
 	icon = "trait_gsk_merlin.dds"
@@ -712,7 +712,7 @@ gsk_merlin = {
 		}
 	}
 }
-    
+
 gsk_mike = {
 	flag = touhou
 	icon = "trait_gsk_mike.dds"
@@ -726,7 +726,7 @@ gsk_mike = {
 		}
 	}
 }
-    
+
 gsk_miko = {
 	flag = touhou
 	icon = "trait_gsk_miko.dds"
@@ -740,7 +740,7 @@ gsk_miko = {
 		}
 	}
 }
-    
+
 gsk_minamitu = {
 	flag = touhou
 	icon = "trait_gsk_minamitu.dds"
@@ -754,7 +754,7 @@ gsk_minamitu = {
 		}
 	}
 }
-    
+
 gsk_minoriko = {
 	flag = touhou
 	icon = "trait_gsk_minoriko.dds"
@@ -768,7 +768,7 @@ gsk_minoriko = {
 		}
 	}
 }
-    
+
 gsk_misumaru = {
 	flag = touhou
 	icon = "trait_gsk_misumaru.dds"
@@ -782,7 +782,7 @@ gsk_misumaru = {
 		}
 	}
 }
-    
+
 gsk_mokou = {
 	flag = touhou
 	icon = "trait_gsk_mokou.dds"
@@ -796,7 +796,7 @@ gsk_mokou = {
 		}
 	}
 }
-    
+
 gsk_momizi = {
 	flag = touhou
 	icon = "trait_gsk_momizi.dds"
@@ -810,7 +810,7 @@ gsk_momizi = {
 		}
 	}
 }
-    
+
 gsk_mystia = {
 	flag = touhou
 	icon = "trait_gsk_mystia.dds"
@@ -824,7 +824,7 @@ gsk_mystia = {
 		}
 	}
 }
-    
+
 gsk_narumi = {
 	flag = touhou
 	icon = "trait_gsk_narumi.dds"
@@ -838,7 +838,7 @@ gsk_narumi = {
 		}
 	}
 }
-    
+
 gsk_nazrin = {
 	flag = touhou
 	icon = "trait_gsk_nazrin.dds"
@@ -852,7 +852,7 @@ gsk_nazrin = {
 		}
 	}
 }
-    
+
 gsk_nemuno = {
 	flag = touhou
 	icon = "trait_gsk_nemuno.dds"
@@ -866,7 +866,7 @@ gsk_nemuno = {
 		}
 	}
 }
-    
+
 gsk_nightbug = {
 	flag = touhou
 	icon = "trait_gsk_nightbug.dds"
@@ -880,7 +880,7 @@ gsk_nightbug = {
 		}
 	}
 }
-    
+
 gsk_nitori = {
 	flag = touhou
 	icon = "trait_gsk_nitori.dds"
@@ -894,7 +894,7 @@ gsk_nitori = {
 		}
 	}
 }
-    
+
 gsk_nue = {
 	flag = touhou
 	icon = "trait_gsk_nue.dds"
@@ -908,7 +908,7 @@ gsk_nue = {
 		}
 	}
 }
-    
+
 gsk_okina = {
 	flag = touhou
 	icon = "trait_gsk_okina.dds"
@@ -922,7 +922,7 @@ gsk_okina = {
 		}
 	}
 }
-    
+
 gsk_parsee = {
 	flag = touhou
 	icon = "trait_gsk_parsee.dds"
@@ -936,7 +936,7 @@ gsk_parsee = {
 		}
 	}
 }
-    
+
 gsk_patchouli = {
 	flag = touhou
 	icon = "trait_gsk_patchouli.dds"
@@ -950,7 +950,7 @@ gsk_patchouli = {
 		}
 	}
 }
-    
+
 gsk_raiko = {
 	flag = touhou
 	icon = "trait_gsk_raiko.dds"
@@ -964,7 +964,7 @@ gsk_raiko = {
 		}
 	}
 }
-    
+
 gsk_ran = {
 	flag = touhou
 	icon = "trait_gsk_ran.dds"
@@ -978,7 +978,7 @@ gsk_ran = {
 		}
 	}
 }
-    
+
 gsk_reimu = {
 	flag = touhou
 	icon = "trait_gsk_reimu.dds"
@@ -992,7 +992,7 @@ gsk_reimu = {
 		}
 	}
 }
-    
+
 gsk_reisen2 = {
 	flag = touhou
 	icon = "trait_gsk_reisen2.dds"
@@ -1006,7 +1006,7 @@ gsk_reisen2 = {
 		}
 	}
 }
-    
+
 gsk_reisen = {
 	flag = touhou
 	icon = "trait_gsk_reisen.dds"
@@ -1020,7 +1020,7 @@ gsk_reisen = {
 		}
 	}
 }
-    
+
 gsk_remilia = {
 	flag = touhou
 	icon = "trait_gsk_remilia.dds"
@@ -1034,7 +1034,7 @@ gsk_remilia = {
 		}
 	}
 }
-    
+
 gsk_renko = {
 	flag = touhou
 	icon = "trait_gsk_renko.dds"
@@ -1048,7 +1048,7 @@ gsk_renko = {
 		}
 	}
 }
-    
+
 gsk_ringo = {
 	flag = touhou
 	icon = "trait_gsk_ringo.dds"
@@ -1062,7 +1062,7 @@ gsk_ringo = {
 		}
 	}
 }
-    
+
 gsk_rin = {
 	flag = touhou
 	icon = "trait_gsk_rin.dds"
@@ -1076,7 +1076,7 @@ gsk_rin = {
 		}
 	}
 }
-    
+
 gsk_rumia = {
 	flag = touhou
 	icon = "trait_gsk_rumia.dds"
@@ -1090,7 +1090,7 @@ gsk_rumia = {
 		}
 	}
 }
-    
+
 gsk_sagume = {
 	flag = touhou
 	icon = "trait_gsk_sagume.dds"
@@ -1104,7 +1104,7 @@ gsk_sagume = {
 		}
 	}
 }
-    
+
 gsk_saki = {
 	flag = touhou
 	icon = "trait_gsk_saki.dds"
@@ -1118,7 +1118,7 @@ gsk_saki = {
 		}
 	}
 }
-    
+
 gsk_sakuya = {
 	flag = touhou
 	icon = "trait_gsk_sakuya.dds"
@@ -1132,7 +1132,7 @@ gsk_sakuya = {
 		}
 	}
 }
-    
+
 gsk_sanae = {
 	flag = touhou
 	icon = "trait_gsk_sanae.dds"
@@ -1146,7 +1146,7 @@ gsk_sanae = {
 		}
 	}
 }
-    
+
 gsk_satono = {
 	flag = touhou
 	icon = "trait_gsk_satono.dds"
@@ -1160,7 +1160,7 @@ gsk_satono = {
 		}
 	}
 }
-    
+
 gsk_satori = {
 	flag = touhou
 	icon = "trait_gsk_satori.dds"
@@ -1174,7 +1174,7 @@ gsk_satori = {
 		}
 	}
 }
-    
+
 gsk_seiga = {
 	flag = touhou
 	icon = "trait_gsk_seiga.dds"
@@ -1188,7 +1188,7 @@ gsk_seiga = {
 		}
 	}
 }
-    
+
 gsk_seija = {
 	flag = touhou
 	icon = "trait_gsk_seija.dds"
@@ -1202,7 +1202,7 @@ gsk_seija = {
 		}
 	}
 }
-    
+
 gsk_seiran = {
 	flag = touhou
 	icon = "trait_gsk_seiran.dds"
@@ -1216,7 +1216,7 @@ gsk_seiran = {
 		}
 	}
 }
-    
+
 gsk_sekibanki = {
 	flag = touhou
 	icon = "trait_gsk_sekibanki.dds"
@@ -1230,7 +1230,7 @@ gsk_sekibanki = {
 		}
 	}
 }
-    
+
 gsk_shikieiki = {
 	flag = touhou
 	icon = "trait_gsk_shikieiki.dds"
@@ -1244,7 +1244,7 @@ gsk_shikieiki = {
 		}
 	}
 }
-    
+
 gsk_shinmyoumaru = {
 	flag = touhou
 	icon = "trait_gsk_shinmyoumaru.dds"
@@ -1258,7 +1258,7 @@ gsk_shinmyoumaru = {
 		}
 	}
 }
-    
+
 gsk_shion = {
 	flag = touhou
 	icon = "trait_gsk_shion.dds"
@@ -1272,7 +1272,7 @@ gsk_shion = {
 		}
 	}
 }
-    
+
 gsk_shou = {
 	flag = touhou
 	icon = "trait_gsk_shou.dds"
@@ -1286,7 +1286,7 @@ gsk_shou = {
 		}
 	}
 }
-    
+
 gsk_sizuha = {
 	flag = touhou
 	icon = "trait_gsk_sizuha.dds"
@@ -1300,7 +1300,7 @@ gsk_sizuha = {
 		}
 	}
 }
-    
+
 gsk_star = {
 	flag = touhou
 	icon = "trait_gsk_star.dds"
@@ -1314,7 +1314,7 @@ gsk_star = {
 		}
 	}
 }
-    
+
 gsk_suika = {
 	flag = touhou
 	icon = "trait_gsk_suika.dds"
@@ -1328,7 +1328,7 @@ gsk_suika = {
 		}
 	}
 }
-    
+
 gsk_sumireko = {
 	flag = touhou
 	icon = "trait_gsk_sumireko.dds"
@@ -1342,7 +1342,7 @@ gsk_sumireko = {
 		}
 	}
 }
-    
+
 gsk_sunny = {
 	flag = touhou
 	icon = "trait_gsk_sunny.dds"
@@ -1356,7 +1356,7 @@ gsk_sunny = {
 		}
 	}
 }
-    
+
 gsk_suwako = {
 	flag = touhou
 	icon = "trait_gsk_suwako.dds"
@@ -1370,7 +1370,7 @@ gsk_suwako = {
 		}
 	}
 }
-    
+
 gsk_sweet = {
 	flag = touhou
 	icon = "trait_gsk_sweet.dds"
@@ -1384,7 +1384,7 @@ gsk_sweet = {
 		}
 	}
 }
-    
+
 gsk_takane = {
 	flag = touhou
 	icon = "trait_gsk_takane.dds"
@@ -1398,7 +1398,7 @@ gsk_takane = {
 		}
 	}
 }
-    
+
 gsk_tenshi = {
 	flag = touhou
 	icon = "trait_gsk_tenshi.dds"
@@ -1412,7 +1412,7 @@ gsk_tenshi = {
 		}
 	}
 }
-    
+
 gsk_tewi = {
 	flag = touhou
 	icon = "trait_gsk_tewi.dds"
@@ -1426,7 +1426,7 @@ gsk_tewi = {
 		}
 	}
 }
-    
+
 gsk_toyohime = {
 	flag = touhou
 	icon = "trait_gsk_toyohime.dds"
@@ -1440,7 +1440,7 @@ gsk_toyohime = {
 		}
 	}
 }
-    
+
 gsk_toziko = {
 	flag = touhou
 	icon = "trait_gsk_toziko.dds"
@@ -1454,7 +1454,7 @@ gsk_toziko = {
 		}
 	}
 }
-    
+
 gsk_tsukasa = {
 	flag = touhou
 	icon = "trait_gsk_tsukasa.dds"
@@ -1468,7 +1468,7 @@ gsk_tsukasa = {
 		}
 	}
 }
-    
+
 gsk_urumi = {
 	flag = touhou
 	icon = "trait_gsk_urumi.dds"
@@ -1482,7 +1482,7 @@ gsk_urumi = {
 		}
 	}
 }
-    
+
 gsk_utsuho = {
 	flag = touhou
 	icon = "trait_gsk_utsuho.dds"
@@ -1496,7 +1496,7 @@ gsk_utsuho = {
 		}
 	}
 }
-    
+
 gsk_wakasagihime = {
 	flag = touhou
 	icon = "trait_gsk_wakasagihime.dds"
@@ -1510,7 +1510,7 @@ gsk_wakasagihime = {
 		}
 	}
 }
-    
+
 gsk_whiterock = {
 	flag = touhou
 	icon = "trait_gsk_whiterock.dds"
@@ -1524,7 +1524,7 @@ gsk_whiterock = {
 		}
 	}
 }
-    
+
 gsk_yachie = {
 	flag = touhou
 	icon = "trait_gsk_yachie.dds"
@@ -1538,7 +1538,7 @@ gsk_yachie = {
 		}
 	}
 }
-    
+
 gsk_yamame = {
 	flag = touhou
 	icon = "trait_gsk_yamame.dds"
@@ -1552,7 +1552,7 @@ gsk_yamame = {
 		}
 	}
 }
-    
+
 gsk_yatsuhashi = {
 	flag = touhou
 	icon = "trait_gsk_yatsuhashi.dds"
@@ -1566,7 +1566,7 @@ gsk_yatsuhashi = {
 		}
 	}
 }
-    
+
 gsk_yorihime = {
 	flag = touhou
 	icon = "trait_gsk_yorihime.dds"
@@ -1580,7 +1580,7 @@ gsk_yorihime = {
 		}
 	}
 }
-    
+
 gsk_yoshika = {
 	flag = touhou
 	icon = "trait_gsk_yoshika.dds"
@@ -1594,7 +1594,7 @@ gsk_yoshika = {
 		}
 	}
 }
-    
+
 gsk_youka = {
 	flag = touhou
 	icon = "trait_gsk_youka.dds"
@@ -1608,7 +1608,7 @@ gsk_youka = {
 		}
 	}
 }
-    
+
 gsk_youmu = {
 	flag = touhou
 	icon = "trait_gsk_youmu.dds"
@@ -1622,7 +1622,7 @@ gsk_youmu = {
 		}
 	}
 }
-    
+
 gsk_yugi = {
 	flag = touhou
 	icon = "trait_gsk_yugi.dds"
@@ -1636,7 +1636,7 @@ gsk_yugi = {
 		}
 	}
 }
-    
+
 gsk_yukari = {
 	flag = touhou
 	icon = "trait_gsk_yukari.dds"
@@ -1650,7 +1650,7 @@ gsk_yukari = {
 		}
 	}
 }
-    
+
 gsk_yuka = {
 	flag = touhou
 	icon = "trait_gsk_yuka.dds"
@@ -1664,7 +1664,7 @@ gsk_yuka = {
 		}
 	}
 }
-    
+
 gsk_yuma = {
 	flag = touhou
 	icon = "trait_gsk_yuma.dds"
@@ -1678,7 +1678,7 @@ gsk_yuma = {
 		}
 	}
 }
-    
+
 gsk_yuyuko = {
 	flag = touhou
 	icon = "trait_gsk_yuyuko.dds"
