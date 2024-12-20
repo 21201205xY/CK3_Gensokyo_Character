@@ -10,3 +10,7 @@ gensokyo = {
 	texture = "gfx/interface/icons/traits/trait_gsk_touhou_characterss.dds"
 	alias = { gensokyo }
 }
+akyuu_monologue = {
+	texture = "gfx/interface/icons/traits/trait_gsk_touhou_characterss.dds"
+	alias = { akyuu_monologue }
+}
