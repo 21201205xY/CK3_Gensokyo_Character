@@ -2,6 +2,7 @@
 gsk_akyuu = {
 	flag = touhou
 	icon = "trait_gsk_akyuu.dds"
+	life_expectancy = -30
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -113,6 +114,12 @@ gsk_chimata = {
 
 gsk_cirno = {
 	flag = touhou
+	diplomacy = 9
+	martial = 9
+	stewardship = 9
+	intrigue = 9
+	learning = 9
+	prowess = 9
 	icon = "trait_gsk_cirno.dds"
 	desc = {
 		first_valid = {

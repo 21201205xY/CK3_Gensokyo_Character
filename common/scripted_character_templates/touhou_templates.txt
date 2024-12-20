@@ -10,21 +10,11 @@ gsk_akyuu_template = {
     stewardship = { 10 15 }
     learning = { 10 15 }
     prowess = { 10 18 }
+    trait = education_learning_4
+    trait = patient
+    trait = humble
+    trait = diligent
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_akyuu_name
@@ -48,20 +38,11 @@ gsk_alice_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_stewardship_4
+    trait = beauty_good_2
+    trait = generous
+    trait = humble
+    trait = calm
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_alice_name
@@ -122,20 +103,10 @@ gsk_aya_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_diplomacy_4
+    trait = deceitful
+    trait = ambitious
+    trait = calm
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_aya_name
@@ -300,27 +271,17 @@ gsk_cirno_template = {
     trait = gsk_cirno
     age = 16
     gender = female
-    intrigue = { 10 15 }
-    martial = { 10 15 }
-    diplomacy = { 10 15 }
-    stewardship = { 10 15 }
-    learning = { 10 15 }
-    prowess = { 10 18 }
+    intrigue = { 1 4 }
+    martial = { 1 4 }
+    diplomacy = { 1 4 }
+    stewardship = { 1 4 }
+    learning = { 1 4 }
+    prowess = { 1 9 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_1
+    trait = trusting
+    trait = brave
+    trait = arrogant
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_cirno_name
@@ -344,6 +305,7 @@ gsk_clownpiece_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+    trait = gregarious
     random_traits_list = {
 		count = 1 
 		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
@@ -352,7 +314,7 @@ gsk_clownpiece_template = {
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
     random_traits_list = {
-		count = 3
+		count = 2
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -381,6 +343,7 @@ gsk_daiyousei_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+    trait = compassionate
     random_traits_list = {
 		count = 1 
 		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
@@ -389,7 +352,7 @@ gsk_daiyousei_template = {
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
     random_traits_list = {
-		count = 3
+		count = 2
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -411,27 +374,19 @@ gsk_eirin_template = {
     trait = gsk_eirin
     age = 16
     gender = female
-    intrigue = { 10 15 }
-    martial = { 10 15 }
-    diplomacy = { 10 15 }
-    stewardship = { 10 15 }
-    learning = { 10 15 }
+    intrigue = { 8 13 }
+    martial = { 8 13 }
+    diplomacy = { 8 13 }
+    stewardship = { 8 13 }
+    learning = { 8 13 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = content
+    trait = chaste
+    trait = forgiving
+    trait = intellect_good_3
+    trait = lifestyle_physician
+    trait = education_learning_5
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_eirin_name
@@ -440,6 +395,10 @@ gsk_eirin_template = {
 		    set_house_name_from_dynasty = prev.dynasty
 		}
         set_touhou_character_sexuality_script= yes
+		add_trait_xp = {
+			trait = lifestyle_physician
+			value = 100
+		}
 	}
 }
 
@@ -455,20 +414,11 @@ gsk_flandre_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_prowess_4
+	trait = education_martial_3
+    trait = wrathful
+    trait = impatient
+    trait = brave
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_flandre_name
@@ -492,6 +442,7 @@ gsk_futo_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+	trait = honest
     random_traits_list = {
 		count = 1 
 		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
@@ -500,7 +451,7 @@ gsk_futo_template = {
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
     random_traits_list = {
-		count = 3
+		count = 2
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -751,6 +702,9 @@ gsk_junko_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+	trait = education_martial_4
+	trait = wrathful
+	trait = stubborn
     random_traits_list = {
 		count = 1 
 		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
@@ -759,7 +713,7 @@ gsk_junko_template = {
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
     random_traits_list = {
-		count = 3
+		count = 1
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -862,20 +816,11 @@ gsk_kaguya_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_diplomacy_4
+    trait = beauty_good_3
+    trait = chaste
+    trait = content
+    trait = lazy
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_kaguya_name
@@ -899,20 +844,10 @@ gsk_kanako_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_4
+    trait = arbitrary
+    trait = fickle
+    trait = deceitful
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_kanako_name
@@ -929,27 +864,18 @@ gsk_kasen_template = {
     trait = gsk_kasen
     age = 16
     gender = female
-    intrigue = { 10 15 }
-    martial = { 10 15 }
-    diplomacy = { 10 15 }
-    stewardship = { 10 15 }
-    learning = { 10 15 }
+    intrigue = { 8 13 }
+    martial = { 8 13 }
+    diplomacy = { 8 13 }
+    stewardship = { 8 13 }
+    learning = { 8 13 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_stewardship_5
+	trait = intellect_good_3
+    trait = compassionate
+    trait = forgiving
+    trait = diligent
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_kasen_name
@@ -1010,20 +936,11 @@ gsk_keine_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+	trait = education_learning_4
+	trait = diligent
+	trait = just
+	trait = calm
+	trait = shrewd
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_keine_name
@@ -1158,20 +1075,10 @@ gsk_koishi_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+	trait = education_intrigue_4
+    trait = fickle
+    trait = callous
+    trait = arbitrary
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_koishi_name
@@ -1202,8 +1109,9 @@ gsk_kokoro_template = {
 		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
+    trait = calm
     random_traits_list = {
-		count = 3
+		count = 2
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -1269,20 +1177,10 @@ gsk_kosuzu_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_learning_4
+    trait = diligent
+    trait = craven
+    trait = zealous
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_kosuzu_name
@@ -1676,20 +1574,10 @@ gsk_marisa_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_stewardship_4
+    trait = diligent
+    trait = ambitious
+    trait = gregarious
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_marisa_name
@@ -1787,6 +1675,7 @@ gsk_meirin_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+    trait = lazy
     random_traits_list = {
 		count = 1 
 		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
@@ -1795,7 +1684,7 @@ gsk_meirin_template = {
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
     random_traits_list = {
-		count = 3
+		count = 2
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -2083,20 +1972,10 @@ gsk_mokou_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_4
+    trait = compassionate
+    trait = brave
+    trait = generous
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_mokou_name
@@ -2416,20 +2295,11 @@ gsk_okina_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_5
+	trait = intellect_good_3
+    trait = eccentric
+    trait = patient
+    trait = arbitrary
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_okina_name
@@ -2453,6 +2323,7 @@ gsk_parsee_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+	trait = vengeful
     random_traits_list = {
 		count = 1 
 		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
@@ -2461,7 +2332,7 @@ gsk_parsee_template = {
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
     random_traits_list = {
-		count = 3
+		count = 2
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -2490,15 +2361,11 @@ gsk_patchouli_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+    trait = education_learning_4
+    trait = shy
+    trait = callous
     random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
+		count = 1
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -2601,20 +2468,11 @@ gsk_reimu_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_4
+    trait = intellect_good_2
+    trait = greedy
+    trait = brave
+    trait = forgiving
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_reimu_name
@@ -2675,15 +2533,11 @@ gsk_reisen_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+    trait = education_martial_4
+    trait = content
+    trait = craven
     random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
+		count = 1
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -2712,20 +2566,10 @@ gsk_remilia_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_4
+    trait = brave
+    trait = arbitrary
+    trait = arrogant
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_remilia_name
@@ -2749,13 +2593,7 @@ gsk_renko_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
+    trait = education_diplomacy_4
     random_traits_list = {
 		count = 3
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
@@ -2897,15 +2735,10 @@ gsk_sagume_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+    trait = education_intrigue_4
+    trait = shy
     random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
+		count = 2
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -2971,20 +2804,11 @@ gsk_sakuya_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_stewardship_4
+    trait = patient
+    trait = diligent
+    trait = calm
+    trait = lifestyle_gardener
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_sakuya_name
@@ -3008,20 +2832,12 @@ gsk_sanae_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_diplomacy_4
+    trait = honest
+    trait = zealous
+    trait = trusting
+	trait = blood_of_prophet
+	trait = paragon
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_sanae_name
@@ -3082,15 +2898,11 @@ gsk_satori_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+    trait = education_intrigue_4
+    trait = honest
+    trait = shy
     random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
+		count = 1
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -3267,20 +3079,10 @@ gsk_shikieiki_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_diplomacy_4
+    trait = honest
+    trait = temperate
+    trait = just
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_shikieiki_name
@@ -3496,13 +3298,10 @@ gsk_suika_template = {
 		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = honest
+    trait = brave
+    trait = gregarious
+    trait = physique_good_3
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_suika_name
@@ -3600,19 +3399,12 @@ gsk_suwako_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
+    trait = education_stewardship_4
+    trait = fickle
+    trait = vengeful
     random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
+		count = 1
+		patient = {} calm = {}
 	}
     after_creation = {
 	    dynasty = {
@@ -3718,12 +3510,10 @@ gsk_tenshi_template = {
 		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
+    trait = arrogant
     random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
+		count = 2
+		cynical = {} arbitrary = {} ambitious = {} 
 	}
     after_creation = {
 	    dynasty = {
@@ -3748,20 +3538,10 @@ gsk_tewi_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_intrigue_3
+    trait = deceitful
+    trait = vengeful
+    trait = arbitrary
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_tewi_name
@@ -4266,20 +4046,10 @@ gsk_youmu_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_4
+    trait = honest
+    trait = just
+    trait = brave
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_youmu_name
@@ -4317,6 +4087,7 @@ gsk_yugi_template = {
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
 		forgiving = {} eccentric = {}
 	}
+    trait = physique_good_3
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_yugi_name
@@ -4340,20 +4111,11 @@ gsk_yukari_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_intrigue_5
+    trait = intellect_good_3
+    trait = fickle
+    trait = paranoid
+    trait = deceitful
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_yukari_name
@@ -4377,20 +4139,10 @@ gsk_yuka_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_martial_4
+    trait = callous
+    trait = sadistic
+    trait = wrathful
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_yuka_name
@@ -4421,8 +4173,9 @@ gsk_yuma_template = {
 		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
 		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
 	}
+    trait = gluttonous
     random_traits_list = {
-		count = 3
+		count = 2
 		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
 		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
 		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
@@ -4451,20 +4204,10 @@ gsk_yuyuko_template = {
     learning = { 10 15 }
     prowess = { 10 18 }
     random_traits = no
-    random_traits_list = {
-		count = 1 
-		education_intrigue_1 = {} education_diplomacy_1 = {} education_stewardship_1 = {} education_martial_1 = {} education_learning_1 = {}
-		education_intrigue_2 = {} education_diplomacy_2 = {} education_stewardship_2 = {} education_martial_2 = {} education_learning_2 = {}
-		education_intrigue_3 = {} education_diplomacy_3 = {} education_stewardship_3 = {} education_martial_3 = {} education_learning_3 = {}
-		education_intrigue_4 = {} education_diplomacy_4 = {} education_stewardship_4 = {} education_martial_4 = {} education_learning_4 = {}
-	}
-    random_traits_list = {
-		count = 3
-		lustful = {} gluttonous = {} temperate = {} greedy = {} generous = {} lazy = {} diligent = {} wrathful = {} calm = {} patient = {} impatient = {}
-		arrogant = {} humble = {} deceitful = {} honest = {} craven = {} brave = {} shy = {} gregarious = {} ambitious = {} content = {} arbitrary = {}
-		just = {} cynical = {} zealous = {} paranoid = {} trusting = {} compassionate = {} callous = {} sadistic = {} stubborn = {} ickle = {} vengeful = {}
-		forgiving = {} eccentric = {}
-	}
+    trait = education_stewardship_4
+    trait = gluttonous
+    trait = calm
+    trait = patient
     after_creation = {
 	    dynasty = {
 			set_dynasty_name = gsk_dynasty_yuyuko_name
