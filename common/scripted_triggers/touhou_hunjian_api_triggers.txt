@@ -1,75 +1,8 @@
-﻿# related to other mods
-use_break_mechanic = {
-	OR = {
-		warshipgirl_trigger = yes
-		is_tactics_dolls_trigger = yes
-	}
-}
-is_ship_women_trigger = {
-	custom_description = {
-		text = is_ship_women_tt
-		OR = {
-			warshipgirl_trigger = yes
-			is_kansen_trigger = yes
-		}
-	}
-}
-
-can_pick_heredity_waifu_portrait_trigger = {
-	OR = {
-		warshipgirl_trigger = yes
-		is_kansen_trigger = yes
-		is_tactics_dolls_trigger = yes
-	}
-}
-can_heredity_waifu_portrait_trigger = {
-	OR = {
-		can_pick_heredity_waifu_portrait_trigger = yes
-		is_ba_student_trigger = yes
-		is_uma_musume_trigger = yes
-
-		is_maid_portrait_trigger = yes
-	}
-}
-
-waifu_has_breast_trigger = {
-	trigger_if = {
-		limit = {
-			exists = global_var:hmi_character_loaded
-		}
-		hmi_has_breast_trigger = yes
-	}
-	trigger_if = {
-		limit = {
-			exists = global_var:azur_lane_loaded
-		}
-		al_has_breast_trigger = yes
-	}
-	trigger_if = {
-		limit = {
-			exists = global_var:girls_frontline_loaded
-		}
-		gf_has_breast_trigger = yes
-	}
-}
-
-hunjian_should_have_domicile_trigger = {
-    trigger_if = {
-        limit = {
-            can_have_rhodes_base = yes
-        }
-        has_rhodes_base = no
-    }
-    trigger_if = {
-        limit = {
-            can_have_schale = yes
-        }
-        has_schale = no
-    }
-    trigger_if = {
-        limit = {
-            can_have_crystal_palace = yes
-        }
-        has_crystal_palace = no
-    }
-}
+﻿# gsk_change_married_trigger = {
+# 	always = no
+# 	exists = global_var:gsk_change_married
+# }
+# gsk_pre_change_married_trigger = {
+# 	always = no
+# 	exists = global_var:gsk_pre_change_married
+# }

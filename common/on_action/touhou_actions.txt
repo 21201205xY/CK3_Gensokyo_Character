@@ -7,6 +7,8 @@
 touhou_base_on_game_start = {	
 	effect = {
 		set_global_variable = { name = touhou_character_loaded value = yes }
+		set_global_variable = { name = gsk_pre_change_married value = no }
+		set_global_variable = { name = gsk_change_married value = no }
 	}
 }
 
@@ -39,31 +41,26 @@ touhou_on_set_hunjian = {
 		}
 	}
 	effect = {
-		# if = {
-		# 	limit = {
-		# 		is_hm_religion = yes
-		# 	}
-		# 	add_legitimacy_effect = { LEGITIMACY = miniscule_legitimacy_gain }
-		# }
 		scope:target = {
-			add_trait = oath_ring
+			add_trait = touhou_oath
 			save_scope_as = oath_girl
-			# save_scope_as = asker
-			# save_scope_as = new_spouse
 		}
-		# if = {
-		# 	limit = {
-		# 		NOT = { has_character_flag = tidu_has_marry }
-		# 	}
-		# 	save_scope_as = marry_tidu
-		# 	add_character_flag = {
-		# 		flag = tidu_has_marry
-		# 		days = 7300
-		# 	}
-		# 	trigger_event = {
-		# 		id = HM.0082
-		# 		days = 10
-		# 	}
-		# }
+		if = {
+			limit = {
+				is_married = no
+				global_var:gsk_pre_change_married = no
+			}
+			trigger_event = {
+				id = touhou_base_events.002
+			}
+		}
+		else_if = {
+			limit = {
+				is_married = no
+				global_var:gsk_change_married = yes
+				global_var:gsk_pre_change_married = yes
+			}
+			marry = scope:target
+		}
 	}
 }

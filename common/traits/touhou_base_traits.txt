@@ -9,3 +9,21 @@ gsk_voyager = {
 	general_opinion = 200
 	icon = "trait_gsk_voyager.dds"
 }
+
+touhou_oath = {
+	general_opinion = 15
+	group_equivalence = oathed
+	level = 1
+	icon = "oath_ring.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_touhou_oath_desc
+			}
+			desc = trait_touhou_oath_character_desc
+		}
+	}
+}

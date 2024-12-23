@@ -10,3 +10,9 @@ touhou_trigger = {
 # 	always = no
 # 	exists = global_var:touhou_character_loaded
 # }
+is_touhou_girl_trigger = {
+	custom_description = {
+		text = "is_touhou_girl_trigger"
+		has_trait_with_flag = touhou
+	}
+}

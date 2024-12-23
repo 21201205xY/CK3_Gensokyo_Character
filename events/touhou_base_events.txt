@@ -4,7 +4,7 @@ touhou_base_events.001 = { # pick your starter pokemon
 	type = character_event
 	title = touhou_base_events.001.t
 	desc = touhou_base_events.001.desc
-	content_source = dlc_touhou
+	content_source = dlc_TOUHOU
 	theme = holy_construction
 	left_portrait = {
 		character = root
@@ -144,7 +144,7 @@ touhou_base_events.001 = { # pick your starter pokemon
 		}	
 	}
 	option = {
-		name = hm_bookmark.0015.b 
+		name = touhou_base_events.001.b
 		hidden_effect = {
             create_character = {
                 template = gsk_sagume_template
@@ -174,17 +174,59 @@ touhou_base_events.001 = { # pick your starter pokemon
 	# 	}	
 	# }
 	after = {
-		hidden_effect = {
-			if = {  # to supress error logs
-				limit = {
-					exists = scope:invited_character
-				}
-				scope:invited_character = {
-					set_variable = { name = portrait_index value = 0 }
-					#marry = employer
-				}
-				set_mishu = { CHARACTER = scope:invited_character }
-			}
-		}
+		# hidden_effect = {
+		# 	if = {  # to supress error logs
+		# 		limit = {
+		# 			exists = scope:invited_character
+		# 		}
+		# 		scope:invited_character = {
+		# 			set_variable = { name = portrait_index value = 0 }
+		# 			#marry = employer
+		# 		}
+		# 		set_mishu = { CHARACTER = scope:invited_character }
+		# 	}
+		# }
+	}
+}
+touhou_base_events.002 = { # pick your starter pokemon
+	type = character_event
+	title = touhou_base_events.002.t
+	desc = touhou_base_events.002.desc
+	content_source = dlc_TOUHOU
+	theme = holy_construction
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:oath_girl
+	}
+	trigger = {
+	}
+	immediate = {
+	}
+	option = {
+		name = touhou_base_events.002.a
+		set_global_variable = { name = gsk_pre_change_married value = yes }
+		set_global_variable = { name = gsk_change_married value = yes }
+		marry = scope:oath_girl
+	}
+	option = {
+		name = touhou_base_events.002.b
+		set_global_variable = { name = gsk_pre_change_married value = no }
+		set_global_variable = { name = gsk_change_married value = yes }
+		marry = scope:oath_girl
+	}
+	option = {
+		name = touhou_base_events.002.c
+		set_global_variable = { name = gsk_pre_change_married value = yes }
+		set_global_variable = { name = gsk_change_married value = no }
+	}
+	option = {
+		name = touhou_base_events.002.d
+		set_global_variable = { name = gsk_pre_change_married value = no }
+		set_global_variable = { name = gsk_change_married value = no }
+	}
+	after = {
 	}
 }

@@ -1,0 +1,8 @@
+﻿is_touhou_girl_trigger = {
+	global = IS_TOUHOU_GIRL
+	global_not = IS_NOT_TOUHOU_GIRL
+	first = I_AM_TOUHOU_GIRL
+	first_not = I_AM_NOT_TOUHOU_GIRL
+	third = CHARACTER_IS_TOUHOU_GIRL
+	third_not = CHARACTER_IS_NOT_TOUHOU_GIRL
+}
