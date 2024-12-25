@@ -1,0 +1,15 @@
+﻿widget = {
+    name = "touhou_trayer_top"
+	size = { 100% 100% }
+	layer = top
+    visible = "[And(Not(IsObserver), And(IsDefaultGUIMode, GetPlayer.IsValid) )]"
+    touhou_child_chosing_window = {}
+    touhou_chosing_window = {}
+}
+
+widget = {
+    name = "touhou_trayer_hud_layer"
+	size = { 100% 100% }
+	layer = hud_layer
+    visible = "[And(Not(IsObserver), And(IsDefaultGUIMode, GetPlayer.IsValid) )]"
+}

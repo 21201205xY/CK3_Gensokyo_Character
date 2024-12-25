@@ -1,6 +1,9 @@
 ﻿l_simp_chinese:
  touhou_girl: "幻想乡少女"
 
+ select_touhou_child: "选中这一$touhou_girl$作为你的备孕目标"
+ touhou_bookmark: "[touhou_girl|E]图鉴"
+
  rule_touhou_character_def_sexuality: "幻想乡少女的性取向"
  setting_touhou_character_sexuality_none: "原版默认"
  setting_touhou_character_sexuality_none_desc: "若开启了婚舰mod，选择此选项会依据婚舰mod设置安排性取向概率"

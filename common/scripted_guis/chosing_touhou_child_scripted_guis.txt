@@ -1,0 +1,726 @@
+﻿
+gsk_child_touou_akyuu = {
+    effect = {
+        pick_touhou_child = { TYPE = akyuu }
+    }
+}
+
+gsk_child_touou_alice = {
+    effect = {
+        pick_touhou_child = { TYPE = alice }
+    }
+}
+
+gsk_child_touou_aun = {
+    effect = {
+        pick_touhou_child = { TYPE = aun }
+    }
+}
+
+gsk_child_touou_aya = {
+    effect = {
+        pick_touhou_child = { TYPE = aya }
+    }
+}
+
+gsk_child_touou_benben = {
+    effect = {
+        pick_touhou_child = { TYPE = benben }
+    }
+}
+
+gsk_child_touou_byakuren = {
+    effect = {
+        pick_touhou_child = { TYPE = byakuren }
+    }
+}
+
+gsk_child_touou_chen = {
+    effect = {
+        pick_touhou_child = { TYPE = chen }
+    }
+}
+
+gsk_child_touou_chimata = {
+    effect = {
+        pick_touhou_child = { TYPE = chimata }
+    }
+}
+
+gsk_child_touou_cirno = {
+    effect = {
+        pick_touhou_child = { TYPE = cirno }
+    }
+}
+
+gsk_child_touou_clownpiece = {
+    effect = {
+        pick_touhou_child = { TYPE = clownpiece }
+    }
+}
+
+gsk_child_touou_daiyousei = {
+    effect = {
+        pick_touhou_child = { TYPE = daiyousei }
+    }
+}
+
+gsk_child_touou_eirin = {
+    effect = {
+        pick_touhou_child = { TYPE = eirin }
+    }
+}
+
+gsk_child_touou_flandre = {
+    effect = {
+        pick_touhou_child = { TYPE = flandre }
+    }
+}
+
+gsk_child_touou_futo = {
+    effect = {
+        pick_touhou_child = { TYPE = futo }
+    }
+}
+
+gsk_child_touou_hatate = {
+    effect = {
+        pick_touhou_child = { TYPE = hatate }
+    }
+}
+
+gsk_child_touou_hearn = {
+    effect = {
+        pick_touhou_child = { TYPE = hearn }
+    }
+}
+
+gsk_child_touou_himemushi = {
+    effect = {
+        pick_touhou_child = { TYPE = himemushi }
+    }
+}
+
+gsk_child_touou_hina = {
+    effect = {
+        pick_touhou_child = { TYPE = hina }
+    }
+}
+
+gsk_child_touou_ichirin = {
+    effect = {
+        pick_touhou_child = { TYPE = ichirin }
+    }
+}
+
+gsk_child_touou_iku = {
+    effect = {
+        pick_touhou_child = { TYPE = iku }
+    }
+}
+
+gsk_child_touou_junko = {
+    effect = {
+        pick_touhou_child = { TYPE = junko }
+    }
+}
+
+gsk_child_touou_jyoon = {
+    effect = {
+        pick_touhou_child = { TYPE = jyoon }
+    }
+}
+
+gsk_child_touou_kagerou = {
+    effect = {
+        pick_touhou_child = { TYPE = kagerou }
+    }
+}
+
+gsk_child_touou_kaguya = {
+    effect = {
+        pick_touhou_child = { TYPE = kaguya }
+    }
+}
+
+gsk_child_touou_kanako = {
+    effect = {
+        pick_touhou_child = { TYPE = kanako }
+    }
+}
+
+gsk_child_touou_kasen = {
+    effect = {
+        pick_touhou_child = { TYPE = kasen }
+    }
+}
+
+gsk_child_touou_keiki = {
+    effect = {
+        pick_touhou_child = { TYPE = keiki }
+    }
+}
+
+gsk_child_touou_keine = {
+    effect = {
+        pick_touhou_child = { TYPE = keine }
+    }
+}
+
+gsk_child_touou_kisume = {
+    effect = {
+        pick_touhou_child = { TYPE = kisume }
+    }
+}
+
+gsk_child_touou_koakuma = {
+    effect = {
+        pick_touhou_child = { TYPE = koakuma }
+    }
+}
+
+gsk_child_touou_kogasa = {
+    effect = {
+        pick_touhou_child = { TYPE = kogasa }
+    }
+}
+
+gsk_child_touou_koishi = {
+    effect = {
+        pick_touhou_child = { TYPE = koishi }
+    }
+}
+
+gsk_child_touou_kokoro = {
+    effect = {
+        pick_touhou_child = { TYPE = kokoro }
+    }
+}
+
+gsk_child_touou_komachi = {
+    effect = {
+        pick_touhou_child = { TYPE = komachi }
+    }
+}
+
+gsk_child_touou_kosuzu = {
+    effect = {
+        pick_touhou_child = { TYPE = kosuzu }
+    }
+}
+
+gsk_child_touou_kutaka = {
+    effect = {
+        pick_touhou_child = { TYPE = kutaka }
+    }
+}
+
+gsk_child_touou_kyouko = {
+    effect = {
+        pick_touhou_child = { TYPE = kyouko }
+    }
+}
+
+gsk_child_touou_lapislazuli = {
+    effect = {
+        pick_touhou_child = { TYPE = lapislazuli }
+    }
+}
+
+gsk_child_touou_larva = {
+    effect = {
+        pick_touhou_child = { TYPE = larva }
+    }
+}
+
+gsk_child_touou_lilywhite = {
+    effect = {
+        pick_touhou_child = { TYPE = lilywhite }
+    }
+}
+
+gsk_child_touou_lunasa = {
+    effect = {
+        pick_touhou_child = { TYPE = lunasa }
+    }
+}
+
+gsk_child_touou_luna = {
+    effect = {
+        pick_touhou_child = { TYPE = luna }
+    }
+}
+
+gsk_child_touou_lyrica = {
+    effect = {
+        pick_touhou_child = { TYPE = lyrica }
+    }
+}
+
+gsk_child_touou_mai = {
+    effect = {
+        pick_touhou_child = { TYPE = mai }
+    }
+}
+
+gsk_child_touou_mamizou = {
+    effect = {
+        pick_touhou_child = { TYPE = mamizou }
+    }
+}
+
+gsk_child_touou_marisa = {
+    effect = {
+        pick_touhou_child = { TYPE = marisa }
+    }
+}
+
+gsk_child_touou_mayumi = {
+    effect = {
+        pick_touhou_child = { TYPE = mayumi }
+    }
+}
+
+gsk_child_touou_megumu = {
+    effect = {
+        pick_touhou_child = { TYPE = megumu }
+    }
+}
+
+gsk_child_touou_meirin = {
+    effect = {
+        pick_touhou_child = { TYPE = meirin }
+    }
+}
+
+gsk_child_touou_melancholy = {
+    effect = {
+        pick_touhou_child = { TYPE = melancholy }
+    }
+}
+
+gsk_child_touou_merlin = {
+    effect = {
+        pick_touhou_child = { TYPE = merlin }
+    }
+}
+
+gsk_child_touou_mike = {
+    effect = {
+        pick_touhou_child = { TYPE = mike }
+    }
+}
+
+gsk_child_touou_miko = {
+    effect = {
+        pick_touhou_child = { TYPE = miko }
+    }
+}
+
+gsk_child_touou_minamitu = {
+    effect = {
+        pick_touhou_child = { TYPE = minamitu }
+    }
+}
+
+gsk_child_touou_minoriko = {
+    effect = {
+        pick_touhou_child = { TYPE = minoriko }
+    }
+}
+
+gsk_child_touou_misumaru = {
+    effect = {
+        pick_touhou_child = { TYPE = misumaru }
+    }
+}
+
+gsk_child_touou_mokou = {
+    effect = {
+        pick_touhou_child = { TYPE = mokou }
+    }
+}
+
+gsk_child_touou_momizi = {
+    effect = {
+        pick_touhou_child = { TYPE = momizi }
+    }
+}
+
+gsk_child_touou_mystia = {
+    effect = {
+        pick_touhou_child = { TYPE = mystia }
+    }
+}
+
+gsk_child_touou_narumi = {
+    effect = {
+        pick_touhou_child = { TYPE = narumi }
+    }
+}
+
+gsk_child_touou_nazrin = {
+    effect = {
+        pick_touhou_child = { TYPE = nazrin }
+    }
+}
+
+gsk_child_touou_nemuno = {
+    effect = {
+        pick_touhou_child = { TYPE = nemuno }
+    }
+}
+
+gsk_child_touou_nightbug = {
+    effect = {
+        pick_touhou_child = { TYPE = nightbug }
+    }
+}
+
+gsk_child_touou_nitori = {
+    effect = {
+        pick_touhou_child = { TYPE = nitori }
+    }
+}
+
+gsk_child_touou_nue = {
+    effect = {
+        pick_touhou_child = { TYPE = nue }
+    }
+}
+
+gsk_child_touou_okina = {
+    effect = {
+        pick_touhou_child = { TYPE = okina }
+    }
+}
+
+gsk_child_touou_parsee = {
+    effect = {
+        pick_touhou_child = { TYPE = parsee }
+    }
+}
+
+gsk_child_touou_patchouli = {
+    effect = {
+        pick_touhou_child = { TYPE = patchouli }
+    }
+}
+
+gsk_child_touou_raiko = {
+    effect = {
+        pick_touhou_child = { TYPE = raiko }
+    }
+}
+
+gsk_child_touou_ran = {
+    effect = {
+        pick_touhou_child = { TYPE = ran }
+    }
+}
+
+gsk_child_touou_reimu = {
+    effect = {
+        pick_touhou_child = { TYPE = reimu }
+    }
+}
+
+gsk_child_touou_reisen2 = {
+    effect = {
+        pick_touhou_child = { TYPE = reisen2 }
+    }
+}
+
+gsk_child_touou_reisen = {
+    effect = {
+        pick_touhou_child = { TYPE = reisen }
+    }
+}
+
+gsk_child_touou_remilia = {
+    effect = {
+        pick_touhou_child = { TYPE = remilia }
+    }
+}
+
+gsk_child_touou_renko = {
+    effect = {
+        pick_touhou_child = { TYPE = renko }
+    }
+}
+
+gsk_child_touou_ringo = {
+    effect = {
+        pick_touhou_child = { TYPE = ringo }
+    }
+}
+
+gsk_child_touou_rin = {
+    effect = {
+        pick_touhou_child = { TYPE = rin }
+    }
+}
+
+gsk_child_touou_rumia = {
+    effect = {
+        pick_touhou_child = { TYPE = rumia }
+    }
+}
+
+gsk_child_touou_sagume = {
+    effect = {
+        pick_touhou_child = { TYPE = sagume }
+    }
+}
+
+gsk_child_touou_saki = {
+    effect = {
+        pick_touhou_child = { TYPE = saki }
+    }
+}
+
+gsk_child_touou_sakuya = {
+    effect = {
+        pick_touhou_child = { TYPE = sakuya }
+    }
+}
+
+gsk_child_touou_sanae = {
+    effect = {
+        pick_touhou_child = { TYPE = sanae }
+    }
+}
+
+gsk_child_touou_satono = {
+    effect = {
+        pick_touhou_child = { TYPE = satono }
+    }
+}
+
+gsk_child_touou_satori = {
+    effect = {
+        pick_touhou_child = { TYPE = satori }
+    }
+}
+
+gsk_child_touou_seiga = {
+    effect = {
+        pick_touhou_child = { TYPE = seiga }
+    }
+}
+
+gsk_child_touou_seija = {
+    effect = {
+        pick_touhou_child = { TYPE = seija }
+    }
+}
+
+gsk_child_touou_seiran = {
+    effect = {
+        pick_touhou_child = { TYPE = seiran }
+    }
+}
+
+gsk_child_touou_sekibanki = {
+    effect = {
+        pick_touhou_child = { TYPE = sekibanki }
+    }
+}
+
+gsk_child_touou_shikieiki = {
+    effect = {
+        pick_touhou_child = { TYPE = shikieiki }
+    }
+}
+
+gsk_child_touou_shinmyoumaru = {
+    effect = {
+        pick_touhou_child = { TYPE = shinmyoumaru }
+    }
+}
+
+gsk_child_touou_shion = {
+    effect = {
+        pick_touhou_child = { TYPE = shion }
+    }
+}
+
+gsk_child_touou_shou = {
+    effect = {
+        pick_touhou_child = { TYPE = shou }
+    }
+}
+
+gsk_child_touou_sizuha = {
+    effect = {
+        pick_touhou_child = { TYPE = sizuha }
+    }
+}
+
+gsk_child_touou_star = {
+    effect = {
+        pick_touhou_child = { TYPE = star }
+    }
+}
+
+gsk_child_touou_suika = {
+    effect = {
+        pick_touhou_child = { TYPE = suika }
+    }
+}
+
+gsk_child_touou_sumireko = {
+    effect = {
+        pick_touhou_child = { TYPE = sumireko }
+    }
+}
+
+gsk_child_touou_sunny = {
+    effect = {
+        pick_touhou_child = { TYPE = sunny }
+    }
+}
+
+gsk_child_touou_suwako = {
+    effect = {
+        pick_touhou_child = { TYPE = suwako }
+    }
+}
+
+gsk_child_touou_sweet = {
+    effect = {
+        pick_touhou_child = { TYPE = sweet }
+    }
+}
+
+gsk_child_touou_takane = {
+    effect = {
+        pick_touhou_child = { TYPE = takane }
+    }
+}
+
+gsk_child_touou_tenshi = {
+    effect = {
+        pick_touhou_child = { TYPE = tenshi }
+    }
+}
+
+gsk_child_touou_tewi = {
+    effect = {
+        pick_touhou_child = { TYPE = tewi }
+    }
+}
+
+gsk_child_touou_toyohime = {
+    effect = {
+        pick_touhou_child = { TYPE = toyohime }
+    }
+}
+
+gsk_child_touou_toziko = {
+    effect = {
+        pick_touhou_child = { TYPE = toziko }
+    }
+}
+
+gsk_child_touou_tsukasa = {
+    effect = {
+        pick_touhou_child = { TYPE = tsukasa }
+    }
+}
+
+gsk_child_touou_urumi = {
+    effect = {
+        pick_touhou_child = { TYPE = urumi }
+    }
+}
+
+gsk_child_touou_utsuho = {
+    effect = {
+        pick_touhou_child = { TYPE = utsuho }
+    }
+}
+
+gsk_child_touou_wakasagihime = {
+    effect = {
+        pick_touhou_child = { TYPE = wakasagihime }
+    }
+}
+
+gsk_child_touou_whiterock = {
+    effect = {
+        pick_touhou_child = { TYPE = whiterock }
+    }
+}
+
+gsk_child_touou_yachie = {
+    effect = {
+        pick_touhou_child = { TYPE = yachie }
+    }
+}
+
+gsk_child_touou_yamame = {
+    effect = {
+        pick_touhou_child = { TYPE = yamame }
+    }
+}
+
+gsk_child_touou_yatsuhashi = {
+    effect = {
+        pick_touhou_child = { TYPE = yatsuhashi }
+    }
+}
+
+gsk_child_touou_yorihime = {
+    effect = {
+        pick_touhou_child = { TYPE = yorihime }
+    }
+}
+
+gsk_child_touou_yoshika = {
+    effect = {
+        pick_touhou_child = { TYPE = yoshika }
+    }
+}
+
+gsk_child_touou_youka = {
+    effect = {
+        pick_touhou_child = { TYPE = youka }
+    }
+}
+
+gsk_child_touou_youmu = {
+    effect = {
+        pick_touhou_child = { TYPE = youmu }
+    }
+}
+
+gsk_child_touou_yugi = {
+    effect = {
+        pick_touhou_child = { TYPE = yugi }
+    }
+}
+
+gsk_child_touou_yukari = {
+    effect = {
+        pick_touhou_child = { TYPE = yukari }
+    }
+}
+
+gsk_child_touou_yuka = {
+    effect = {
+        pick_touhou_child = { TYPE = yuka }
+    }
+}
+
+gsk_child_touou_yuma = {
+    effect = {
+        pick_touhou_child = { TYPE = yuma }
+    }
+}
+
+gsk_child_touou_yuyuko = {
+    effect = {
+        pick_touhou_child = { TYPE = yuyuko }
+    }
+}

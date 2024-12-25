@@ -1,0 +1,2 @@
+﻿gui/touhou_trayer.gui = touhou_trayer_top
+gui/touhou_trayer.gui = touhou_trayer_hud_layer

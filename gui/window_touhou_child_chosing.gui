@@ -1,0 +1,2478 @@
+﻿
+types hm_windows{
+    type touhou_child_chosing_window = widget {
+        name = "touhou_child_chosing_window"
+        parentanchor = hcenter|vcenter
+        size = { 100% 100% }
+        layer = middle
+        filter_mouse = all
+        alwaystransparent = no
+        #position = { 1000 0 }
+        icon = {
+            size = { 100% 100% }
+            texture = "gfx/interface/illustrations/event_scenes/vow_ring.dds"
+        }
+        #scale = 0.9
+        state = {
+            name = _show
+            using = Animation_FadeIn_Quick
+            using = Sound_WindowShow_Standard
+            position_x = 0
+            on_start = "[GetVariableSystem.Set( 'hide_bottom_left_HUD', 'true' )]"
+        }
+        state = {
+            name = _hide
+            using = Animation_FadeOut_Quick
+            using = Sound_WindowHide_Standard
+            position_x = -60
+            on_start = "[GetVariableSystem.Clear( 'hide_bottom_left_HUD' )]"
+        }
+        icon = {
+            size = { 600 60 }
+            texture = "gfx/interface/hunjian_banner.dds"
+            parentanchor = top|hcenter
+            position = { 0 -5 }
+        }
+        text_single = {
+            text = "touhou_bookmark"
+            parentanchor = top|hcenter
+            position = { 0 -10 }
+            fontsize = 28
+        }
+        datacontext = "[GetVariableSystem]"
+        datacontext = "[GetPlayer]"
+        datacontext = "[GetScriptedGui( 'super_event_touhou_child' )]"
+        visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+        using = Window_Background
+        using = Window_Decoration
+        vbox = {
+            using = Window_Margins
+            #position = { 0 50 }
+            hbox = {
+                layoutpolicy_horizontal = expanding
+                layoutpolicy_vertical = expanding
+                widget = {
+                    layoutpolicy_horizontal = expanding
+                    layoutpolicy_vertical = expanding
+                    vbox = {
+                        name = "upperhouse"
+                        layoutpolicy_horizontal = expanding
+                        spacing = 15
+                        margin_top = 20
+                        scrollbox = {
+                            name = "lowerhouse"
+                            size = { 1100 960 }
+                            layoutpolicy_vertical = expanding
+                            layoutpolicy_horizontal = expanding
+                            blockoverride "scrollbox_background" {}
+                            blockoverride "scrollbox_background_fade" {}
+                            blockoverride "scrollbox_margins" {}
+                            blockoverride "scrollbox_content" {
+                                margin = { 0 0 }
+                                hbox = {
+                                    name = 1
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_akyuu_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_akyuu' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_akyuu"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_alice_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_alice' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_alice"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_aun_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_aun' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_aun"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_aya_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_aya' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_aya"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_benben_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_benben' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_benben"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 2
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_byakuren_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_byakuren' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_byakuren"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_chen_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_chen' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_chen"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_chimata_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_chimata' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_chimata"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_cirno_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_cirno' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_cirno"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_clownpiece_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_clownpiece' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_clownpiece"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 3
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_daiyousei_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_daiyousei' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_daiyousei"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_eirin_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_eirin' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_eirin"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_flandre_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_flandre' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_flandre"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_futo_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_futo' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_futo"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_hatate_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_hatate' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_hatate"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 4
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_hearn_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_hearn' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_hearn"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_himemushi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_himemushi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_himemushi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_hina_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_hina' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_hina"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_ichirin_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_ichirin' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_ichirin"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_iku_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_iku' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_iku"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 5
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_junko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_junko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_junko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_jyoon_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_jyoon' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_jyoon"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kagerou_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kagerou' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kagerou"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kaguya_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kaguya' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kaguya"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kanako_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kanako' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kanako"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 6
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kasen_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kasen' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kasen"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_keiki_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_keiki' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_keiki"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_keine_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_keine' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_keine"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kisume_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kisume' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kisume"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_koakuma_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_koakuma' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_koakuma"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 7
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kogasa_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kogasa' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kogasa"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_koishi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_koishi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_koishi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kokoro_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kokoro' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kokoro"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_komachi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_komachi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_komachi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kosuzu_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kosuzu' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kosuzu"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 8
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kutaka_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kutaka' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kutaka"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_kyouko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_kyouko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_kyouko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_lapislazuli_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_lapislazuli' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_lapislazuli"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_larva_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_larva' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_larva"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_lilywhite_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_lilywhite' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_lilywhite"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 9
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_lunasa_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_lunasa' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_lunasa"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_luna_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_luna' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_luna"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_lyrica_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_lyrica' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_lyrica"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_mai_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_mai' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_mai"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_mamizou_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_mamizou' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_mamizou"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 10
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_marisa_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_marisa' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_marisa"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_mayumi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_mayumi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_mayumi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_megumu_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_megumu' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_megumu"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_meirin_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_meirin' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_meirin"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_melancholy_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_melancholy' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_melancholy"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 11
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_merlin_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_merlin' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_merlin"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_mike_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_mike' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_mike"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_miko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_miko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_miko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_minamitu_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_minamitu' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_minamitu"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_minoriko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_minoriko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_minoriko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 12
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_misumaru_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_misumaru' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_misumaru"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_mokou_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_mokou' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_mokou"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_momizi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_momizi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_momizi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_mystia_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_mystia' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_mystia"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_narumi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_narumi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_narumi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 13
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_nazrin_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_nazrin' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_nazrin"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_nemuno_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_nemuno' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_nemuno"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_nightbug_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_nightbug' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_nightbug"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_nitori_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_nitori' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_nitori"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_nue_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_nue' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_nue"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 14
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_okina_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_okina' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_okina"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_parsee_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_parsee' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_parsee"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_patchouli_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_patchouli' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_patchouli"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_raiko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_raiko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_raiko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_ran_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_ran' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_ran"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 15
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_reimu_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_reimu' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_reimu"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_reisen2_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_reisen2' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_reisen2"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_reisen_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_reisen' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_reisen"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_remilia_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_remilia' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_remilia"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_renko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_renko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_renko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 16
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_ringo_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_ringo' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_ringo"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_rin_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_rin' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_rin"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_rumia_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_rumia' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_rumia"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_sagume_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_sagume' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_sagume"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_saki_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_saki' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_saki"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 17
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_sakuya_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_sakuya' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_sakuya"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_sanae_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_sanae' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_sanae"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_satono_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_satono' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_satono"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_satori_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_satori' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_satori"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_seiga_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_seiga' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_seiga"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 18
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_seija_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_seija' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_seija"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_seiran_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_seiran' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_seiran"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_sekibanki_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_sekibanki' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_sekibanki"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_shikieiki_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_shikieiki' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_shikieiki"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_shinmyoumaru_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_shinmyoumaru' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_shinmyoumaru"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 19
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_shion_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_shion' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_shion"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_shou_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_shou' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_shou"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_sizuha_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_sizuha' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_sizuha"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_star_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_star' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_star"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_suika_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_suika' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_suika"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 20
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_sumireko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_sumireko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_sumireko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_sunny_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_sunny' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_sunny"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_suwako_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_suwako' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_suwako"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_sweet_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_sweet' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_sweet"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_takane_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_takane' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_takane"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 21
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_tenshi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_tenshi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_tenshi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_tewi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_tewi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_tewi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_toyohime_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_toyohime' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_toyohime"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_toziko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_toziko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_toziko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_tsukasa_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_tsukasa' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_tsukasa"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 22
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_urumi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_urumi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_urumi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_utsuho_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_utsuho' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_utsuho"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_wakasagihime_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_wakasagihime' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_wakasagihime"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_whiterock_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_whiterock' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_whiterock"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yachie_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yachie' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yachie"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 23
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yamame_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yamame' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yamame"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yatsuhashi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yatsuhashi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yatsuhashi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yorihime_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yorihime' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yorihime"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yoshika_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yoshika' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yoshika"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_youka_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_youka' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_youka"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 24
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_youmu_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_youmu' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_youmu"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yugi_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yugi' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yugi"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yukari_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yukari' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yukari"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yuka_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yuka' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yuka"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yuma_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yuma' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yuma"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                                hbox = {
+                                    name = 25
+                                    margin = { 0 20 }
+                                    button = {
+                                        size = { 360 360 }
+                                        texture = "gfx/models/portraits/props/touhou/gsk_yuyuko_1_diffuse.dds"
+                                        datacontext = "[GetScriptedGui( 'gsk_child_touou_yuyuko' )]"
+                                        onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+                                        icon = {
+                                            size = { 360 30 }
+                                            texture = "gfx/interface/hunjian_banner.dds"
+                                            parentanchor = bottom|hcenter
+                                            position = { 0 30 }
+                                        }
+                                        text_single = {
+                                            text = "trait_gsk_yuyuko"
+                                            parentanchor = bottom|hcenter
+                                            default_format = "#high"
+                                            position = { 0 17 }
+                                        }
+                                        tooltip = select_touhou_child
+                                    }
+                                }
+                            }
+						}
+					}
+				}
+			}
+		}
+	}
+}
