@@ -66,6 +66,23 @@ on_become_touhou = {
 	add_touhou_name_effect = yes
 }
 
+pick_touhou_girl = {
+	hidden_effect = {
+		save_scope_as = employer
+		create_character = {
+			template = gsk_$TYPE$_template
+			employer = scope:employer
+			save_scope_as = invited_character
+		}
+		scope:invited_character = {
+		}
+	}
+	# trigger_event = {
+	# 	id = AL.1002
+	# }
+	remove_character_flag = super_event_touhou_chosing
+}
+
 add_touhou_name_effect = {
 	if = { limit = { has_trait = gsk_akyuu } change_first_name = trait_gsk_akyuu }
 	else_if = { limit = { has_trait = gsk_alice } change_first_name = trait_gsk_alice }
@@ -188,4 +205,142 @@ add_touhou_name_effect = {
 	else_if = { limit = { has_trait = gsk_yuka } change_first_name = trait_gsk_yuka }
 	else_if = { limit = { has_trait = gsk_yuma } change_first_name = trait_gsk_yuma }
 	else_if = { limit = { has_trait = gsk_yuyuko } change_first_name = trait_gsk_yuyuko }
+}
+
+create_touhou_effect = {
+	if = {
+		limit = {
+			can_get_touhou_trigger = yes
+		}
+		create_touhou_effect_force = yes
+	}
+}
+
+create_touhou_effect_force = {
+	save_scope_as = employer
+	hidden_effect_new_object = {
+		random_list = {
+			1 = { create_touhou_character = { NAME = akyuu } }
+			1 = { create_touhou_character = { NAME = alice } }
+			1 = { create_touhou_character = { NAME = aun } }
+			1 = { create_touhou_character = { NAME = aya } }
+			1 = { create_touhou_character = { NAME = benben } }
+			1 = { create_touhou_character = { NAME = byakuren } }
+			1 = { create_touhou_character = { NAME = chen } }
+			1 = { create_touhou_character = { NAME = chimata } }
+			1 = { create_touhou_character = { NAME = cirno } }
+			1 = { create_touhou_character = { NAME = clownpiece } }
+			1 = { create_touhou_character = { NAME = daiyousei } }
+			1 = { create_touhou_character = { NAME = eirin } }
+			1 = { create_touhou_character = { NAME = flandre } }
+			1 = { create_touhou_character = { NAME = futo } }
+			1 = { create_touhou_character = { NAME = hatate } }
+			1 = { create_touhou_character = { NAME = hearn } }
+			1 = { create_touhou_character = { NAME = himemushi } }
+			1 = { create_touhou_character = { NAME = hina } }
+			1 = { create_touhou_character = { NAME = ichirin } }
+			1 = { create_touhou_character = { NAME = iku } }
+			1 = { create_touhou_character = { NAME = junko } }
+			1 = { create_touhou_character = { NAME = jyoon } }
+			1 = { create_touhou_character = { NAME = kagerou } }
+			1 = { create_touhou_character = { NAME = kaguya } }
+			1 = { create_touhou_character = { NAME = kanako } }
+			1 = { create_touhou_character = { NAME = kasen } }
+			1 = { create_touhou_character = { NAME = keiki } }
+			1 = { create_touhou_character = { NAME = keine } }
+			1 = { create_touhou_character = { NAME = kisume } }
+			1 = { create_touhou_character = { NAME = koakuma } }
+			1 = { create_touhou_character = { NAME = kogasa } }
+			1 = { create_touhou_character = { NAME = koishi } }
+			1 = { create_touhou_character = { NAME = kokoro } }
+			1 = { create_touhou_character = { NAME = komachi } }
+			1 = { create_touhou_character = { NAME = kosuzu } }
+			1 = { create_touhou_character = { NAME = kutaka } }
+			1 = { create_touhou_character = { NAME = kyouko } }
+			1 = { create_touhou_character = { NAME = lapislazuli } }
+			1 = { create_touhou_character = { NAME = larva } }
+			1 = { create_touhou_character = { NAME = lilywhite } }
+			1 = { create_touhou_character = { NAME = lunasa } }
+			1 = { create_touhou_character = { NAME = luna } }
+			1 = { create_touhou_character = { NAME = lyrica } }
+			1 = { create_touhou_character = { NAME = mai } }
+			1 = { create_touhou_character = { NAME = mamizou } }
+			1 = { create_touhou_character = { NAME = marisa } }
+			1 = { create_touhou_character = { NAME = mayumi } }
+			1 = { create_touhou_character = { NAME = megumu } }
+			1 = { create_touhou_character = { NAME = meirin } }
+			1 = { create_touhou_character = { NAME = melancholy } }
+			1 = { create_touhou_character = { NAME = merlin } }
+			1 = { create_touhou_character = { NAME = mike } }
+			1 = { create_touhou_character = { NAME = miko } }
+			1 = { create_touhou_character = { NAME = minamitu } }
+			1 = { create_touhou_character = { NAME = minoriko } }
+			1 = { create_touhou_character = { NAME = misumaru } }
+			1 = { create_touhou_character = { NAME = mokou } }
+			1 = { create_touhou_character = { NAME = momizi } }
+			1 = { create_touhou_character = { NAME = mystia } }
+			1 = { create_touhou_character = { NAME = narumi } }
+			1 = { create_touhou_character = { NAME = nazrin } }
+			1 = { create_touhou_character = { NAME = nemuno } }
+			1 = { create_touhou_character = { NAME = nightbug } }
+			1 = { create_touhou_character = { NAME = nitori } }
+			1 = { create_touhou_character = { NAME = nue } }
+			1 = { create_touhou_character = { NAME = okina } }
+			1 = { create_touhou_character = { NAME = parsee } }
+			1 = { create_touhou_character = { NAME = patchouli } }
+			1 = { create_touhou_character = { NAME = raiko } }
+			1 = { create_touhou_character = { NAME = ran } }
+			1 = { create_touhou_character = { NAME = reimu } }
+			1 = { create_touhou_character = { NAME = reisen2 } }
+			1 = { create_touhou_character = { NAME = reisen } }
+			1 = { create_touhou_character = { NAME = remilia } }
+			1 = { create_touhou_character = { NAME = renko } }
+			1 = { create_touhou_character = { NAME = ringo } }
+			1 = { create_touhou_character = { NAME = rin } }
+			1 = { create_touhou_character = { NAME = rumia } }
+			1 = { create_touhou_character = { NAME = sagume } }
+			1 = { create_touhou_character = { NAME = saki } }
+			1 = { create_touhou_character = { NAME = sakuya } }
+			1 = { create_touhou_character = { NAME = sanae } }
+			1 = { create_touhou_character = { NAME = satono } }
+			1 = { create_touhou_character = { NAME = satori } }
+			1 = { create_touhou_character = { NAME = seiga } }
+			1 = { create_touhou_character = { NAME = seija } }
+			1 = { create_touhou_character = { NAME = seiran } }
+			1 = { create_touhou_character = { NAME = sekibanki } }
+			1 = { create_touhou_character = { NAME = shikieiki } }
+			1 = { create_touhou_character = { NAME = shinmyoumaru } }
+			1 = { create_touhou_character = { NAME = shion } }
+			1 = { create_touhou_character = { NAME = shou } }
+			1 = { create_touhou_character = { NAME = sizuha } }
+			1 = { create_touhou_character = { NAME = star } }
+			1 = { create_touhou_character = { NAME = suika } }
+			1 = { create_touhou_character = { NAME = sumireko } }
+			1 = { create_touhou_character = { NAME = sunny } }
+			1 = { create_touhou_character = { NAME = suwako } }
+			1 = { create_touhou_character = { NAME = sweet } }
+			1 = { create_touhou_character = { NAME = takane } }
+			1 = { create_touhou_character = { NAME = tenshi } }
+			1 = { create_touhou_character = { NAME = tewi } }
+			1 = { create_touhou_character = { NAME = toyohime } }
+			1 = { create_touhou_character = { NAME = toziko } }
+			1 = { create_touhou_character = { NAME = tsukasa } }
+			1 = { create_touhou_character = { NAME = urumi } }
+			1 = { create_touhou_character = { NAME = utsuho } }
+			1 = { create_touhou_character = { NAME = wakasagihime } }
+			1 = { create_touhou_character = { NAME = whiterock } }
+			1 = { create_touhou_character = { NAME = yachie } }
+			1 = { create_touhou_character = { NAME = yamame } }
+			1 = { create_touhou_character = { NAME = yatsuhashi } }
+			1 = { create_touhou_character = { NAME = yorihime } }
+			1 = { create_touhou_character = { NAME = yoshika } }
+			1 = { create_touhou_character = { NAME = youka } }
+			1 = { create_touhou_character = { NAME = youmu } }
+			1 = { create_touhou_character = { NAME = yugi } }
+			1 = { create_touhou_character = { NAME = yukari } }
+			1 = { create_touhou_character = { NAME = yuka } }
+			1 = { create_touhou_character = { NAME = yuma } }
+			1 = { create_touhou_character = { NAME = yuyuko } }
+		}
+	}
 }

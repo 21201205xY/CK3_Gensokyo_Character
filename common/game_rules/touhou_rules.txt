@@ -1,10 +1,21 @@
 ﻿touhou_character_def_sexuality = {
 	categories = {
-		game_modes touhou
+		touhou waifu
 	}
 	default = touhou_character_sexuality_homosexual
 	touhou_character_sexuality_none = { }
 	touhou_character_sexuality_homosexual = { }
 	touhou_character_sexuality_bisexual = { }
 	touhou_character_sexuality_heterosexual = { }
+}
+
+touhou_can_get_touhougirl = {
+	categories = {
+		touhou waifu
+	}
+	default = touhou_can_get_touhougirl_player
+	touhou_can_get_touhougirl_default = {}
+	touhou_can_get_touhougirl_player_and_waifu = {}
+	touhou_can_get_touhougirl_player_and_touhou = {}
+	touhou_can_get_touhougirl_player = {}
 }

@@ -1,121 +1,121 @@
-﻿else_if = { limit = { has_trait = gsk_akyuu } change_first_name = trait_gsk_akyuu }
-else_if = { limit = { has_trait = gsk_alice } change_first_name = trait_gsk_alice }
-else_if = { limit = { has_trait = gsk_aun } change_first_name = trait_gsk_aun }
-else_if = { limit = { has_trait = gsk_aya } change_first_name = trait_gsk_aya }
-else_if = { limit = { has_trait = gsk_benben } change_first_name = trait_gsk_benben }
-else_if = { limit = { has_trait = gsk_byakuren } change_first_name = trait_gsk_byakuren }
-else_if = { limit = { has_trait = gsk_chen } change_first_name = trait_gsk_chen }
-else_if = { limit = { has_trait = gsk_chimata } change_first_name = trait_gsk_chimata }
-else_if = { limit = { has_trait = gsk_cirno } change_first_name = trait_gsk_cirno }
-else_if = { limit = { has_trait = gsk_clownpiece } change_first_name = trait_gsk_clownpiece }
-else_if = { limit = { has_trait = gsk_daiyousei } change_first_name = trait_gsk_daiyousei }
-else_if = { limit = { has_trait = gsk_eirin } change_first_name = trait_gsk_eirin }
-else_if = { limit = { has_trait = gsk_flandre } change_first_name = trait_gsk_flandre }
-else_if = { limit = { has_trait = gsk_futo } change_first_name = trait_gsk_futo }
-else_if = { limit = { has_trait = gsk_hatate } change_first_name = trait_gsk_hatate }
-else_if = { limit = { has_trait = gsk_hearn } change_first_name = trait_gsk_hearn }
-else_if = { limit = { has_trait = gsk_himemushi } change_first_name = trait_gsk_himemushi }
-else_if = { limit = { has_trait = gsk_hina } change_first_name = trait_gsk_hina }
-else_if = { limit = { has_trait = gsk_ichirin } change_first_name = trait_gsk_ichirin }
-else_if = { limit = { has_trait = gsk_iku } change_first_name = trait_gsk_iku }
-else_if = { limit = { has_trait = gsk_junko } change_first_name = trait_gsk_junko }
-else_if = { limit = { has_trait = gsk_jyoon } change_first_name = trait_gsk_jyoon }
-else_if = { limit = { has_trait = gsk_kagerou } change_first_name = trait_gsk_kagerou }
-else_if = { limit = { has_trait = gsk_kaguya } change_first_name = trait_gsk_kaguya }
-else_if = { limit = { has_trait = gsk_kanako } change_first_name = trait_gsk_kanako }
-else_if = { limit = { has_trait = gsk_kasen } change_first_name = trait_gsk_kasen }
-else_if = { limit = { has_trait = gsk_keiki } change_first_name = trait_gsk_keiki }
-else_if = { limit = { has_trait = gsk_keine } change_first_name = trait_gsk_keine }
-else_if = { limit = { has_trait = gsk_kisume } change_first_name = trait_gsk_kisume }
-else_if = { limit = { has_trait = gsk_koakuma } change_first_name = trait_gsk_koakuma }
-else_if = { limit = { has_trait = gsk_kogasa } change_first_name = trait_gsk_kogasa }
-else_if = { limit = { has_trait = gsk_koishi } change_first_name = trait_gsk_koishi }
-else_if = { limit = { has_trait = gsk_kokoro } change_first_name = trait_gsk_kokoro }
-else_if = { limit = { has_trait = gsk_komachi } change_first_name = trait_gsk_komachi }
-else_if = { limit = { has_trait = gsk_kosuzu } change_first_name = trait_gsk_kosuzu }
-else_if = { limit = { has_trait = gsk_kutaka } change_first_name = trait_gsk_kutaka }
-else_if = { limit = { has_trait = gsk_kyouko } change_first_name = trait_gsk_kyouko }
-else_if = { limit = { has_trait = gsk_lapislazuli } change_first_name = trait_gsk_lapislazuli }
-else_if = { limit = { has_trait = gsk_larva } change_first_name = trait_gsk_larva }
-else_if = { limit = { has_trait = gsk_lilywhite } change_first_name = trait_gsk_lilywhite }
-else_if = { limit = { has_trait = gsk_lunasa } change_first_name = trait_gsk_lunasa }
-else_if = { limit = { has_trait = gsk_luna } change_first_name = trait_gsk_luna }
-else_if = { limit = { has_trait = gsk_lyrica } change_first_name = trait_gsk_lyrica }
-else_if = { limit = { has_trait = gsk_mai } change_first_name = trait_gsk_mai }
-else_if = { limit = { has_trait = gsk_mamizou } change_first_name = trait_gsk_mamizou }
-else_if = { limit = { has_trait = gsk_marisa } change_first_name = trait_gsk_marisa }
-else_if = { limit = { has_trait = gsk_mayumi } change_first_name = trait_gsk_mayumi }
-else_if = { limit = { has_trait = gsk_megumu } change_first_name = trait_gsk_megumu }
-else_if = { limit = { has_trait = gsk_meirin } change_first_name = trait_gsk_meirin }
-else_if = { limit = { has_trait = gsk_melancholy } change_first_name = trait_gsk_melancholy }
-else_if = { limit = { has_trait = gsk_merlin } change_first_name = trait_gsk_merlin }
-else_if = { limit = { has_trait = gsk_mike } change_first_name = trait_gsk_mike }
-else_if = { limit = { has_trait = gsk_miko } change_first_name = trait_gsk_miko }
-else_if = { limit = { has_trait = gsk_minamitu } change_first_name = trait_gsk_minamitu }
-else_if = { limit = { has_trait = gsk_minoriko } change_first_name = trait_gsk_minoriko }
-else_if = { limit = { has_trait = gsk_misumaru } change_first_name = trait_gsk_misumaru }
-else_if = { limit = { has_trait = gsk_mokou } change_first_name = trait_gsk_mokou }
-else_if = { limit = { has_trait = gsk_momizi } change_first_name = trait_gsk_momizi }
-else_if = { limit = { has_trait = gsk_mystia } change_first_name = trait_gsk_mystia }
-else_if = { limit = { has_trait = gsk_narumi } change_first_name = trait_gsk_narumi }
-else_if = { limit = { has_trait = gsk_nazrin } change_first_name = trait_gsk_nazrin }
-else_if = { limit = { has_trait = gsk_nemuno } change_first_name = trait_gsk_nemuno }
-else_if = { limit = { has_trait = gsk_nightbug } change_first_name = trait_gsk_nightbug }
-else_if = { limit = { has_trait = gsk_nitori } change_first_name = trait_gsk_nitori }
-else_if = { limit = { has_trait = gsk_nue } change_first_name = trait_gsk_nue }
-else_if = { limit = { has_trait = gsk_okina } change_first_name = trait_gsk_okina }
-else_if = { limit = { has_trait = gsk_parsee } change_first_name = trait_gsk_parsee }
-else_if = { limit = { has_trait = gsk_patchouli } change_first_name = trait_gsk_patchouli }
-else_if = { limit = { has_trait = gsk_raiko } change_first_name = trait_gsk_raiko }
-else_if = { limit = { has_trait = gsk_ran } change_first_name = trait_gsk_ran }
-else_if = { limit = { has_trait = gsk_reimu } change_first_name = trait_gsk_reimu }
-else_if = { limit = { has_trait = gsk_reisen2 } change_first_name = trait_gsk_reisen2 }
-else_if = { limit = { has_trait = gsk_reisen } change_first_name = trait_gsk_reisen }
-else_if = { limit = { has_trait = gsk_remilia } change_first_name = trait_gsk_remilia }
-else_if = { limit = { has_trait = gsk_renko } change_first_name = trait_gsk_renko }
-else_if = { limit = { has_trait = gsk_ringo } change_first_name = trait_gsk_ringo }
-else_if = { limit = { has_trait = gsk_rin } change_first_name = trait_gsk_rin }
-else_if = { limit = { has_trait = gsk_rumia } change_first_name = trait_gsk_rumia }
-else_if = { limit = { has_trait = gsk_sagume } change_first_name = trait_gsk_sagume }
-else_if = { limit = { has_trait = gsk_saki } change_first_name = trait_gsk_saki }
-else_if = { limit = { has_trait = gsk_sakuya } change_first_name = trait_gsk_sakuya }
-else_if = { limit = { has_trait = gsk_sanae } change_first_name = trait_gsk_sanae }
-else_if = { limit = { has_trait = gsk_satono } change_first_name = trait_gsk_satono }
-else_if = { limit = { has_trait = gsk_satori } change_first_name = trait_gsk_satori }
-else_if = { limit = { has_trait = gsk_seiga } change_first_name = trait_gsk_seiga }
-else_if = { limit = { has_trait = gsk_seija } change_first_name = trait_gsk_seija }
-else_if = { limit = { has_trait = gsk_seiran } change_first_name = trait_gsk_seiran }
-else_if = { limit = { has_trait = gsk_sekibanki } change_first_name = trait_gsk_sekibanki }
-else_if = { limit = { has_trait = gsk_shikieiki } change_first_name = trait_gsk_shikieiki }
-else_if = { limit = { has_trait = gsk_shinmyoumaru } change_first_name = trait_gsk_shinmyoumaru }
-else_if = { limit = { has_trait = gsk_shion } change_first_name = trait_gsk_shion }
-else_if = { limit = { has_trait = gsk_shou } change_first_name = trait_gsk_shou }
-else_if = { limit = { has_trait = gsk_sizuha } change_first_name = trait_gsk_sizuha }
-else_if = { limit = { has_trait = gsk_star } change_first_name = trait_gsk_star }
-else_if = { limit = { has_trait = gsk_suika } change_first_name = trait_gsk_suika }
-else_if = { limit = { has_trait = gsk_sumireko } change_first_name = trait_gsk_sumireko }
-else_if = { limit = { has_trait = gsk_sunny } change_first_name = trait_gsk_sunny }
-else_if = { limit = { has_trait = gsk_suwako } change_first_name = trait_gsk_suwako }
-else_if = { limit = { has_trait = gsk_sweet } change_first_name = trait_gsk_sweet }
-else_if = { limit = { has_trait = gsk_takane } change_first_name = trait_gsk_takane }
-else_if = { limit = { has_trait = gsk_tenshi } change_first_name = trait_gsk_tenshi }
-else_if = { limit = { has_trait = gsk_tewi } change_first_name = trait_gsk_tewi }
-else_if = { limit = { has_trait = gsk_toyohime } change_first_name = trait_gsk_toyohime }
-else_if = { limit = { has_trait = gsk_toziko } change_first_name = trait_gsk_toziko }
-else_if = { limit = { has_trait = gsk_tsukasa } change_first_name = trait_gsk_tsukasa }
-else_if = { limit = { has_trait = gsk_urumi } change_first_name = trait_gsk_urumi }
-else_if = { limit = { has_trait = gsk_utsuho } change_first_name = trait_gsk_utsuho }
-else_if = { limit = { has_trait = gsk_wakasagihime } change_first_name = trait_gsk_wakasagihime }
-else_if = { limit = { has_trait = gsk_whiterock } change_first_name = trait_gsk_whiterock }
-else_if = { limit = { has_trait = gsk_yachie } change_first_name = trait_gsk_yachie }
-else_if = { limit = { has_trait = gsk_yamame } change_first_name = trait_gsk_yamame }
-else_if = { limit = { has_trait = gsk_yatsuhashi } change_first_name = trait_gsk_yatsuhashi }
-else_if = { limit = { has_trait = gsk_yorihime } change_first_name = trait_gsk_yorihime }
-else_if = { limit = { has_trait = gsk_yoshika } change_first_name = trait_gsk_yoshika }
-else_if = { limit = { has_trait = gsk_youka } change_first_name = trait_gsk_youka }
-else_if = { limit = { has_trait = gsk_youmu } change_first_name = trait_gsk_youmu }
-else_if = { limit = { has_trait = gsk_yugi } change_first_name = trait_gsk_yugi }
-else_if = { limit = { has_trait = gsk_yukari } change_first_name = trait_gsk_yukari }
-else_if = { limit = { has_trait = gsk_yuka } change_first_name = trait_gsk_yuka }
-else_if = { limit = { has_trait = gsk_yuma } change_first_name = trait_gsk_yuma }
-else_if = { limit = { has_trait = gsk_yuyuko } change_first_name = trait_gsk_yuyuko }
+﻿1 = { create_touhou_character = { NAME = akyuu } }
+1 = { create_touhou_character = { NAME = alice } }
+1 = { create_touhou_character = { NAME = aun } }
+1 = { create_touhou_character = { NAME = aya } }
+1 = { create_touhou_character = { NAME = benben } }
+1 = { create_touhou_character = { NAME = byakuren } }
+1 = { create_touhou_character = { NAME = chen } }
+1 = { create_touhou_character = { NAME = chimata } }
+1 = { create_touhou_character = { NAME = cirno } }
+1 = { create_touhou_character = { NAME = clownpiece } }
+1 = { create_touhou_character = { NAME = daiyousei } }
+1 = { create_touhou_character = { NAME = eirin } }
+1 = { create_touhou_character = { NAME = flandre } }
+1 = { create_touhou_character = { NAME = futo } }
+1 = { create_touhou_character = { NAME = hatate } }
+1 = { create_touhou_character = { NAME = hearn } }
+1 = { create_touhou_character = { NAME = himemushi } }
+1 = { create_touhou_character = { NAME = hina } }
+1 = { create_touhou_character = { NAME = ichirin } }
+1 = { create_touhou_character = { NAME = iku } }
+1 = { create_touhou_character = { NAME = junko } }
+1 = { create_touhou_character = { NAME = jyoon } }
+1 = { create_touhou_character = { NAME = kagerou } }
+1 = { create_touhou_character = { NAME = kaguya } }
+1 = { create_touhou_character = { NAME = kanako } }
+1 = { create_touhou_character = { NAME = kasen } }
+1 = { create_touhou_character = { NAME = keiki } }
+1 = { create_touhou_character = { NAME = keine } }
+1 = { create_touhou_character = { NAME = kisume } }
+1 = { create_touhou_character = { NAME = koakuma } }
+1 = { create_touhou_character = { NAME = kogasa } }
+1 = { create_touhou_character = { NAME = koishi } }
+1 = { create_touhou_character = { NAME = kokoro } }
+1 = { create_touhou_character = { NAME = komachi } }
+1 = { create_touhou_character = { NAME = kosuzu } }
+1 = { create_touhou_character = { NAME = kutaka } }
+1 = { create_touhou_character = { NAME = kyouko } }
+1 = { create_touhou_character = { NAME = lapislazuli } }
+1 = { create_touhou_character = { NAME = larva } }
+1 = { create_touhou_character = { NAME = lilywhite } }
+1 = { create_touhou_character = { NAME = lunasa } }
+1 = { create_touhou_character = { NAME = luna } }
+1 = { create_touhou_character = { NAME = lyrica } }
+1 = { create_touhou_character = { NAME = mai } }
+1 = { create_touhou_character = { NAME = mamizou } }
+1 = { create_touhou_character = { NAME = marisa } }
+1 = { create_touhou_character = { NAME = mayumi } }
+1 = { create_touhou_character = { NAME = megumu } }
+1 = { create_touhou_character = { NAME = meirin } }
+1 = { create_touhou_character = { NAME = melancholy } }
+1 = { create_touhou_character = { NAME = merlin } }
+1 = { create_touhou_character = { NAME = mike } }
+1 = { create_touhou_character = { NAME = miko } }
+1 = { create_touhou_character = { NAME = minamitu } }
+1 = { create_touhou_character = { NAME = minoriko } }
+1 = { create_touhou_character = { NAME = misumaru } }
+1 = { create_touhou_character = { NAME = mokou } }
+1 = { create_touhou_character = { NAME = momizi } }
+1 = { create_touhou_character = { NAME = mystia } }
+1 = { create_touhou_character = { NAME = narumi } }
+1 = { create_touhou_character = { NAME = nazrin } }
+1 = { create_touhou_character = { NAME = nemuno } }
+1 = { create_touhou_character = { NAME = nightbug } }
+1 = { create_touhou_character = { NAME = nitori } }
+1 = { create_touhou_character = { NAME = nue } }
+1 = { create_touhou_character = { NAME = okina } }
+1 = { create_touhou_character = { NAME = parsee } }
+1 = { create_touhou_character = { NAME = patchouli } }
+1 = { create_touhou_character = { NAME = raiko } }
+1 = { create_touhou_character = { NAME = ran } }
+1 = { create_touhou_character = { NAME = reimu } }
+1 = { create_touhou_character = { NAME = reisen2 } }
+1 = { create_touhou_character = { NAME = reisen } }
+1 = { create_touhou_character = { NAME = remilia } }
+1 = { create_touhou_character = { NAME = renko } }
+1 = { create_touhou_character = { NAME = ringo } }
+1 = { create_touhou_character = { NAME = rin } }
+1 = { create_touhou_character = { NAME = rumia } }
+1 = { create_touhou_character = { NAME = sagume } }
+1 = { create_touhou_character = { NAME = saki } }
+1 = { create_touhou_character = { NAME = sakuya } }
+1 = { create_touhou_character = { NAME = sanae } }
+1 = { create_touhou_character = { NAME = satono } }
+1 = { create_touhou_character = { NAME = satori } }
+1 = { create_touhou_character = { NAME = seiga } }
+1 = { create_touhou_character = { NAME = seija } }
+1 = { create_touhou_character = { NAME = seiran } }
+1 = { create_touhou_character = { NAME = sekibanki } }
+1 = { create_touhou_character = { NAME = shikieiki } }
+1 = { create_touhou_character = { NAME = shinmyoumaru } }
+1 = { create_touhou_character = { NAME = shion } }
+1 = { create_touhou_character = { NAME = shou } }
+1 = { create_touhou_character = { NAME = sizuha } }
+1 = { create_touhou_character = { NAME = star } }
+1 = { create_touhou_character = { NAME = suika } }
+1 = { create_touhou_character = { NAME = sumireko } }
+1 = { create_touhou_character = { NAME = sunny } }
+1 = { create_touhou_character = { NAME = suwako } }
+1 = { create_touhou_character = { NAME = sweet } }
+1 = { create_touhou_character = { NAME = takane } }
+1 = { create_touhou_character = { NAME = tenshi } }
+1 = { create_touhou_character = { NAME = tewi } }
+1 = { create_touhou_character = { NAME = toyohime } }
+1 = { create_touhou_character = { NAME = toziko } }
+1 = { create_touhou_character = { NAME = tsukasa } }
+1 = { create_touhou_character = { NAME = urumi } }
+1 = { create_touhou_character = { NAME = utsuho } }
+1 = { create_touhou_character = { NAME = wakasagihime } }
+1 = { create_touhou_character = { NAME = whiterock } }
+1 = { create_touhou_character = { NAME = yachie } }
+1 = { create_touhou_character = { NAME = yamame } }
+1 = { create_touhou_character = { NAME = yatsuhashi } }
+1 = { create_touhou_character = { NAME = yorihime } }
+1 = { create_touhou_character = { NAME = yoshika } }
+1 = { create_touhou_character = { NAME = youka } }
+1 = { create_touhou_character = { NAME = youmu } }
+1 = { create_touhou_character = { NAME = yugi } }
+1 = { create_touhou_character = { NAME = yukari } }
+1 = { create_touhou_character = { NAME = yuka } }
+1 = { create_touhou_character = { NAME = yuma } }
+1 = { create_touhou_character = { NAME = yuyuko } }

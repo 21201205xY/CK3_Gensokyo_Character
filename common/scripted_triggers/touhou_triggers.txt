@@ -16,3 +16,18 @@ is_touhou_girl_trigger = {
 		has_trait_with_flag = touhou
 	}
 }
+
+can_get_touhou_trigger = {
+	OR = {
+		has_game_rule = touhou_can_get_touhougirl_default
+		AND = {
+			has_game_rule = touhou_can_get_touhougirl_player_and_touhou
+			is_touhou_girl_trigger = yes
+		}
+		AND = {
+			has_game_rule = touhou_can_get_touhougirl_player_and_waifu
+			waifu_portrait_trigger = yes
+		}
+		is_ai = no
+	}
+}

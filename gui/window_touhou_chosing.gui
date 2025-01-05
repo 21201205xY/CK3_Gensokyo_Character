@@ -1,7 +1,7 @@
 ﻿
 types hm_windows{
-    type touhou_child_chosing_window = widget {
-        name = "touhou_child_chosing_window"
+    type touhou_chosing_window = widget {
+        name = "touhou_chosing_window"
         parentanchor = hcenter|vcenter
         size = { 100% 100% }
         layer = middle
@@ -41,7 +41,7 @@ types hm_windows{
         }
         datacontext = "[GetVariableSystem]"
         datacontext = "[GetPlayer]"
-        datacontext = "[GetScriptedGui( 'super_event_touhou_child' )]"
+        datacontext = "[GetScriptedGui( 'super_event_touhou_chosing' )]"
         visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
         using = Window_Background
         using = Window_Decoration
@@ -75,7 +75,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_akyuu_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_akyuu' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_akyuu' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -89,12 +89,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_alice_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_alice' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_alice' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -108,12 +108,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_aun_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_aun' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_aun' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -127,12 +127,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_aya_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_aya' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_aya' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -146,12 +146,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_benben_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_benben' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_benben' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -165,7 +165,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -174,7 +174,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_byakuren_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_byakuren' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_byakuren' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -188,12 +188,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_chen_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_chen' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_chen' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -207,12 +207,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_chimata_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_chimata' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_chimata' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -226,12 +226,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_cirno_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_cirno' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_cirno' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -245,12 +245,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_clownpiece_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_clownpiece' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_clownpiece' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -264,7 +264,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -273,7 +273,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_daiyousei_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_daiyousei' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_daiyousei' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -287,12 +287,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_eirin_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_eirin' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_eirin' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -306,12 +306,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_flandre_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_flandre' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_flandre' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -325,12 +325,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_futo_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_futo' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_futo' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -344,12 +344,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_hatate_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_hatate' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_hatate' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -363,7 +363,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -372,7 +372,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_hearn_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_hearn' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_hearn' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -386,12 +386,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_himemushi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_himemushi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_himemushi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -405,12 +405,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_hina_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_hina' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_hina' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -424,12 +424,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_ichirin_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_ichirin' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_ichirin' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -443,12 +443,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_iku_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_iku' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_iku' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -462,7 +462,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -471,7 +471,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_junko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_junko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_junko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -485,12 +485,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_jyoon_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_jyoon' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_jyoon' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -504,12 +504,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kagerou_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kagerou' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kagerou' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -523,12 +523,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kaguya_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kaguya' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kaguya' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -542,12 +542,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kanako_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kanako' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kanako' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -561,7 +561,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -570,7 +570,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kasen_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kasen' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kasen' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -584,12 +584,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_keiki_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_keiki' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_keiki' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -603,12 +603,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_keine_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_keine' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_keine' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -622,12 +622,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kisume_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kisume' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kisume' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -641,12 +641,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_koakuma_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_koakuma' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_koakuma' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -660,7 +660,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -669,7 +669,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kogasa_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kogasa' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kogasa' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -683,12 +683,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_koishi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_koishi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_koishi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -702,12 +702,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kokoro_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kokoro' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kokoro' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -721,12 +721,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_komachi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_komachi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_komachi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -740,12 +740,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kosuzu_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kosuzu' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kosuzu' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -759,7 +759,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -768,7 +768,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kutaka_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kutaka' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kutaka' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -782,12 +782,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_kyouko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_kyouko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_kyouko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -801,12 +801,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_lapislazuli_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_lapislazuli' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_lapislazuli' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -820,12 +820,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_larva_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_larva' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_larva' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -839,12 +839,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_lilywhite_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_lilywhite' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_lilywhite' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -858,7 +858,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -867,7 +867,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_lunasa_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_lunasa' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_lunasa' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -881,12 +881,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_luna_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_luna' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_luna' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -900,12 +900,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_lyrica_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_lyrica' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_lyrica' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -919,12 +919,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_mai_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_mai' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_mai' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -938,12 +938,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_mamizou_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_mamizou' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_mamizou' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -957,7 +957,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -966,7 +966,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_marisa_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_marisa' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_marisa' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -980,12 +980,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_mayumi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_mayumi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_mayumi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -999,12 +999,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_megumu_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_megumu' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_megumu' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1018,12 +1018,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_meirin_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_meirin' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_meirin' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1037,12 +1037,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_melancholy_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_melancholy' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_melancholy' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1056,7 +1056,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1065,7 +1065,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_merlin_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_merlin' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_merlin' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1079,12 +1079,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_mike_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_mike' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_mike' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1098,12 +1098,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_miko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_miko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_miko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1117,12 +1117,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_minamitu_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_minamitu' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_minamitu' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1136,12 +1136,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_minoriko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_minoriko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_minoriko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1155,7 +1155,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1164,7 +1164,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_misumaru_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_misumaru' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_misumaru' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1178,12 +1178,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_mokou_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_mokou' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_mokou' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1197,12 +1197,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_momizi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_momizi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_momizi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1216,12 +1216,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_mystia_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_mystia' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_mystia' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1235,12 +1235,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_narumi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_narumi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_narumi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1254,7 +1254,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1263,7 +1263,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_nazrin_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_nazrin' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_nazrin' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1277,12 +1277,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_nemuno_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_nemuno' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_nemuno' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1296,12 +1296,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_nightbug_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_nightbug' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_nightbug' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1315,12 +1315,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_nitori_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_nitori' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_nitori' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1334,12 +1334,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_nue_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_nue' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_nue' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1353,7 +1353,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1362,7 +1362,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_okina_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_okina' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_okina' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1376,12 +1376,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_parsee_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_parsee' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_parsee' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1395,12 +1395,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_patchouli_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_patchouli' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_patchouli' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1414,12 +1414,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_raiko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_raiko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_raiko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1433,12 +1433,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_ran_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_ran' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_ran' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1452,7 +1452,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1461,7 +1461,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_reimu_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_reimu' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_reimu' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1475,12 +1475,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_reisen2_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_reisen2' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_reisen2' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1494,12 +1494,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_reisen_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_reisen' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_reisen' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1513,12 +1513,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_remilia_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_remilia' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_remilia' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1532,12 +1532,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_renko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_renko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_renko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1551,7 +1551,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1560,7 +1560,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_ringo_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_ringo' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_ringo' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1574,12 +1574,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_rin_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_rin' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_rin' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1593,12 +1593,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_rumia_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_rumia' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_rumia' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1612,12 +1612,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_sagume_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_sagume' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_sagume' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1631,12 +1631,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_saki_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_saki' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_saki' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1650,7 +1650,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1659,7 +1659,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_sakuya_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_sakuya' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_sakuya' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1673,12 +1673,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_sanae_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_sanae' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_sanae' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1692,12 +1692,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_satono_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_satono' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_satono' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1711,12 +1711,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_satori_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_satori' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_satori' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1730,12 +1730,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_seiga_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_seiga' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_seiga' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1749,7 +1749,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1758,7 +1758,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_seija_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_seija' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_seija' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1772,12 +1772,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_seiran_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_seiran' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_seiran' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1791,12 +1791,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_sekibanki_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_sekibanki' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_sekibanki' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1810,12 +1810,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_shikieiki_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_shikieiki' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_shikieiki' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1829,12 +1829,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_shinmyoumaru_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_shinmyoumaru' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_shinmyoumaru' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1848,7 +1848,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1857,7 +1857,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_shion_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_shion' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_shion' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1871,12 +1871,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_shou_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_shou' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_shou' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1890,12 +1890,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_sizuha_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_sizuha' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_sizuha' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1909,12 +1909,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_star_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_star' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_star' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1928,12 +1928,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_suika_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_suika' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_suika' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1947,7 +1947,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -1956,7 +1956,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_sumireko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_sumireko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_sumireko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1970,12 +1970,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_sunny_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_sunny' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_sunny' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -1989,12 +1989,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_suwako_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_suwako' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_suwako' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2008,12 +2008,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_sweet_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_sweet' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_sweet' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2027,12 +2027,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_takane_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_takane' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_takane' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2046,7 +2046,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -2055,7 +2055,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_tenshi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_tenshi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_tenshi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2069,12 +2069,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_tewi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_tewi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_tewi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2088,12 +2088,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_toyohime_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_toyohime' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_toyohime' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2107,12 +2107,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_toziko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_toziko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_toziko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2126,12 +2126,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_tsukasa_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_tsukasa' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_tsukasa' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2145,7 +2145,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -2154,7 +2154,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_urumi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_urumi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_urumi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2168,12 +2168,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_utsuho_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_utsuho' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_utsuho' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2187,12 +2187,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_wakasagihime_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_wakasagihime' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_wakasagihime' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2206,12 +2206,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_whiterock_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_whiterock' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_whiterock' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2225,12 +2225,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yachie_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yachie' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yachie' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2244,7 +2244,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -2253,7 +2253,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yamame_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yamame' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yamame' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2267,12 +2267,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yatsuhashi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yatsuhashi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yatsuhashi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2286,12 +2286,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yorihime_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yorihime' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yorihime' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2305,12 +2305,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yoshika_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yoshika' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yoshika' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2324,12 +2324,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_youka_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_youka' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_youka' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2343,7 +2343,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -2352,7 +2352,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_youmu_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_youmu' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_youmu' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2366,12 +2366,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yugi_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yugi' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yugi' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2385,12 +2385,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yukari_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yukari' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yukari' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2404,12 +2404,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yuka_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yuka' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yuka' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2423,12 +2423,12 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yuma_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yuma' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yuma' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2442,7 +2442,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                                 hbox = {
@@ -2451,7 +2451,7 @@ types hm_windows{
                                     button = {
                                         size = { 360 360 }
                                         texture = "gfx/models/portraits/props/touhou/gsk_yuyuko_1_diffuse.dds"
-                                        datacontext = "[GetScriptedGui( 'gsk_child_touhou_yuyuko' )]"
+                                        datacontext = "[GetScriptedGui( 'gsk_choose_touhou_yuyuko' )]"
                                         onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
                                         icon = {
                                             size = { 360 30 }
@@ -2465,7 +2465,7 @@ types hm_windows{
                                             default_format = "#high"
                                             position = { 0 17 }
                                         }
-                                        tooltip = select_touhou_child
+                                        tooltip = select_touhou_girl
                                     }
                                 }
                             }

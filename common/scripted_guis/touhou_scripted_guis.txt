@@ -4,3 +4,10 @@ super_event_touhou_child = {
 		has_character_flag = super_event_touhou_child
 	}
 }
+
+super_event_touhou_chosing = {
+	scope = character
+	is_shown = {
+		has_character_flag = super_event_touhou_chosing
+	}
+}
